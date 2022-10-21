@@ -1,0 +1,45 @@
+version: '3.1'
+
+services:
+
+  bwcs_drupal:
+    build:
+      context: ./drupal
+    container_name: bwcs_drupal
+    ports:
+      - 8080:80
+    volumes:
+      - ./drupal:/var/www/html
+    restart: always
+    networks:
+      - local
+
+  bwcs_db:
+    image: mariadb:10.8.2
+    container_name: bwcs_db
+    restart: always
+    environment:
+      MARIADB_ROOT_PASSWORD: tompo
+    networks:
+      - local
+
+  bwcs_nginx:
+    container_name: bwcs_nginx
+    build:
+      context: ./nginx
+    volumes:
+      - ./drupal:/var/www/html
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf
+      - ./nginx/sites/:/etc/nginx/sites-available
+      - ./nginx/conf.d/:/etc/nginx/conf.d
+      - ./logs:/var/log/nginx
+    depends_on:
+      - bwcs_drupal
+    ports:
+      - "80:80"
+    networks:
+      - local
+
+networks:
+  local:
+    driver: bridge
