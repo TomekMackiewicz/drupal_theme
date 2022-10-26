@@ -1,0 +1,62 @@
+/**
+ * @file
+ * Subtheme specific CSS.
+ */
+
+ .bg-light {
+    background-color:  #fff !important;
+ }
+
+ .site-slogan {
+    font-size: 11.3px;
+    margin-top: 10px;
+ }
+
+ .navbar-brand .site-logo {
+    margin-right: 0rem;
+}
+
+.dropdown .dropdown-menu {
+    display: none;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    background: #01196e;
+    color: white;
+    border-radius: 0;
+}
+
+.dropdown-item:hover {
+    background-color: #fff;
+    /* color: #01196e!important; */
+}
+
+.dropdown-item:hover > a {
+    /* background-color: #fff; */
+    color: #01196e!important;
+}
+
+.dropdown-item a {
+    color: #fff!important;
+    padding: 9px 10px 9px 30px;
+    text-decoration: none;
+}
+
+.navbar-light .nav-link {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 46.5px 17px;
+    color: #999;
+    transition: background 250ms linear;
+}
+
+.navbar-light .nav-link:hover {
+    background: #01196e;
+    color: white;
+}
+
+.nav-link::after {
+    content: none;
+}
+

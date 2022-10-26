@@ -1,7 +1,32 @@
 global-styling:
-  version: 1.x
+  version: VERSION
   js:
-    js/script.js: {}
+    js/global.js: {}
+  css:
+    component:
+      css/style.css: {}
+      css/colors.css: {}
+bootstrap:
+  js:
+    /libraries/popper.js/dist/umd/popper.min.js: { weight: -19 }
+    /libraries/bootstrap/dist/js/bootstrap.min.js: { weight: -20 }
+  css:
+    component:
+      /libraries/bootstrap/dist/css/bootstrap.min.css: {}
+  dependencies:
+    - core/popperjs
+bootstrap_cdn:
+  js:
+    //cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js: {}
+  css:
+    component:
+      //cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css: {}
+color.preview:
+  version: VERSION
   css:
     theme:
-      css/style.css: {}
+      color/preview.css: {}
+  js:
+    color/preview.js: {}
+  dependencies:
+    - color/drupal.color
