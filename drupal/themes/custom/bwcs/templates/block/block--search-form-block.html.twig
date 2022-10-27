@@ -18,6 +18,7 @@
 #}
 {% block content %}
   <div{{ content_attributes.addClass('content', 'container-inline') }}>
-    {{ parent() }}
+    {# {{ parent() }} #}
+    {{ content }}
   </div>
 {% endblock %}
