@@ -165,7 +165,6 @@
     perspective-origin: 951.5px 235px;
     transform-origin: 951.5px 235px;
     width: 1903px;
-    font: 16px / 16px Ubuntu;
     margin: -67px 0px 0px;
     padding: 0px 0px 35px;
 }/*#DIV_1*/
@@ -178,196 +177,92 @@
     transform-origin: 951.5px 217.5px;
     width: 1903px;
     background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
-    font: 16px / 16px Ubuntu;
 }/*#DIV_2*/
 
 #DIV_3 {
     display: none;
-    font: 16px / 16px Ubuntu;
 }/*#DIV_3*/
 
-#DIV_4, #DIV_5, #DIV_9, #DIV_13, #DIV_17, #DIV_21, #A_23, #DIV_26, #DIV_30, #DIV_34 {
-    font: 16px / 16px Ubuntu;
-}/*#DIV_4, #DIV_5, #DIV_9, #DIV_13, #DIV_17, #DIV_21, #A_23, #DIV_26, #DIV_30, #DIV_34*/
-
-#A_6, #A_10, #A_14, #A_18, #DIV_22, #A_27, #A_31, #A_35 {
-    font: 16px / 16px Ubuntu;
-}/*#A_6, #A_10, #A_14, #A_18, #DIV_22, #A_27, #A_31, #A_35*/
-
-#IMG_7 {
-    block-size: 53px;
+#IMG_7, #IMG_11, #IMG_15, #IMG_19, #IMG_24, #IMG_28, #IMG_32, #IMG_36 {
     border-block-end-color: rgb(0, 0, 238);
     border-block-start-color: rgb(0, 0, 238);
     border-inline-end-color: rgb(0, 0, 238);
     border-inline-start-color: rgb(0, 0, 238);
+    border: 0px none rgb(0, 0, 238);
+    outline: rgb(0, 0, 238) none 0px;
     caret-color: rgb(0, 0, 238);
+    text-decoration: none solid rgb(0, 0, 238);
+    cursor: pointer;
     color: rgb(0, 0, 238);
     column-rule-color: rgb(0, 0, 238);
-    cursor: pointer;
+    text-emphasis-color: rgb(0, 0, 238);
+}
+
+#IMG_7 {
+    block-size: 53px;
     height: 53px;
     inline-size: 59px;
-    text-decoration: none solid rgb(0, 0, 238);
-    text-emphasis-color: rgb(0, 0, 238);
     width: 59px;
-    border: 0px none rgb(0, 0, 238);
-    font: 16px / 16px Ubuntu;
-    outline: rgb(0, 0, 238) none 0px;
-}/*#IMG_7*/
+}
 
 #SPAN_8, #SPAN_12, #SPAN_16, #SPAN_20, #SPAN_25, #SPAN_29, #SPAN_33, #SPAN_37 {
     border-block-end-color: rgb(0, 0, 238);
     border-block-start-color: rgb(0, 0, 238);
     border-inline-end-color: rgb(0, 0, 238);
     border-inline-start-color: rgb(0, 0, 238);
-    caret-color: rgb(0, 0, 238);
     color: rgb(0, 0, 238);
     column-rule-color: rgb(0, 0, 238);
-    cursor: pointer;
-    text-decoration: none solid rgb(0, 0, 238);
     text-emphasis-color: rgb(0, 0, 238);
     border: 0px none rgb(0, 0, 238);
-    font: 16px / 16px Ubuntu;
-    outline: rgb(0, 0, 238) none 0px;
-}/*#SPAN_8, #SPAN_12, #SPAN_16, #SPAN_20, #SPAN_25, #SPAN_29, #SPAN_33, #SPAN_37*/
+}
 
 #IMG_11 {
     block-size: 50px;
-    border-block-end-color: rgb(0, 0, 238);
-    border-block-start-color: rgb(0, 0, 238);
-    border-inline-end-color: rgb(0, 0, 238);
-    border-inline-start-color: rgb(0, 0, 238);
-    caret-color: rgb(0, 0, 238);
-    color: rgb(0, 0, 238);
-    column-rule-color: rgb(0, 0, 238);
-    cursor: pointer;
     height: 50px;
     inline-size: 38px;
-    text-decoration: none solid rgb(0, 0, 238);
-    text-emphasis-color: rgb(0, 0, 238);
     width: 38px;
-    border: 0px none rgb(0, 0, 238);
-    font: 16px / 16px Ubuntu;
-    outline: rgb(0, 0, 238) none 0px;
 }/*#IMG_11*/
 
 #IMG_15 {
     block-size: 49px;
-    border-block-end-color: rgb(0, 0, 238);
-    border-block-start-color: rgb(0, 0, 238);
-    border-inline-end-color: rgb(0, 0, 238);
-    border-inline-start-color: rgb(0, 0, 238);
-    caret-color: rgb(0, 0, 238);
-    color: rgb(0, 0, 238);
-    column-rule-color: rgb(0, 0, 238);
-    cursor: pointer;
     height: 49px;
     inline-size: 77px;
-    text-decoration: none solid rgb(0, 0, 238);
-    text-emphasis-color: rgb(0, 0, 238);
     width: 77px;
-    border: 0px none rgb(0, 0, 238);
-    font: 16px / 16px Ubuntu;
-    outline: rgb(0, 0, 238) none 0px;
 }/*#IMG_15*/
 
 #IMG_19 {
     block-size: 60px;
-    border-block-end-color: rgb(0, 0, 238);
-    border-block-start-color: rgb(0, 0, 238);
-    border-inline-end-color: rgb(0, 0, 238);
-    border-inline-start-color: rgb(0, 0, 238);
-    caret-color: rgb(0, 0, 238);
-    color: rgb(0, 0, 238);
-    column-rule-color: rgb(0, 0, 238);
-    cursor: pointer;
     height: 60px;
     inline-size: 53px;
-    text-decoration: none solid rgb(0, 0, 238);
-    text-emphasis-color: rgb(0, 0, 238);
     width: 53px;
-    border: 0px none rgb(0, 0, 238);
-    font: 16px / 16px Ubuntu;
-    outline: rgb(0, 0, 238) none 0px;
 }/*#IMG_19*/
 
 #IMG_24 {
     block-size: 41px;
-    border-block-end-color: rgb(0, 0, 238);
-    border-block-start-color: rgb(0, 0, 238);
-    border-inline-end-color: rgb(0, 0, 238);
-    border-inline-start-color: rgb(0, 0, 238);
-    caret-color: rgb(0, 0, 238);
-    color: rgb(0, 0, 238);
-    column-rule-color: rgb(0, 0, 238);
-    cursor: pointer;
     height: 41px;
     inline-size: 50px;
-    text-decoration: none solid rgb(0, 0, 238);
-    text-emphasis-color: rgb(0, 0, 238);
     width: 50px;
-    border: 0px none rgb(0, 0, 238);
-    font: 16px / 16px Ubuntu;
-    outline: rgb(0, 0, 238) none 0px;
 }/*#IMG_24*/
 
 #IMG_28 {
     block-size: 44px;
-    border-block-end-color: rgb(0, 0, 238);
-    border-block-start-color: rgb(0, 0, 238);
-    border-inline-end-color: rgb(0, 0, 238);
-    border-inline-start-color: rgb(0, 0, 238);
-    caret-color: rgb(0, 0, 238);
-    color: rgb(0, 0, 238);
-    column-rule-color: rgb(0, 0, 238);
-    cursor: pointer;
     height: 44px;
     inline-size: 40px;
-    text-decoration: none solid rgb(0, 0, 238);
-    text-emphasis-color: rgb(0, 0, 238);
     width: 40px;
-    border: 0px none rgb(0, 0, 238);
-    font: 16px / 16px Ubuntu;
-    outline: rgb(0, 0, 238) none 0px;
 }/*#IMG_28*/
 
 #IMG_32 {
     block-size: 49px;
-    border-block-end-color: rgb(0, 0, 238);
-    border-block-start-color: rgb(0, 0, 238);
-    border-inline-end-color: rgb(0, 0, 238);
-    border-inline-start-color: rgb(0, 0, 238);
-    caret-color: rgb(0, 0, 238);
-    color: rgb(0, 0, 238);
-    column-rule-color: rgb(0, 0, 238);
-    cursor: pointer;
     height: 49px;
     inline-size: 40px;
-    text-decoration: none solid rgb(0, 0, 238);
-    text-emphasis-color: rgb(0, 0, 238);
     width: 40px;
-    border: 0px none rgb(0, 0, 238);
-    font: 16px / 16px Ubuntu;
-    outline: rgb(0, 0, 238) none 0px;
 }/*#IMG_32*/
 
 #IMG_36 {
     block-size: 50px;
-    border-block-end-color: rgb(0, 0, 238);
-    border-block-start-color: rgb(0, 0, 238);
-    border-inline-end-color: rgb(0, 0, 238);
-    border-inline-start-color: rgb(0, 0, 238);
-    caret-color: rgb(0, 0, 238);
-    color: rgb(0, 0, 238);
-    column-rule-color: rgb(0, 0, 238);
-    cursor: pointer;
     height: 50px;
     inline-size: 40px;
-    text-decoration: none solid rgb(0, 0, 238);
-    text-emphasis-color: rgb(0, 0, 238);
     width: 40px;
-    border: 0px none rgb(0, 0, 238);
-    font: 16px / 16px Ubuntu;
-    outline: rgb(0, 0, 238) none 0px;
 }/*#IMG_36*/
 
 #DIV_38 {
@@ -389,7 +284,7 @@
     transform-origin: 188.25px 242.5px;
     width: 376.5px;
     background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
-    font: 16px / 16px Ubuntu;
+    
     margin: -121px 0px 0px;
 }/*#DIV_38*/
 
@@ -412,7 +307,7 @@
     transform-origin: 125px 305px;
     width: 250px;
     background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
-    font: 16px / 16px Ubuntu;
+    
     margin: -245px 0px 0px;
 }/*#DIV_39*/
 
@@ -423,7 +318,7 @@
     perspective-origin: 125px 125px;
     transform-origin: 125px 125px;
     width: 250px;
-    font: 16px / 16px Ubuntu;
+    
 }/*#DIV_40, #DIV_97*/
 
 #DIV_41 {
@@ -435,7 +330,7 @@
     transform-origin: 125px 125px;
     width: 250px;
     background: rgba(0, 0, 0, 0) url("https://www.bwcs.pl/sites/all/themes/webmedio/images/xtlo-kafelki-B,aW.jpg.pagespeed.ic.CqfycnFule.webp") repeat scroll 0% 0% / auto padding-box border-box;
-    font: 16px / 16px Ubuntu;
+    
 }/*#DIV_41*/
 
 #DIV_42, #DIV_43, #DIV_100 {
@@ -446,7 +341,7 @@
     text-align: center;
     transform-origin: 125px 0px;
     width: 250px;
-    font: 16px / 16px Ubuntu;
+    
 }/*#DIV_42, #DIV_43, #DIV_100*/
 
 #DIV_44, #DIV_57, #DIV_70, #DIV_83, #DIV_101, #DIV_114, #DIV_127, #DIV_140 {
@@ -458,7 +353,7 @@
     text-align: center;
     transform-origin: 62.5px 62.5px;
     width: 125px;
-    font: 16px / 16px Ubuntu;
+    
 }/*#DIV_44, #DIV_57, #DIV_70, #DIV_83, #DIV_101, #DIV_114, #DIV_127, #DIV_140*/
 
 #DIV_45, #DIV_58, #DIV_71, #DIV_84, #DIV_102, #DIV_115, #DIV_128, #DIV_141 {
@@ -478,7 +373,7 @@
     top: 0px;
     transform-origin: 62.5px 0px;
     width: 125px;
-    font: 16px / 16px Ubuntu;
+    
 }/*#DIV_45, #DIV_58, #DIV_71, #DIV_84, #DIV_102, #DIV_115, #DIV_128, #DIV_141*/
 
 #DIV_46, #DIV_59, #DIV_72, #DIV_85, #DIV_103, #DIV_116, #DIV_129, #DIV_142 {
@@ -499,7 +394,7 @@
     transform-origin: 62.5px 62.5px;
     width: 125px;
     z-index: 2;
-    font: 16px / 16px Ubuntu;
+    
 }/*#DIV_46, #DIV_59, #DIV_72, #DIV_85, #DIV_103, #DIV_116, #DIV_129, #DIV_142*/
 
 #A_47 {
@@ -535,7 +430,7 @@
     border-right: 1px solid rgba(255, 255, 255, 0.35);
     border-bottom: 1px solid rgba(255, 255, 255, 0.35);
     border-left: 0px none rgb(255, 255, 255);
-    font: 16px / 16px Ubuntu;
+    
     outline: rgb(255, 255, 255) none 0px;
     overflow: hidden;
     padding: 15px;
@@ -566,7 +461,7 @@
     transform-origin: 29.5px 26.5px;
     width: 59px;
     border: 0px none rgb(255, 255, 255);
-    font: 16px / 16px Ubuntu;
+    
     margin: 6px 17.5px;
     outline: rgb(255, 255, 255) none 0px;
 }/*#IMG_48, #IMG_52*/
@@ -586,7 +481,7 @@
     text-emphasis-color: rgb(255, 255, 255);
     transform-origin: 0px 0px;
     border: 0px none rgb(255, 255, 255);
-    font: 16px / 16px Ubuntu;
+    
     outline: rgb(255, 255, 255) none 0px;
 }/*#SPAN_49, #SPAN_53, #SPAN_62, #SPAN_66, #SPAN_75, #SPAN_79, #SPAN_88, #SPAN_92, #SPAN_106, #SPAN_110, #SPAN_119, #SPAN_123, #SPAN_132, #SPAN_136, #SPAN_145, #SPAN_149*/
 
@@ -609,7 +504,7 @@
     width: 125px;
     z-index: 2;
     background: rgb(65, 211, 192) none repeat scroll 0% 0% / auto padding-box border-box;
-    font: 16px / 16px Ubuntu;
+    
 }/*#DIV_50, #DIV_63, #DIV_76, #DIV_89, #DIV_107, #DIV_120, #DIV_133, #DIV_146*/
 
 #A_51 {
@@ -645,7 +540,7 @@
     border-right: 1px solid rgba(255, 255, 255, 0.35);
     border-bottom: 1px solid rgba(255, 255, 255, 0.35);
     border-left: 0px none rgb(255, 255, 255);
-    font: 16px / 16px Ubuntu;
+    
     outline: rgb(255, 255, 255) none 0px;
     overflow: hidden;
     padding: 15px;
@@ -656,7 +551,7 @@
     display: none;
     position: relative;
     text-align: center;
-    font: 16px / 16px Ubuntu;
+    
 }/*#DIV_54, #DIV_67, #DIV_80, #DIV_93, #DIV_111, #DIV_124, #DIV_137, #DIV_150*/
 
 #DIV_55, #DIV_68, #DIV_81, #DIV_94, #DIV_112, #DIV_125, #DIV_138, #DIV_151 {
@@ -671,7 +566,7 @@
     top: 0px;
     width: 125px;
     z-index: 2;
-    font: 16px / 16px Ubuntu;
+    
 }/*#DIV_55, #DIV_68, #DIV_81, #DIV_94, #DIV_112, #DIV_125, #DIV_138, #DIV_151*/
 
 #IMG_56 {
@@ -680,7 +575,7 @@
     inline-size: 59px;
     text-align: center;
     width: 59px;
-    font: 16px / 16px Ubuntu;
+    
 }/*#IMG_56*/
 
 #A_60 {
@@ -714,7 +609,7 @@
     border-right: 0px none rgb(255, 255, 255);
     border-bottom: 1px solid rgba(255, 255, 255, 0.35);
     border-left: 0px none rgb(255, 255, 255);
-    font: 16px / 16px Ubuntu;
+    
     outline: rgb(255, 255, 255) none 0px;
     overflow: hidden;
     padding: 15px;
@@ -745,7 +640,7 @@
     transform-origin: 19px 25px;
     width: 38px;
     border: 0px none rgb(255, 255, 255);
-    font: 16px / 16px Ubuntu;
+    
     margin: 6px 28.5px;
     outline: rgb(255, 255, 255) none 0px;
 }/*#IMG_61, #IMG_65*/
@@ -781,7 +676,7 @@
     border-right: 0px none rgb(255, 255, 255);
     border-bottom: 1px solid rgba(255, 255, 255, 0.35);
     border-left: 0px none rgb(255, 255, 255);
-    font: 16px / 16px Ubuntu;
+    
     outline: rgb(255, 255, 255) none 0px;
     overflow: hidden;
     padding: 15px;
@@ -794,7 +689,7 @@
     inline-size: 38px;
     text-align: center;
     width: 38px;
-    font: 16px / 16px Ubuntu;
+    
 }/*#IMG_69*/
 
 #A_73 {
@@ -828,7 +723,7 @@
     border-right: 1px solid rgba(255, 255, 255, 0.35);
     border-bottom: 0px none rgb(255, 255, 255);
     border-left: 0px none rgb(255, 255, 255);
-    font: 16px / 16px Ubuntu;
+    
     outline: rgb(255, 255, 255) none 0px;
     overflow: hidden;
     padding: 15px;
@@ -859,7 +754,7 @@
     transform-origin: 38.5px 24.5px;
     width: 77px;
     border: 0px none rgb(255, 255, 255);
-    font: 16px / 16px Ubuntu;
+    
     margin: 6px 8.5px;
     outline: rgb(255, 255, 255) none 0px;
 }/*#IMG_74, #IMG_78*/
@@ -895,7 +790,7 @@
     border-right: 1px solid rgba(255, 255, 255, 0.35);
     border-bottom: 0px none rgb(255, 255, 255);
     border-left: 0px none rgb(255, 255, 255);
-    font: 16px / 16px Ubuntu;
+    
     outline: rgb(255, 255, 255) none 0px;
     overflow: hidden;
     padding: 15px;
@@ -908,7 +803,7 @@
     inline-size: 77px;
     text-align: center;
     width: 77px;
-    font: 16px / 16px Ubuntu;
+    
 }/*#IMG_82*/
 
 #A_86 {
@@ -937,7 +832,7 @@
     width: 125px;
     background: rgba(181, 26, 23, 0.8) none repeat scroll 0% 0% / auto padding-box border-box;
     border: 0px none rgb(255, 255, 255);
-    font: 16px / 16px Ubuntu;
+    
     outline: rgb(255, 255, 255) none 0px;
     overflow: hidden;
     padding: 15px;
@@ -968,7 +863,7 @@
     transform-origin: 26.5px 30px;
     width: 53px;
     border: 0px none rgb(255, 255, 255);
-    font: 16px / 16px Ubuntu;
+    
     margin: 6px 21px;
     outline: rgb(255, 255, 255) none 0px;
 }/*#IMG_87, #IMG_91*/
@@ -999,7 +894,7 @@
     width: 125px;
     background: rgb(181, 26, 23) none repeat scroll 0% 0% / auto padding-box border-box;
     border: 0px none rgb(255, 255, 255);
-    font: 16px / 16px Ubuntu;
+    
     outline: rgb(255, 255, 255) none 0px;
     overflow: hidden;
     padding: 15px;
@@ -1012,7 +907,7 @@
     inline-size: 53px;
     text-align: center;
     width: 53px;
-    font: 16px / 16px Ubuntu;
+    
 }/*#IMG_95*/
 
 #DIV_96 {
@@ -1035,7 +930,7 @@
     transform-origin: 125px 314.258px;
     width: 250px;
     background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
-    font: 16px / 16px Ubuntu;
+    
     margin: -121px 0px 30px;
 }/*#DIV_96*/
 
@@ -1046,7 +941,7 @@
     perspective-origin: 125px 125px;
     transform-origin: 125px 125px;
     width: 250px;
-    font: 16px / 16px Ubuntu;
+    
 }/*#DIV_98*/
 
 #DIV_99 {
@@ -1059,7 +954,7 @@
     transform-origin: 125px 125px;
     width: 250px;
     background: rgba(0, 0, 0, 0) url("https://www.bwcs.pl/sites/all/themes/webmedio/images/xtlo-kafelki-B,aW.jpg.pagespeed.ic.CqfycnFule.webp") repeat scroll 80% 98.4% / auto padding-box border-box;
-    font: 16px / 16px Ubuntu;
+    
 }/*#DIV_99*/
 
 #A_104 {
@@ -1095,7 +990,7 @@
     border-right: 1px solid rgba(255, 255, 255, 0.35);
     border-bottom: 1px solid rgba(255, 255, 255, 0.35);
     border-left: 0px none rgb(255, 255, 255);
-    font: 16px / 16px Ubuntu;
+    
     outline: rgb(255, 255, 255) none 0px;
     overflow: hidden;
     padding: 15px;
@@ -1126,7 +1021,7 @@
     transform-origin: 25px 20.5px;
     width: 50px;
     border: 0px none rgb(255, 255, 255);
-    font: 16px / 16px Ubuntu;
+    
     margin: 6px 22px;
     outline: rgb(255, 255, 255) none 0px;
 }/*#IMG_105, #IMG_109*/
@@ -1164,7 +1059,7 @@
     border-right: 1px solid rgba(255, 255, 255, 0.35);
     border-bottom: 1px solid rgba(255, 255, 255, 0.35);
     border-left: 0px none rgb(255, 255, 255);
-    font: 16px / 16px Ubuntu;
+    
     outline: rgb(255, 255, 255) none 0px;
     overflow: hidden;
     padding: 15px;
@@ -1177,7 +1072,7 @@
     inline-size: 50px;
     text-align: center;
     width: 50px;
-    font: 16px / 16px Ubuntu;
+    
 }/*#IMG_113*/
 
 #A_117 {
@@ -1211,7 +1106,7 @@
     border-right: 0px none rgb(255, 255, 255);
     border-bottom: 1px solid rgba(255, 255, 255, 0.35);
     border-left: 0px none rgb(255, 255, 255);
-    font: 16px / 16px Ubuntu;
+    
     outline: rgb(255, 255, 255) none 0px;
     overflow: hidden;
     padding: 15px;
@@ -1242,7 +1137,7 @@
     transform-origin: 20px 22px;
     width: 40px;
     border: 0px none rgb(255, 255, 255);
-    font: 16px / 16px Ubuntu;
+    
     margin: 6px 27.5px;
     outline: rgb(255, 255, 255) none 0px;
 }/*#IMG_118, #IMG_122*/
@@ -1278,7 +1173,7 @@
     border-right: 0px none rgb(255, 255, 255);
     border-bottom: 1px solid rgba(255, 255, 255, 0.35);
     border-left: 0px none rgb(255, 255, 255);
-    font: 16px / 16px Ubuntu;
+    
     outline: rgb(255, 255, 255) none 0px;
     overflow: hidden;
     padding: 15px;
@@ -1291,7 +1186,7 @@
     inline-size: 40px;
     text-align: center;
     width: 40px;
-    font: 16px / 16px Ubuntu;
+    
 }/*#IMG_126*/
 
 #A_130 {
@@ -1325,7 +1220,7 @@
     border-right: 1px solid rgba(255, 255, 255, 0.35);
     border-bottom: 0px none rgb(255, 255, 255);
     border-left: 0px none rgb(255, 255, 255);
-    font: 16px / 16px Ubuntu;
+    
     outline: rgb(255, 255, 255) none 0px;
     overflow: hidden;
     padding: 15px;
@@ -1356,7 +1251,7 @@
     transform-origin: 20px 24.5px;
     width: 40px;
     border: 0px none rgb(255, 255, 255);
-    font: 16px / 16px Ubuntu;
+    
     margin: 6px 27px;
     outline: rgb(255, 255, 255) none 0px;
 }/*#IMG_131, #IMG_135*/
@@ -1392,7 +1287,7 @@
     border-right: 1px solid rgba(255, 255, 255, 0.35);
     border-bottom: 0px none rgb(255, 255, 255);
     border-left: 0px none rgb(255, 255, 255);
-    font: 16px / 16px Ubuntu;
+    
     outline: rgb(255, 255, 255) none 0px;
     overflow: hidden;
     padding: 15px;
@@ -1405,7 +1300,7 @@
     inline-size: 40px;
     text-align: center;
     width: 40px;
-    font: 16px / 16px Ubuntu;
+    
 }/*#IMG_139*/
 
 #A_143 {
@@ -1434,7 +1329,7 @@
     width: 125px;
     background: rgba(31, 63, 147, 0.8) none repeat scroll 0% 0% / auto padding-box border-box;
     border: 0px none rgb(255, 255, 255);
-    font: 16px / 16px Ubuntu;
+    
     outline: rgb(255, 255, 255) none 0px;
     overflow: hidden;
     padding: 15px;
@@ -1465,7 +1360,7 @@
     transform-origin: 20px 25px;
     width: 40px;
     border: 0px none rgb(255, 255, 255);
-    font: 16px / 16px Ubuntu;
+    
     margin: 6px 27.5px;
     outline: rgb(255, 255, 255) none 0px;
 }/*#IMG_144, #IMG_148*/
@@ -1496,7 +1391,7 @@
     width: 125px;
     background: rgb(31, 63, 147) none repeat scroll 0% 0% / auto padding-box border-box;
     border: 0px none rgb(255, 255, 255);
-    font: 16px / 16px Ubuntu;
+    
     outline: rgb(255, 255, 255) none 0px;
     overflow: hidden;
     padding: 15px;
@@ -1509,7 +1404,7 @@
     inline-size: 40px;
     text-align: center;
     width: 40px;
-    font: 16px / 16px Ubuntu;
+    
 }/*#IMG_152*/
 
 #DIV_153 {
@@ -1519,7 +1414,7 @@
     perspective-origin: 125px 189.25px;
     transform-origin: 125px 189.258px;
     width: 250px;
-    font: 16px / 16px Ubuntu;
+    
 }/*#DIV_153*/
 
 #DIV_154 {
@@ -1715,7 +1610,7 @@
     transform-origin: 325px 217.5px;
     width: 650px;
     background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
-    font: 16px / 16px Ubuntu;
+    
 }/*#DIV_174*/
 
 #DIV_175, #DIV_176 {
@@ -1725,7 +1620,7 @@
     perspective-origin: 325px 256px;
     transform-origin: 325px 256px;
     width: 650px;
-    font: 16px / 16px Ubuntu;
+    
 }/*#DIV_175, #DIV_176*/
 
 #DIV_177 {
@@ -1735,7 +1630,7 @@
     perspective-origin: 325px 256px;
     transform-origin: 325px 256px;
     width: 650px;
-    font: 16px / 16px Ubuntu;
+    
 }/*#DIV_177*/
 
 #DIV_178 {
@@ -1746,7 +1641,7 @@
     text-align: left;
     transform-origin: 325px 256px;
     width: 650px;
-    font: 16px / 16px Ubuntu;
+    
     overflow: hidden;
 }/*#DIV_178*/
 
@@ -1760,7 +1655,7 @@
     text-align: left;
     transform-origin: 108.328px 245.5px;
     width: 216.656px;
-    font: 16px / 16px Ubuntu;
+    
     overflow: hidden;
 }/*#DIV_179*/
 
@@ -1772,7 +1667,7 @@
     text-align: left;
     transform-origin: 108.328px 64.5px;
     width: 216.656px;
-    font: 16px / 16px Ubuntu;
+    
 }/*#DIV_180, #DIV_181*/
 
 #P_182 {
@@ -1785,7 +1680,7 @@
     text-align: left;
     transform-origin: 108.328px 64.5px;
     width: 216.656px;
-    font: 16px / 16px Ubuntu;
+    
     margin: 0px;
 }/*#P_182*/
 
@@ -1864,7 +1759,7 @@
     text-align: left;
     transform-origin: 108.328px 58.5px;
     width: 216.656px;
-    font: 16px / 16px Ubuntu;
+    
 }/*#DIV_186, #DIV_187*/
 
 #IMG_188 {
@@ -1875,7 +1770,7 @@
     text-align: left;
     transform-origin: 108.5px 57.5px;
     width: 217px;
-    font: 16px / 16px Ubuntu;
+    
 }/*#IMG_188*/
 
 #DIV_189, #DIV_190 {
@@ -1886,86 +1781,8 @@
     text-align: left;
     transform-origin: 108.328px 105px;
     width: 216.656px;
-    font: 16px / 16px Ubuntu;
+    
 }/*#DIV_189, #DIV_190*/
-
-#UL_191 {
-    block-size: 210px;
-    height: 210px;
-    inline-size: 216.656px;
-    margin-block-end: 0px;
-    margin-block-start: 0px;
-    padding-inline-start: 0px;
-    perspective-origin: 108.328px 105px;
-    text-align: left;
-    transform-origin: 108.328px 105px;
-    width: 216.656px;
-    font: 16px / 16px Ubuntu;
-    list-style: outside none none;
-    margin: 0px;
-    padding: 0px;
-}/*#UL_191*/
-
-#LI_192 {
-    block-size: 27px;
-    height: 27px;
-    inline-size: 181.656px;
-    padding-block-end: 5px;
-    padding-block-start: 15px;
-    padding-inline-end: 10px;
-    padding-inline-start: 25px;
-    perspective-origin: 108.328px 23.5px;
-    transform-origin: 108.328px 23.5px;
-    width: 181.656px;
-    font: 15px / 21px Ubuntu;
-    list-style: outside none none;
-    padding: 15px 10px 5px 25px;
-}/*#LI_192*/
-
-#LI_193 {
-    block-size: 48px;
-    height: 48px;
-    inline-size: 181.656px;
-    padding-block-end: 5px;
-    padding-inline-end: 10px;
-    padding-inline-start: 25px;
-    perspective-origin: 108.328px 26.5px;
-    transform-origin: 108.328px 26.5px;
-    width: 181.656px;
-    font: 15px / 21px Ubuntu;
-    list-style: outside none none;
-    padding: 0px 10px 5px 25px;
-}/*#LI_193*/
-
-#LI_194 {
-    block-size: 27px;
-    height: 27px;
-    inline-size: 181.656px;
-    padding-block-end: 5px;
-    padding-inline-end: 10px;
-    padding-inline-start: 25px;
-    perspective-origin: 108.328px 16px;
-    transform-origin: 108.328px 16px;
-    width: 181.656px;
-    font: 15px / 21px Ubuntu;
-    list-style: outside none none;
-    padding: 0px 10px 5px 25px;
-}/*#LI_194*/
-
-#LI_195 {
-    block-size: 48px;
-    height: 48px;
-    inline-size: 181.656px;
-    padding-block-end: 30px;
-    padding-inline-end: 10px;
-    padding-inline-start: 25px;
-    perspective-origin: 108.328px 39px;
-    transform-origin: 108.328px 39px;
-    width: 181.656px;
-    font: 15px / 21px Ubuntu;
-    list-style: outside none none;
-    padding: 0px 10px 30px 25px;
-}/*#LI_195*/
 
 #DIV_196, #DIV_197 {
     block-size: 35px;
@@ -1975,7 +1792,7 @@
     text-align: center;
     transform-origin: 108.328px 17.5px;
     width: 216.656px;
-    font: 16px / 16px Ubuntu;
+    
 }/*#DIV_196, #DIV_197*/
 
 #A_198 {
@@ -2023,19 +1840,19 @@
 #DIV_199, #DIV_224, #DIV_246 {
     display: none;
     text-align: left;
-    font: 16px / 16px Ubuntu;
+    
 }/*#DIV_199, #DIV_224, #DIV_246*/
 
 #DIV_200, #DIV_225, #DIV_247 {
     text-align: left;
-    font: 16px / 16px Ubuntu;
+    
 }/*#DIV_200, #DIV_225, #DIV_247*/
 
 #P_201, #P_202, #P_248, #P_250 {
     margin-block-end: 0px;
     margin-block-start: 0px;
     text-align: left;
-    font: 16px / 16px Ubuntu;
+    
     margin: 0px;
 }/*#P_201, #P_202, #P_248, #P_250*/
 
@@ -2043,7 +1860,7 @@
     margin-block-end: 0px;
     margin-block-start: 0px;
     text-align: left;
-    font: 16px / 16px Ubuntu;
+    
     margin: 0px;
 }/*#P_203, #P_249*/
 
@@ -2061,7 +1878,7 @@
     transform-origin: 108.328px 256px;
     width: 216.656px;
     border-left: 1px solid rgba(255, 255, 255, 0.35);
-    font: 16px / 16px Ubuntu;
+    
     overflow: hidden;
 }/*#DIV_204*/
 
@@ -2073,7 +1890,7 @@
     text-align: left;
     transform-origin: 107.828px 64.5px;
     width: 215.656px;
-    font: 16px / 16px Ubuntu;
+    
 }/*#DIV_205, #DIV_206, #DIV_227*/
 
 #P_207, #P_229 {
@@ -2086,7 +1903,7 @@
     text-align: left;
     transform-origin: 107.828px 64.5px;
     width: 215.656px;
-    font: 16px / 16px Ubuntu;
+    
     margin: 0px;
 }/*#P_207, #P_229*/
 
@@ -2127,7 +1944,7 @@
     text-align: left;
     transform-origin: 107.828px 58.5px;
     width: 215.656px;
-    font: 16px / 16px Ubuntu;
+    
 }/*#DIV_211, #DIV_212, #DIV_233*/
 
 #IMG_213 {
@@ -2138,7 +1955,7 @@
     text-align: left;
     transform-origin: 109px 57.5px;
     width: 218px;
-    font: 16px / 16px Ubuntu;
+    
 }/*#IMG_213*/
 
 #DIV_214, #DIV_215 {
@@ -2149,86 +1966,8 @@
     text-align: left;
     transform-origin: 107.828px 115.5px;
     width: 215.656px;
-    font: 16px / 16px Ubuntu;
+    
 }/*#DIV_214, #DIV_215*/
-
-#UL_216 {
-    block-size: 231px;
-    height: 231px;
-    inline-size: 215.656px;
-    margin-block-end: 0px;
-    margin-block-start: 0px;
-    padding-inline-start: 0px;
-    perspective-origin: 107.828px 115.5px;
-    text-align: left;
-    transform-origin: 107.828px 115.5px;
-    width: 215.656px;
-    font: 16px / 16px Ubuntu;
-    list-style: outside none none;
-    margin: 0px;
-    padding: 0px;
-}/*#UL_216*/
-
-#LI_217 {
-    block-size: 48px;
-    height: 48px;
-    inline-size: 180.656px;
-    padding-block-end: 5px;
-    padding-block-start: 15px;
-    padding-inline-end: 10px;
-    padding-inline-start: 25px;
-    perspective-origin: 107.828px 34px;
-    transform-origin: 107.828px 34px;
-    width: 180.656px;
-    font: 15px / 21px Ubuntu;
-    list-style: outside none none;
-    padding: 15px 10px 5px 25px;
-}/*#LI_217*/
-
-#LI_218 {
-    block-size: 48px;
-    height: 48px;
-    inline-size: 180.656px;
-    padding-block-end: 5px;
-    padding-inline-end: 10px;
-    padding-inline-start: 25px;
-    perspective-origin: 107.828px 26.5px;
-    transform-origin: 107.828px 26.5px;
-    width: 180.656px;
-    font: 15px / 21px Ubuntu;
-    list-style: outside none none;
-    padding: 0px 10px 5px 25px;
-}/*#LI_218*/
-
-#LI_219, #LI_240 {
-    block-size: 27px;
-    height: 27px;
-    inline-size: 180.656px;
-    padding-block-end: 5px;
-    padding-inline-end: 10px;
-    padding-inline-start: 25px;
-    perspective-origin: 107.828px 16px;
-    transform-origin: 107.828px 16px;
-    width: 180.656px;
-    font: 15px / 21px Ubuntu;
-    list-style: outside none none;
-    padding: 0px 10px 5px 25px;
-}/*#LI_219, #LI_240*/
-
-#LI_220 {
-    block-size: 48px;
-    height: 48px;
-    inline-size: 180.656px;
-    padding-block-end: 30px;
-    padding-inline-end: 10px;
-    padding-inline-start: 25px;
-    perspective-origin: 107.828px 39px;
-    transform-origin: 107.828px 39px;
-    width: 180.656px;
-    font: 15px / 21px Ubuntu;
-    list-style: outside none none;
-    padding: 0px 10px 30px 25px;
-}/*#LI_220*/
 
 #DIV_221, #DIV_222, #DIV_243 {
     block-size: 35px;
@@ -2238,7 +1977,7 @@
     text-align: center;
     transform-origin: 107.828px 17.5px;
     width: 215.656px;
-    font: 16px / 16px Ubuntu;
+    
 }/*#DIV_221, #DIV_222, #DIV_243*/
 
 #A_223, #A_245 {
@@ -2297,7 +2036,7 @@
     transform-origin: 108.328px 224.5px;
     width: 216.656px;
     border-left: 1px solid rgba(255, 255, 255, 0.35);
-    font: 16px / 16px Ubuntu;
+    
     overflow: hidden;
 }/*#DIV_226*/
 
@@ -2309,7 +2048,7 @@
     text-align: left;
     transform-origin: 107.828px 64.5px;
     width: 215.656px;
-    font: 16px / 16px Ubuntu;
+    
 }/*#DIV_228*/
 
 #DIV_234 {
@@ -2320,7 +2059,7 @@
     text-align: left;
     transform-origin: 107.828px 58.5px;
     width: 215.656px;
-    font: 16px / 16px Ubuntu;
+    
 }/*#DIV_234*/
 
 #IMG_235 {
@@ -2331,7 +2070,7 @@
     text-align: left;
     transform-origin: 108px 57.5px;
     width: 216px;
-    font: 16px / 16px Ubuntu;
+    
 }/*#IMG_235*/
 
 
@@ -2343,80 +2082,8 @@
     text-align: left;
     transform-origin: 107.828px 84px;
     width: 215.656px;
-    font: 16px / 16px Ubuntu;
+    
 }/*#DIV_236, #DIV_237*/
-
-
-#UL_238 {
-    block-size: 168px;
-    height: 168px;
-    inline-size: 215.656px;
-    margin-block-end: 0px;
-    margin-block-start: 0px;
-    padding-inline-start: 0px;
-    perspective-origin: 107.828px 84px;
-    text-align: left;
-    transform-origin: 107.828px 84px;
-    width: 215.656px;
-    font: 16px / 16px Ubuntu;
-    list-style: outside none none;
-    margin: 0px;
-    padding: 0px;
-}/*#UL_238*/
-
-
-
-#LI_239 {
-    block-size: 27px;
-    height: 27px;
-    inline-size: 180.656px;
-    padding-block-end: 5px;
-    padding-block-start: 15px;
-    padding-inline-end: 10px;
-    padding-inline-start: 25px;
-    perspective-origin: 107.828px 23.5px;
-    transform-origin: 107.828px 23.5px;
-    width: 180.656px;
-    font: 15px / 21px Ubuntu;
-    list-style: outside none none;
-    padding: 15px 10px 5px 25px;
-}/*#LI_239*/
-
-
-
-#LI_241 {
-    block-size: 27px;
-    height: 27px;
-    inline-size: 180.656px;
-    padding-block-end: 5px;
-    padding-inline-end: 10px;
-    padding-inline-start: 25px;
-    perspective-origin: 107.828px 16px;
-    transform-origin: 107.828px 16px;
-    width: 180.656px;
-    font: 15px / 21px Ubuntu;
-    list-style: outside none none;
-    padding: 0px 10px 5px 25px;
-}/*#LI_241*/
-
-
-
-#LI_242 {
-    block-size: 27px;
-    height: 27px;
-    inline-size: 180.656px;
-    padding-block-end: 30px;
-    padding-inline-end: 10px;
-    padding-inline-start: 25px;
-    perspective-origin: 107.828px 28.5px;
-    transform-origin: 107.828px 28.5px;
-    width: 180.656px;
-    font: 15px / 21px Ubuntu;
-    list-style: outside none none;
-    padding: 0px 10px 30px 25px;
-}/*#LI_242*/
-
-
 
 #DIV_244 {
     block-size: 35px;
@@ -2426,6 +2093,6 @@
     text-align: center;
     transform-origin: 107.828px 17.5px;
     width: 215.656px;
-    font: 16px / 16px Ubuntu;
+    
 }/*#DIV_244*/
 
