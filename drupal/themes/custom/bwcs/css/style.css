@@ -48,6 +48,10 @@
     transition: background 250ms linear;
 }
 
+.navbar-nav .nav-link.active {
+    color: #999;
+}
+
 .dropdown-item a {
     color: #999 !important;
     padding: 9px 10px 9px 30px;
@@ -55,9 +59,11 @@
     /* background-color: #01196e; */
 }
 
-/* .dropdown-item:active {
-    /* background-color: #01196e;
-} */
+@media (max-width: 1199px) {
+    .dropdown-item.active {
+        background: #e9ecef;
+    }    
+}
 
 @media (min-width: 1200px) {
     .dropdown .dropdown-menu {
@@ -71,6 +77,16 @@
         border-radius: 0;
         --bs-dropdown-padding-y: 0rem;
     }
+
+    .dropdown-item.active:not(.hovered) {
+        background: #01196e;
+        color: #fff;
+    } 
+
+    .dropdown-item.active:hover {
+        background: #fff;
+        color: #01196e;
+    } 
 
     .dropdown-item a {
         color: #fff !important;
@@ -126,3 +142,2290 @@
         justify-content: flex-start !important;
     }
 }
+
+
+/********** SLIDER **********/
+
+.slider {
+    display: block;
+    margin-bottom: 66px;
+    height: 634px;
+    background-color: green;
+}
+
+
+/********** BOXES **********/
+
+#DIV_1 {
+    block-size: 435px;
+    height: 435px;
+    inline-size: 1903px;
+    margin-block-start: -67px;
+    padding-block-end: 35px;
+    perspective-origin: 951.5px 235px;
+    transform-origin: 951.5px 235px;
+    width: 1903px;
+    font: 16px / 16px Ubuntu;
+    margin: -67px 0px 0px;
+    padding: 0px 0px 35px;
+}/*#DIV_1*/
+
+#DIV_2 {
+    block-size: 435px;
+    height: 435px;
+    inline-size: 1903px;
+    perspective-origin: 951.5px 217.5px;
+    transform-origin: 951.5px 217.5px;
+    width: 1903px;
+    background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
+    font: 16px / 16px Ubuntu;
+}/*#DIV_2*/
+
+#DIV_3 {
+    display: none;
+    font: 16px / 16px Ubuntu;
+}/*#DIV_3*/
+
+#DIV_4, #DIV_5, #DIV_9, #DIV_13, #DIV_17, #DIV_21, #A_23, #DIV_26, #DIV_30, #DIV_34 {
+    font: 16px / 16px Ubuntu;
+}/*#DIV_4, #DIV_5, #DIV_9, #DIV_13, #DIV_17, #DIV_21, #A_23, #DIV_26, #DIV_30, #DIV_34*/
+
+#A_6, #A_10, #A_14, #A_18, #DIV_22, #A_27, #A_31, #A_35 {
+    font: 16px / 16px Ubuntu;
+}/*#A_6, #A_10, #A_14, #A_18, #DIV_22, #A_27, #A_31, #A_35*/
+
+#IMG_7 {
+    block-size: 53px;
+    border-block-end-color: rgb(0, 0, 238);
+    border-block-start-color: rgb(0, 0, 238);
+    border-inline-end-color: rgb(0, 0, 238);
+    border-inline-start-color: rgb(0, 0, 238);
+    caret-color: rgb(0, 0, 238);
+    color: rgb(0, 0, 238);
+    column-rule-color: rgb(0, 0, 238);
+    cursor: pointer;
+    height: 53px;
+    inline-size: 59px;
+    text-decoration: none solid rgb(0, 0, 238);
+    text-emphasis-color: rgb(0, 0, 238);
+    width: 59px;
+    border: 0px none rgb(0, 0, 238);
+    font: 16px / 16px Ubuntu;
+    outline: rgb(0, 0, 238) none 0px;
+}/*#IMG_7*/
+
+#SPAN_8, #SPAN_12, #SPAN_16, #SPAN_20, #SPAN_25, #SPAN_29, #SPAN_33, #SPAN_37 {
+    border-block-end-color: rgb(0, 0, 238);
+    border-block-start-color: rgb(0, 0, 238);
+    border-inline-end-color: rgb(0, 0, 238);
+    border-inline-start-color: rgb(0, 0, 238);
+    caret-color: rgb(0, 0, 238);
+    color: rgb(0, 0, 238);
+    column-rule-color: rgb(0, 0, 238);
+    cursor: pointer;
+    text-decoration: none solid rgb(0, 0, 238);
+    text-emphasis-color: rgb(0, 0, 238);
+    border: 0px none rgb(0, 0, 238);
+    font: 16px / 16px Ubuntu;
+    outline: rgb(0, 0, 238) none 0px;
+}/*#SPAN_8, #SPAN_12, #SPAN_16, #SPAN_20, #SPAN_25, #SPAN_29, #SPAN_33, #SPAN_37*/
+
+#IMG_11 {
+    block-size: 50px;
+    border-block-end-color: rgb(0, 0, 238);
+    border-block-start-color: rgb(0, 0, 238);
+    border-inline-end-color: rgb(0, 0, 238);
+    border-inline-start-color: rgb(0, 0, 238);
+    caret-color: rgb(0, 0, 238);
+    color: rgb(0, 0, 238);
+    column-rule-color: rgb(0, 0, 238);
+    cursor: pointer;
+    height: 50px;
+    inline-size: 38px;
+    text-decoration: none solid rgb(0, 0, 238);
+    text-emphasis-color: rgb(0, 0, 238);
+    width: 38px;
+    border: 0px none rgb(0, 0, 238);
+    font: 16px / 16px Ubuntu;
+    outline: rgb(0, 0, 238) none 0px;
+}/*#IMG_11*/
+
+#IMG_15 {
+    block-size: 49px;
+    border-block-end-color: rgb(0, 0, 238);
+    border-block-start-color: rgb(0, 0, 238);
+    border-inline-end-color: rgb(0, 0, 238);
+    border-inline-start-color: rgb(0, 0, 238);
+    caret-color: rgb(0, 0, 238);
+    color: rgb(0, 0, 238);
+    column-rule-color: rgb(0, 0, 238);
+    cursor: pointer;
+    height: 49px;
+    inline-size: 77px;
+    text-decoration: none solid rgb(0, 0, 238);
+    text-emphasis-color: rgb(0, 0, 238);
+    width: 77px;
+    border: 0px none rgb(0, 0, 238);
+    font: 16px / 16px Ubuntu;
+    outline: rgb(0, 0, 238) none 0px;
+}/*#IMG_15*/
+
+#IMG_19 {
+    block-size: 60px;
+    border-block-end-color: rgb(0, 0, 238);
+    border-block-start-color: rgb(0, 0, 238);
+    border-inline-end-color: rgb(0, 0, 238);
+    border-inline-start-color: rgb(0, 0, 238);
+    caret-color: rgb(0, 0, 238);
+    color: rgb(0, 0, 238);
+    column-rule-color: rgb(0, 0, 238);
+    cursor: pointer;
+    height: 60px;
+    inline-size: 53px;
+    text-decoration: none solid rgb(0, 0, 238);
+    text-emphasis-color: rgb(0, 0, 238);
+    width: 53px;
+    border: 0px none rgb(0, 0, 238);
+    font: 16px / 16px Ubuntu;
+    outline: rgb(0, 0, 238) none 0px;
+}/*#IMG_19*/
+
+#IMG_24 {
+    block-size: 41px;
+    border-block-end-color: rgb(0, 0, 238);
+    border-block-start-color: rgb(0, 0, 238);
+    border-inline-end-color: rgb(0, 0, 238);
+    border-inline-start-color: rgb(0, 0, 238);
+    caret-color: rgb(0, 0, 238);
+    color: rgb(0, 0, 238);
+    column-rule-color: rgb(0, 0, 238);
+    cursor: pointer;
+    height: 41px;
+    inline-size: 50px;
+    text-decoration: none solid rgb(0, 0, 238);
+    text-emphasis-color: rgb(0, 0, 238);
+    width: 50px;
+    border: 0px none rgb(0, 0, 238);
+    font: 16px / 16px Ubuntu;
+    outline: rgb(0, 0, 238) none 0px;
+}/*#IMG_24*/
+
+#IMG_28 {
+    block-size: 44px;
+    border-block-end-color: rgb(0, 0, 238);
+    border-block-start-color: rgb(0, 0, 238);
+    border-inline-end-color: rgb(0, 0, 238);
+    border-inline-start-color: rgb(0, 0, 238);
+    caret-color: rgb(0, 0, 238);
+    color: rgb(0, 0, 238);
+    column-rule-color: rgb(0, 0, 238);
+    cursor: pointer;
+    height: 44px;
+    inline-size: 40px;
+    text-decoration: none solid rgb(0, 0, 238);
+    text-emphasis-color: rgb(0, 0, 238);
+    width: 40px;
+    border: 0px none rgb(0, 0, 238);
+    font: 16px / 16px Ubuntu;
+    outline: rgb(0, 0, 238) none 0px;
+}/*#IMG_28*/
+
+#IMG_32 {
+    block-size: 49px;
+    border-block-end-color: rgb(0, 0, 238);
+    border-block-start-color: rgb(0, 0, 238);
+    border-inline-end-color: rgb(0, 0, 238);
+    border-inline-start-color: rgb(0, 0, 238);
+    caret-color: rgb(0, 0, 238);
+    color: rgb(0, 0, 238);
+    column-rule-color: rgb(0, 0, 238);
+    cursor: pointer;
+    height: 49px;
+    inline-size: 40px;
+    text-decoration: none solid rgb(0, 0, 238);
+    text-emphasis-color: rgb(0, 0, 238);
+    width: 40px;
+    border: 0px none rgb(0, 0, 238);
+    font: 16px / 16px Ubuntu;
+    outline: rgb(0, 0, 238) none 0px;
+}/*#IMG_32*/
+
+#IMG_36 {
+    block-size: 50px;
+    border-block-end-color: rgb(0, 0, 238);
+    border-block-start-color: rgb(0, 0, 238);
+    border-inline-end-color: rgb(0, 0, 238);
+    border-inline-start-color: rgb(0, 0, 238);
+    caret-color: rgb(0, 0, 238);
+    color: rgb(0, 0, 238);
+    column-rule-color: rgb(0, 0, 238);
+    cursor: pointer;
+    height: 50px;
+    inline-size: 40px;
+    text-decoration: none solid rgb(0, 0, 238);
+    text-emphasis-color: rgb(0, 0, 238);
+    width: 40px;
+    border: 0px none rgb(0, 0, 238);
+    font: 16px / 16px Ubuntu;
+    outline: rgb(0, 0, 238) none 0px;
+}/*#IMG_36*/
+
+#DIV_38 {
+    block-size: 485px;
+    bottom: 0px;
+    float: left;
+    height: 485px;
+    inline-size: 376.5px;
+    inset-block-end: 0px;
+    inset-block-start: 0px;
+    inset-inline-end: 0px;
+    inset-inline-start: 0px;
+    left: 0px;
+    margin-block-start: -121px;
+    perspective-origin: 188.25px 242.5px;
+    position: relative;
+    right: 0px;
+    top: 0px;
+    transform-origin: 188.25px 242.5px;
+    width: 376.5px;
+    background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
+    font: 16px / 16px Ubuntu;
+    margin: -121px 0px 0px;
+}/*#DIV_38*/
+
+#DIV_39 {
+    block-size: 610px;
+    bottom: 0px;
+    float: left;
+    height: 610px;
+    inline-size: 250px;
+    inset-block-end: 0px;
+    inset-block-start: 0px;
+    inset-inline-end: 0px;
+    inset-inline-start: 0px;
+    left: 0px;
+    margin-block-start: -245px;
+    perspective-origin: 125px 305px;
+    position: relative;
+    right: 0px;
+    top: 0px;
+    transform-origin: 125px 305px;
+    width: 250px;
+    background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
+    font: 16px / 16px Ubuntu;
+    margin: -245px 0px 0px;
+}/*#DIV_39*/
+
+#DIV_40, #DIV_97 {
+    block-size: 250px;
+    height: 250px;
+    inline-size: 250px;
+    perspective-origin: 125px 125px;
+    transform-origin: 125px 125px;
+    width: 250px;
+    font: 16px / 16px Ubuntu;
+}/*#DIV_40, #DIV_97*/
+
+#DIV_41 {
+    block-size: 250px;
+    height: 250px;
+    inline-size: 250px;
+    perspective-origin: 125px 125px;
+    text-align: center;
+    transform-origin: 125px 125px;
+    width: 250px;
+    background: rgba(0, 0, 0, 0) url("https://www.bwcs.pl/sites/all/themes/webmedio/images/xtlo-kafelki-B,aW.jpg.pagespeed.ic.CqfycnFule.webp") repeat scroll 0% 0% / auto padding-box border-box;
+    font: 16px / 16px Ubuntu;
+}/*#DIV_41*/
+
+#DIV_42, #DIV_43, #DIV_100 {
+    block-size: 0px;
+    height: 0px;
+    inline-size: 250px;
+    perspective-origin: 125px 0px;
+    text-align: center;
+    transform-origin: 125px 0px;
+    width: 250px;
+    font: 16px / 16px Ubuntu;
+}/*#DIV_42, #DIV_43, #DIV_100*/
+
+#DIV_44, #DIV_57, #DIV_70, #DIV_83, #DIV_101, #DIV_114, #DIV_127, #DIV_140 {
+    block-size: 125px;
+    float: left;
+    height: 125px;
+    inline-size: 125px;
+    perspective-origin: 62.5px 62.5px;
+    text-align: center;
+    transform-origin: 62.5px 62.5px;
+    width: 125px;
+    font: 16px / 16px Ubuntu;
+}/*#DIV_44, #DIV_57, #DIV_70, #DIV_83, #DIV_101, #DIV_114, #DIV_127, #DIV_140*/
+
+#DIV_45, #DIV_58, #DIV_71, #DIV_84, #DIV_102, #DIV_115, #DIV_128, #DIV_141 {
+    block-size: 0px;
+    bottom: 0px;
+    height: 0px;
+    inline-size: 125px;
+    inset-block-end: 0px;
+    inset-block-start: 0px;
+    inset-inline-end: 0px;
+    inset-inline-start: 0px;
+    left: 0px;
+    perspective-origin: 62.5px 0px;
+    position: relative;
+    right: 0px;
+    text-align: center;
+    top: 0px;
+    transform-origin: 62.5px 0px;
+    width: 125px;
+    font: 16px / 16px Ubuntu;
+}/*#DIV_45, #DIV_58, #DIV_71, #DIV_84, #DIV_102, #DIV_115, #DIV_128, #DIV_141*/
+
+#DIV_46, #DIV_59, #DIV_72, #DIV_85, #DIV_103, #DIV_116, #DIV_129, #DIV_142 {
+    block-size: 125px;
+    bottom: -125px;
+    height: 125px;
+    inline-size: 125px;
+    inset-block-end: -125px;
+    inset-block-start: 0px;
+    inset-inline-end: 0px;
+    inset-inline-start: 0px;
+    left: 0px;
+    perspective-origin: 62.5px 62.5px;
+    position: absolute;
+    right: 0px;
+    text-align: center;
+    top: 0px;
+    transform-origin: 62.5px 62.5px;
+    width: 125px;
+    z-index: 2;
+    font: 16px / 16px Ubuntu;
+}/*#DIV_46, #DIV_59, #DIV_72, #DIV_85, #DIV_103, #DIV_116, #DIV_129, #DIV_142*/
+
+#A_47 {
+    block-size: 125px;
+    border-block-end-color: rgba(255, 255, 255, 0.35);
+    border-block-end-style: solid;
+    border-block-end-width: 1px;
+    border-block-start-color: rgb(255, 255, 255);
+    border-inline-end-color: rgba(255, 255, 255, 0.35);
+    border-inline-end-style: solid;
+    border-inline-end-width: 1px;
+    border-inline-start-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    caret-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    column-rule-color: rgb(255, 255, 255);
+    display: block;
+    float: left;
+    height: 125px;
+    inline-size: 125px;
+    padding-block-end: 15px;
+    padding-block-start: 15px;
+    padding-inline-end: 15px;
+    padding-inline-start: 15px;
+    perspective-origin: 62.5px 62.5px;
+    text-align: center;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-emphasis-color: rgb(255, 255, 255);
+    transform-origin: 62.5px 62.5px;
+    width: 125px;
+    background: rgba(181, 26, 23, 0.8) none repeat scroll 0% 0% / auto padding-box border-box;
+    border-top: 0px none rgb(255, 255, 255);
+    border-right: 1px solid rgba(255, 255, 255, 0.35);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+    border-left: 0px none rgb(255, 255, 255);
+    font: 16px / 16px Ubuntu;
+    outline: rgb(255, 255, 255) none 0px;
+    overflow: hidden;
+    padding: 15px;
+    transition: background-color 0.4s linear 0s;
+}/*#A_47*/
+
+#IMG_48, #IMG_52 {
+    block-size: 53px;
+    border-block-end-color: rgb(255, 255, 255);
+    border-block-start-color: rgb(255, 255, 255);
+    border-inline-end-color: rgb(255, 255, 255);
+    border-inline-start-color: rgb(255, 255, 255);
+    caret-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    column-rule-color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: block;
+    height: 53px;
+    inline-size: 59px;
+    margin-block-end: 6px;
+    margin-block-start: 6px;
+    margin-inline-end: 17.5px;
+    margin-inline-start: 17.5px;
+    perspective-origin: 29.5px 26.5px;
+    text-align: center;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-emphasis-color: rgb(255, 255, 255);
+    transform-origin: 29.5px 26.5px;
+    width: 59px;
+    border: 0px none rgb(255, 255, 255);
+    font: 16px / 16px Ubuntu;
+    margin: 6px 17.5px;
+    outline: rgb(255, 255, 255) none 0px;
+}/*#IMG_48, #IMG_52*/
+
+#SPAN_49, #SPAN_53, #SPAN_62, #SPAN_66, #SPAN_75, #SPAN_79, #SPAN_88, #SPAN_92, #SPAN_106, #SPAN_110, #SPAN_119, #SPAN_123, #SPAN_132, #SPAN_136, #SPAN_145, #SPAN_149 {
+    border-block-end-color: rgb(255, 255, 255);
+    border-block-start-color: rgb(255, 255, 255);
+    border-inline-end-color: rgb(255, 255, 255);
+    border-inline-start-color: rgb(255, 255, 255);
+    caret-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    column-rule-color: rgb(255, 255, 255);
+    cursor: pointer;
+    perspective-origin: 0px 0px;
+    text-align: center;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-emphasis-color: rgb(255, 255, 255);
+    transform-origin: 0px 0px;
+    border: 0px none rgb(255, 255, 255);
+    font: 16px / 16px Ubuntu;
+    outline: rgb(255, 255, 255) none 0px;
+}/*#SPAN_49, #SPAN_53, #SPAN_62, #SPAN_66, #SPAN_75, #SPAN_79, #SPAN_88, #SPAN_92, #SPAN_106, #SPAN_110, #SPAN_119, #SPAN_123, #SPAN_132, #SPAN_136, #SPAN_145, #SPAN_149*/
+
+#DIV_50, #DIV_63, #DIV_76, #DIV_89, #DIV_107, #DIV_120, #DIV_133, #DIV_146 {
+    block-size: 125px;
+    bottom: -125px;
+    height: 125px;
+    inline-size: 125px;
+    inset-block-end: -125px;
+    inset-block-start: 0px;
+    inset-inline-end: 0px;
+    inset-inline-start: 0px;
+    left: 0px;
+    perspective-origin: 62.5px 62.5px;
+    position: absolute;
+    right: 0px;
+    text-align: center;
+    top: 0px;
+    transform-origin: 62.5px 62.5px;
+    width: 125px;
+    z-index: 2;
+    background: rgb(65, 211, 192) none repeat scroll 0% 0% / auto padding-box border-box;
+    font: 16px / 16px Ubuntu;
+}/*#DIV_50, #DIV_63, #DIV_76, #DIV_89, #DIV_107, #DIV_120, #DIV_133, #DIV_146*/
+
+#A_51 {
+    block-size: 125px;
+    border-block-end-color: rgba(255, 255, 255, 0.35);
+    border-block-end-style: solid;
+    border-block-end-width: 1px;
+    border-block-start-color: rgb(255, 255, 255);
+    border-inline-end-color: rgba(255, 255, 255, 0.35);
+    border-inline-end-style: solid;
+    border-inline-end-width: 1px;
+    border-inline-start-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    caret-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    column-rule-color: rgb(255, 255, 255);
+    display: block;
+    float: left;
+    height: 125px;
+    inline-size: 125px;
+    padding-block-end: 15px;
+    padding-block-start: 15px;
+    padding-inline-end: 15px;
+    padding-inline-start: 15px;
+    perspective-origin: 62.5px 62.5px;
+    text-align: center;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-emphasis-color: rgb(255, 255, 255);
+    transform-origin: 62.5px 62.5px;
+    width: 125px;
+    background: rgb(181, 26, 23) none repeat scroll 0% 0% / auto padding-box border-box;
+    border-top: 0px none rgb(255, 255, 255);
+    border-right: 1px solid rgba(255, 255, 255, 0.35);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+    border-left: 0px none rgb(255, 255, 255);
+    font: 16px / 16px Ubuntu;
+    outline: rgb(255, 255, 255) none 0px;
+    overflow: hidden;
+    padding: 15px;
+    transition: background-color 0.4s linear 0s;
+}/*#A_51*/
+
+#DIV_54, #DIV_67, #DIV_80, #DIV_93, #DIV_111, #DIV_124, #DIV_137, #DIV_150 {
+    display: none;
+    position: relative;
+    text-align: center;
+    font: 16px / 16px Ubuntu;
+}/*#DIV_54, #DIV_67, #DIV_80, #DIV_93, #DIV_111, #DIV_124, #DIV_137, #DIV_150*/
+
+#DIV_55, #DIV_68, #DIV_81, #DIV_94, #DIV_112, #DIV_125, #DIV_138, #DIV_151 {
+    block-size: 125px;
+    height: 125px;
+    inline-size: 125px;
+    inset-block-start: 0px;
+    inset-inline-start: 0px;
+    left: 0px;
+    position: absolute;
+    text-align: center;
+    top: 0px;
+    width: 125px;
+    z-index: 2;
+    font: 16px / 16px Ubuntu;
+}/*#DIV_55, #DIV_68, #DIV_81, #DIV_94, #DIV_112, #DIV_125, #DIV_138, #DIV_151*/
+
+#IMG_56 {
+    block-size: 53px;
+    height: 53px;
+    inline-size: 59px;
+    text-align: center;
+    width: 59px;
+    font: 16px / 16px Ubuntu;
+}/*#IMG_56*/
+
+#A_60 {
+    block-size: 125px;
+    border-block-end-color: rgba(255, 255, 255, 0.35);
+    border-block-end-style: solid;
+    border-block-end-width: 1px;
+    border-block-start-color: rgb(255, 255, 255);
+    border-inline-end-color: rgb(255, 255, 255);
+    border-inline-start-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    caret-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    column-rule-color: rgb(255, 255, 255);
+    display: block;
+    float: left;
+    height: 125px;
+    inline-size: 125px;
+    padding-block-end: 15px;
+    padding-block-start: 15px;
+    padding-inline-end: 15px;
+    padding-inline-start: 15px;
+    perspective-origin: 62.5px 62.5px;
+    text-align: center;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-emphasis-color: rgb(255, 255, 255);
+    transform-origin: 62.5px 62.5px;
+    width: 125px;
+    background: rgba(181, 26, 23, 0.8) none repeat scroll 0% 0% / auto padding-box border-box;
+    border-top: 0px none rgb(255, 255, 255);
+    border-right: 0px none rgb(255, 255, 255);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+    border-left: 0px none rgb(255, 255, 255);
+    font: 16px / 16px Ubuntu;
+    outline: rgb(255, 255, 255) none 0px;
+    overflow: hidden;
+    padding: 15px;
+    transition: background-color 0.4s linear 0s;
+}/*#A_60*/
+
+#IMG_61, #IMG_65 {
+    block-size: 50px;
+    border-block-end-color: rgb(255, 255, 255);
+    border-block-start-color: rgb(255, 255, 255);
+    border-inline-end-color: rgb(255, 255, 255);
+    border-inline-start-color: rgb(255, 255, 255);
+    caret-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    column-rule-color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: block;
+    height: 50px;
+    inline-size: 38px;
+    margin-block-end: 6px;
+    margin-block-start: 6px;
+    margin-inline-end: 28.5px;
+    margin-inline-start: 28.5px;
+    perspective-origin: 19px 25px;
+    text-align: center;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-emphasis-color: rgb(255, 255, 255);
+    transform-origin: 19px 25px;
+    width: 38px;
+    border: 0px none rgb(255, 255, 255);
+    font: 16px / 16px Ubuntu;
+    margin: 6px 28.5px;
+    outline: rgb(255, 255, 255) none 0px;
+}/*#IMG_61, #IMG_65*/
+
+#A_64 {
+    block-size: 125px;
+    border-block-end-color: rgba(255, 255, 255, 0.35);
+    border-block-end-style: solid;
+    border-block-end-width: 1px;
+    border-block-start-color: rgb(255, 255, 255);
+    border-inline-end-color: rgb(255, 255, 255);
+    border-inline-start-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    caret-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    column-rule-color: rgb(255, 255, 255);
+    display: block;
+    float: left;
+    height: 125px;
+    inline-size: 125px;
+    padding-block-end: 15px;
+    padding-block-start: 15px;
+    padding-inline-end: 15px;
+    padding-inline-start: 15px;
+    perspective-origin: 62.5px 62.5px;
+    text-align: center;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-emphasis-color: rgb(255, 255, 255);
+    transform-origin: 62.5px 62.5px;
+    width: 125px;
+    background: rgb(181, 26, 23) none repeat scroll 0% 0% / auto padding-box border-box;
+    border-top: 0px none rgb(255, 255, 255);
+    border-right: 0px none rgb(255, 255, 255);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+    border-left: 0px none rgb(255, 255, 255);
+    font: 16px / 16px Ubuntu;
+    outline: rgb(255, 255, 255) none 0px;
+    overflow: hidden;
+    padding: 15px;
+    transition: background-color 0.4s linear 0s;
+}/*#A_64*/
+
+#IMG_69 {
+    block-size: 50px;
+    height: 50px;
+    inline-size: 38px;
+    text-align: center;
+    width: 38px;
+    font: 16px / 16px Ubuntu;
+}/*#IMG_69*/
+
+#A_73 {
+    block-size: 125px;
+    border-block-end-color: rgb(255, 255, 255);
+    border-block-start-color: rgb(255, 255, 255);
+    border-inline-end-color: rgba(255, 255, 255, 0.35);
+    border-inline-end-style: solid;
+    border-inline-end-width: 1px;
+    border-inline-start-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    caret-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    column-rule-color: rgb(255, 255, 255);
+    display: block;
+    float: left;
+    height: 125px;
+    inline-size: 125px;
+    padding-block-end: 15px;
+    padding-block-start: 15px;
+    padding-inline-end: 15px;
+    padding-inline-start: 15px;
+    perspective-origin: 62.5px 62.5px;
+    text-align: center;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-emphasis-color: rgb(255, 255, 255);
+    transform-origin: 62.5px 62.5px;
+    width: 125px;
+    background: rgba(181, 26, 23, 0.8) none repeat scroll 0% 0% / auto padding-box border-box;
+    border-top: 0px none rgb(255, 255, 255);
+    border-right: 1px solid rgba(255, 255, 255, 0.35);
+    border-bottom: 0px none rgb(255, 255, 255);
+    border-left: 0px none rgb(255, 255, 255);
+    font: 16px / 16px Ubuntu;
+    outline: rgb(255, 255, 255) none 0px;
+    overflow: hidden;
+    padding: 15px;
+    transition: background-color 0.4s linear 0s;
+}/*#A_73*/
+
+#IMG_74, #IMG_78 {
+    block-size: 49px;
+    border-block-end-color: rgb(255, 255, 255);
+    border-block-start-color: rgb(255, 255, 255);
+    border-inline-end-color: rgb(255, 255, 255);
+    border-inline-start-color: rgb(255, 255, 255);
+    caret-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    column-rule-color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: block;
+    height: 49px;
+    inline-size: 77px;
+    margin-block-end: 6px;
+    margin-block-start: 6px;
+    margin-inline-end: 8.5px;
+    margin-inline-start: 8.5px;
+    perspective-origin: 38.5px 24.5px;
+    text-align: center;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-emphasis-color: rgb(255, 255, 255);
+    transform-origin: 38.5px 24.5px;
+    width: 77px;
+    border: 0px none rgb(255, 255, 255);
+    font: 16px / 16px Ubuntu;
+    margin: 6px 8.5px;
+    outline: rgb(255, 255, 255) none 0px;
+}/*#IMG_74, #IMG_78*/
+
+#A_77 {
+    block-size: 125px;
+    border-block-end-color: rgb(255, 255, 255);
+    border-block-start-color: rgb(255, 255, 255);
+    border-inline-end-color: rgba(255, 255, 255, 0.35);
+    border-inline-end-style: solid;
+    border-inline-end-width: 1px;
+    border-inline-start-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    caret-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    column-rule-color: rgb(255, 255, 255);
+    display: block;
+    float: left;
+    height: 125px;
+    inline-size: 125px;
+    padding-block-end: 15px;
+    padding-block-start: 15px;
+    padding-inline-end: 15px;
+    padding-inline-start: 15px;
+    perspective-origin: 62.5px 62.5px;
+    text-align: center;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-emphasis-color: rgb(255, 255, 255);
+    transform-origin: 62.5px 62.5px;
+    width: 125px;
+    background: rgb(181, 26, 23) none repeat scroll 0% 0% / auto padding-box border-box;
+    border-top: 0px none rgb(255, 255, 255);
+    border-right: 1px solid rgba(255, 255, 255, 0.35);
+    border-bottom: 0px none rgb(255, 255, 255);
+    border-left: 0px none rgb(255, 255, 255);
+    font: 16px / 16px Ubuntu;
+    outline: rgb(255, 255, 255) none 0px;
+    overflow: hidden;
+    padding: 15px;
+    transition: background-color 0.4s linear 0s;
+}/*#A_77*/
+
+#IMG_82 {
+    block-size: 49px;
+    height: 49px;
+    inline-size: 77px;
+    text-align: center;
+    width: 77px;
+    font: 16px / 16px Ubuntu;
+}/*#IMG_82*/
+
+#A_86 {
+    block-size: 125px;
+    border-block-end-color: rgb(255, 255, 255);
+    border-block-start-color: rgb(255, 255, 255);
+    border-inline-end-color: rgb(255, 255, 255);
+    border-inline-start-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    caret-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    column-rule-color: rgb(255, 255, 255);
+    display: block;
+    float: left;
+    height: 125px;
+    inline-size: 125px;
+    padding-block-end: 15px;
+    padding-block-start: 15px;
+    padding-inline-end: 15px;
+    padding-inline-start: 15px;
+    perspective-origin: 62.5px 62.5px;
+    text-align: center;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-emphasis-color: rgb(255, 255, 255);
+    transform-origin: 62.5px 62.5px;
+    width: 125px;
+    background: rgba(181, 26, 23, 0.8) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(255, 255, 255);
+    font: 16px / 16px Ubuntu;
+    outline: rgb(255, 255, 255) none 0px;
+    overflow: hidden;
+    padding: 15px;
+    transition: background-color 0.4s linear 0s;
+}/*#A_86*/
+
+#IMG_87, #IMG_91 {
+    block-size: 60px;
+    border-block-end-color: rgb(255, 255, 255);
+    border-block-start-color: rgb(255, 255, 255);
+    border-inline-end-color: rgb(255, 255, 255);
+    border-inline-start-color: rgb(255, 255, 255);
+    caret-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    column-rule-color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: block;
+    height: 60px;
+    inline-size: 53px;
+    margin-block-end: 6px;
+    margin-block-start: 6px;
+    margin-inline-end: 21px;
+    margin-inline-start: 21px;
+    perspective-origin: 26.5px 30px;
+    text-align: center;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-emphasis-color: rgb(255, 255, 255);
+    transform-origin: 26.5px 30px;
+    width: 53px;
+    border: 0px none rgb(255, 255, 255);
+    font: 16px / 16px Ubuntu;
+    margin: 6px 21px;
+    outline: rgb(255, 255, 255) none 0px;
+}/*#IMG_87, #IMG_91*/
+
+#A_90 {
+    block-size: 125px;
+    border-block-end-color: rgb(255, 255, 255);
+    border-block-start-color: rgb(255, 255, 255);
+    border-inline-end-color: rgb(255, 255, 255);
+    border-inline-start-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    caret-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    column-rule-color: rgb(255, 255, 255);
+    display: block;
+    float: left;
+    height: 125px;
+    inline-size: 125px;
+    padding-block-end: 15px;
+    padding-block-start: 15px;
+    padding-inline-end: 15px;
+    padding-inline-start: 15px;
+    perspective-origin: 62.5px 62.5px;
+    text-align: center;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-emphasis-color: rgb(255, 255, 255);
+    transform-origin: 62.5px 62.5px;
+    width: 125px;
+    background: rgb(181, 26, 23) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(255, 255, 255);
+    font: 16px / 16px Ubuntu;
+    outline: rgb(255, 255, 255) none 0px;
+    overflow: hidden;
+    padding: 15px;
+    transition: background-color 0.4s linear 0s;
+}/*#A_90*/
+
+#IMG_95 {
+    block-size: 60px;
+    height: 60px;
+    inline-size: 53px;
+    text-align: center;
+    width: 53px;
+    font: 16px / 16px Ubuntu;
+}/*#IMG_95*/
+
+#DIV_96 {
+    block-size: 628.516px;
+    bottom: 0px;
+    float: left;
+    height: 628.516px;
+    inline-size: 250px;
+    inset-block-end: 0px;
+    inset-block-start: 0px;
+    inset-inline-end: 0px;
+    inset-inline-start: 0px;
+    left: 0px;
+    margin-block-end: 30px;
+    margin-block-start: -121px;
+    perspective-origin: 125px 314.25px;
+    position: relative;
+    right: 0px;
+    top: 0px;
+    transform-origin: 125px 314.258px;
+    width: 250px;
+    background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
+    font: 16px / 16px Ubuntu;
+    margin: -121px 0px 30px;
+}/*#DIV_96*/
+
+#DIV_98 {
+    block-size: 250px;
+    height: 250px;
+    inline-size: 250px;
+    perspective-origin: 125px 125px;
+    transform-origin: 125px 125px;
+    width: 250px;
+    font: 16px / 16px Ubuntu;
+}/*#DIV_98*/
+
+#DIV_99 {
+    background-position: 80% 98.4%;
+    block-size: 250px;
+    height: 250px;
+    inline-size: 250px;
+    perspective-origin: 125px 125px;
+    text-align: center;
+    transform-origin: 125px 125px;
+    width: 250px;
+    background: rgba(0, 0, 0, 0) url("https://www.bwcs.pl/sites/all/themes/webmedio/images/xtlo-kafelki-B,aW.jpg.pagespeed.ic.CqfycnFule.webp") repeat scroll 80% 98.4% / auto padding-box border-box;
+    font: 16px / 16px Ubuntu;
+}/*#DIV_99*/
+
+#A_104 {
+    block-size: 125px;
+    border-block-end-color: rgba(255, 255, 255, 0.35);
+    border-block-end-style: solid;
+    border-block-end-width: 1px;
+    border-block-start-color: rgb(255, 255, 255);
+    border-inline-end-color: rgba(255, 255, 255, 0.35);
+    border-inline-end-style: solid;
+    border-inline-end-width: 1px;
+    border-inline-start-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    caret-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    column-rule-color: rgb(255, 255, 255);
+    display: block;
+    float: left;
+    height: 125px;
+    inline-size: 125px;
+    padding-block-end: 15px;
+    padding-block-start: 15px;
+    padding-inline-end: 15px;
+    padding-inline-start: 15px;
+    perspective-origin: 62.5px 62.5px;
+    text-align: center;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-emphasis-color: rgb(255, 255, 255);
+    transform-origin: 62.5px 62.5px;
+    width: 125px;
+    background: rgba(31, 63, 147, 0.8) none repeat scroll 0% 0% / auto padding-box border-box;
+    border-top: 0px none rgb(255, 255, 255);
+    border-right: 1px solid rgba(255, 255, 255, 0.35);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+    border-left: 0px none rgb(255, 255, 255);
+    font: 16px / 16px Ubuntu;
+    outline: rgb(255, 255, 255) none 0px;
+    overflow: hidden;
+    padding: 15px;
+    transition: background-color 0.4s linear 0s;
+}/*#A_104*/
+
+#IMG_105, #IMG_109 {
+    block-size: 41px;
+    border-block-end-color: rgb(255, 255, 255);
+    border-block-start-color: rgb(255, 255, 255);
+    border-inline-end-color: rgb(255, 255, 255);
+    border-inline-start-color: rgb(255, 255, 255);
+    caret-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    column-rule-color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: block;
+    height: 41px;
+    inline-size: 50px;
+    margin-block-end: 6px;
+    margin-block-start: 6px;
+    margin-inline-end: 22px;
+    margin-inline-start: 22px;
+    perspective-origin: 25px 20.5px;
+    text-align: center;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-emphasis-color: rgb(255, 255, 255);
+    transform-origin: 25px 20.5px;
+    width: 50px;
+    border: 0px none rgb(255, 255, 255);
+    font: 16px / 16px Ubuntu;
+    margin: 6px 22px;
+    outline: rgb(255, 255, 255) none 0px;
+}/*#IMG_105, #IMG_109*/
+
+#A_108 {
+    block-size: 125px;
+    border-block-end-color: rgba(255, 255, 255, 0.35);
+    border-block-end-style: solid;
+    border-block-end-width: 1px;
+    border-block-start-color: rgb(255, 255, 255);
+    border-inline-end-color: rgba(255, 255, 255, 0.35);
+    border-inline-end-style: solid;
+    border-inline-end-width: 1px;
+    border-inline-start-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    caret-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    column-rule-color: rgb(255, 255, 255);
+    display: block;
+    float: left;
+    height: 125px;
+    inline-size: 125px;
+    padding-block-end: 15px;
+    padding-block-start: 15px;
+    padding-inline-end: 15px;
+    padding-inline-start: 15px;
+    perspective-origin: 62.5px 62.5px;
+    text-align: center;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-emphasis-color: rgb(255, 255, 255);
+    transform-origin: 62.5px 62.5px;
+    width: 125px;
+    background: rgb(31, 63, 147) none repeat scroll 0% 0% / auto padding-box border-box;
+    border-top: 0px none rgb(255, 255, 255);
+    border-right: 1px solid rgba(255, 255, 255, 0.35);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+    border-left: 0px none rgb(255, 255, 255);
+    font: 16px / 16px Ubuntu;
+    outline: rgb(255, 255, 255) none 0px;
+    overflow: hidden;
+    padding: 15px;
+    transition: background-color 0.4s linear 0s;
+}/*#A_108*/
+
+#IMG_113 {
+    block-size: 41px;
+    height: 41px;
+    inline-size: 50px;
+    text-align: center;
+    width: 50px;
+    font: 16px / 16px Ubuntu;
+}/*#IMG_113*/
+
+#A_117 {
+    block-size: 125px;
+    border-block-end-color: rgba(255, 255, 255, 0.35);
+    border-block-end-style: solid;
+    border-block-end-width: 1px;
+    border-block-start-color: rgb(255, 255, 255);
+    border-inline-end-color: rgb(255, 255, 255);
+    border-inline-start-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    caret-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    column-rule-color: rgb(255, 255, 255);
+    display: block;
+    float: left;
+    height: 125px;
+    inline-size: 125px;
+    padding-block-end: 15px;
+    padding-block-start: 15px;
+    padding-inline-end: 15px;
+    padding-inline-start: 15px;
+    perspective-origin: 62.5px 62.5px;
+    text-align: center;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-emphasis-color: rgb(255, 255, 255);
+    transform-origin: 62.5px 62.5px;
+    width: 125px;
+    background: rgba(31, 63, 147, 0.8) none repeat scroll 0% 0% / auto padding-box border-box;
+    border-top: 0px none rgb(255, 255, 255);
+    border-right: 0px none rgb(255, 255, 255);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+    border-left: 0px none rgb(255, 255, 255);
+    font: 16px / 16px Ubuntu;
+    outline: rgb(255, 255, 255) none 0px;
+    overflow: hidden;
+    padding: 15px;
+    transition: background-color 0.4s linear 0s;
+}/*#A_117*/
+
+#IMG_118, #IMG_122 {
+    block-size: 44px;
+    border-block-end-color: rgb(255, 255, 255);
+    border-block-start-color: rgb(255, 255, 255);
+    border-inline-end-color: rgb(255, 255, 255);
+    border-inline-start-color: rgb(255, 255, 255);
+    caret-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    column-rule-color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: block;
+    height: 44px;
+    inline-size: 40px;
+    margin-block-end: 6px;
+    margin-block-start: 6px;
+    margin-inline-end: 27.5px;
+    margin-inline-start: 27.5px;
+    perspective-origin: 20px 22px;
+    text-align: center;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-emphasis-color: rgb(255, 255, 255);
+    transform-origin: 20px 22px;
+    width: 40px;
+    border: 0px none rgb(255, 255, 255);
+    font: 16px / 16px Ubuntu;
+    margin: 6px 27.5px;
+    outline: rgb(255, 255, 255) none 0px;
+}/*#IMG_118, #IMG_122*/
+
+#A_121 {
+    block-size: 125px;
+    border-block-end-color: rgba(255, 255, 255, 0.35);
+    border-block-end-style: solid;
+    border-block-end-width: 1px;
+    border-block-start-color: rgb(255, 255, 255);
+    border-inline-end-color: rgb(255, 255, 255);
+    border-inline-start-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    caret-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    column-rule-color: rgb(255, 255, 255);
+    display: block;
+    float: left;
+    height: 125px;
+    inline-size: 125px;
+    padding-block-end: 15px;
+    padding-block-start: 15px;
+    padding-inline-end: 15px;
+    padding-inline-start: 15px;
+    perspective-origin: 62.5px 62.5px;
+    text-align: center;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-emphasis-color: rgb(255, 255, 255);
+    transform-origin: 62.5px 62.5px;
+    width: 125px;
+    background: rgb(31, 63, 147) none repeat scroll 0% 0% / auto padding-box border-box;
+    border-top: 0px none rgb(255, 255, 255);
+    border-right: 0px none rgb(255, 255, 255);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+    border-left: 0px none rgb(255, 255, 255);
+    font: 16px / 16px Ubuntu;
+    outline: rgb(255, 255, 255) none 0px;
+    overflow: hidden;
+    padding: 15px;
+    transition: background-color 0.4s linear 0s;
+}/*#A_121*/
+
+#IMG_126 {
+    block-size: 44px;
+    height: 44px;
+    inline-size: 40px;
+    text-align: center;
+    width: 40px;
+    font: 16px / 16px Ubuntu;
+}/*#IMG_126*/
+
+#A_130 {
+    block-size: 125px;
+    border-block-end-color: rgb(255, 255, 255);
+    border-block-start-color: rgb(255, 255, 255);
+    border-inline-end-color: rgba(255, 255, 255, 0.35);
+    border-inline-end-style: solid;
+    border-inline-end-width: 1px;
+    border-inline-start-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    caret-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    column-rule-color: rgb(255, 255, 255);
+    display: block;
+    float: left;
+    height: 125px;
+    inline-size: 125px;
+    padding-block-end: 15px;
+    padding-block-start: 15px;
+    padding-inline-end: 15px;
+    padding-inline-start: 15px;
+    perspective-origin: 62.5px 62.5px;
+    text-align: center;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-emphasis-color: rgb(255, 255, 255);
+    transform-origin: 62.5px 62.5px;
+    width: 125px;
+    background: rgba(31, 63, 147, 0.8) none repeat scroll 0% 0% / auto padding-box border-box;
+    border-top: 0px none rgb(255, 255, 255);
+    border-right: 1px solid rgba(255, 255, 255, 0.35);
+    border-bottom: 0px none rgb(255, 255, 255);
+    border-left: 0px none rgb(255, 255, 255);
+    font: 16px / 16px Ubuntu;
+    outline: rgb(255, 255, 255) none 0px;
+    overflow: hidden;
+    padding: 15px;
+    transition: background-color 0.4s linear 0s;
+}/*#A_130*/
+
+#IMG_131, #IMG_135 {
+    block-size: 49px;
+    border-block-end-color: rgb(255, 255, 255);
+    border-block-start-color: rgb(255, 255, 255);
+    border-inline-end-color: rgb(255, 255, 255);
+    border-inline-start-color: rgb(255, 255, 255);
+    caret-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    column-rule-color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: block;
+    height: 49px;
+    inline-size: 40px;
+    margin-block-end: 6px;
+    margin-block-start: 6px;
+    margin-inline-end: 27px;
+    margin-inline-start: 27px;
+    perspective-origin: 20px 24.5px;
+    text-align: center;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-emphasis-color: rgb(255, 255, 255);
+    transform-origin: 20px 24.5px;
+    width: 40px;
+    border: 0px none rgb(255, 255, 255);
+    font: 16px / 16px Ubuntu;
+    margin: 6px 27px;
+    outline: rgb(255, 255, 255) none 0px;
+}/*#IMG_131, #IMG_135*/
+
+#A_134 {
+    block-size: 125px;
+    border-block-end-color: rgb(255, 255, 255);
+    border-block-start-color: rgb(255, 255, 255);
+    border-inline-end-color: rgba(255, 255, 255, 0.35);
+    border-inline-end-style: solid;
+    border-inline-end-width: 1px;
+    border-inline-start-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    caret-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    column-rule-color: rgb(255, 255, 255);
+    display: block;
+    float: left;
+    height: 125px;
+    inline-size: 125px;
+    padding-block-end: 15px;
+    padding-block-start: 15px;
+    padding-inline-end: 15px;
+    padding-inline-start: 15px;
+    perspective-origin: 62.5px 62.5px;
+    text-align: center;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-emphasis-color: rgb(255, 255, 255);
+    transform-origin: 62.5px 62.5px;
+    width: 125px;
+    background: rgb(31, 63, 147) none repeat scroll 0% 0% / auto padding-box border-box;
+    border-top: 0px none rgb(255, 255, 255);
+    border-right: 1px solid rgba(255, 255, 255, 0.35);
+    border-bottom: 0px none rgb(255, 255, 255);
+    border-left: 0px none rgb(255, 255, 255);
+    font: 16px / 16px Ubuntu;
+    outline: rgb(255, 255, 255) none 0px;
+    overflow: hidden;
+    padding: 15px;
+    transition: background-color 0.4s linear 0s;
+}/*#A_134*/
+
+#IMG_139 {
+    block-size: 49px;
+    height: 49px;
+    inline-size: 40px;
+    text-align: center;
+    width: 40px;
+    font: 16px / 16px Ubuntu;
+}/*#IMG_139*/
+
+#A_143 {
+    block-size: 125px;
+    border-block-end-color: rgb(255, 255, 255);
+    border-block-start-color: rgb(255, 255, 255);
+    border-inline-end-color: rgb(255, 255, 255);
+    border-inline-start-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    caret-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    column-rule-color: rgb(255, 255, 255);
+    display: block;
+    float: left;
+    height: 125px;
+    inline-size: 125px;
+    padding-block-end: 15px;
+    padding-block-start: 15px;
+    padding-inline-end: 15px;
+    padding-inline-start: 15px;
+    perspective-origin: 62.5px 62.5px;
+    text-align: center;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-emphasis-color: rgb(255, 255, 255);
+    transform-origin: 62.5px 62.5px;
+    width: 125px;
+    background: rgba(31, 63, 147, 0.8) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(255, 255, 255);
+    font: 16px / 16px Ubuntu;
+    outline: rgb(255, 255, 255) none 0px;
+    overflow: hidden;
+    padding: 15px;
+    transition: background-color 0.4s linear 0s;
+}/*#A_143*/
+
+#IMG_144, #IMG_148 {
+    block-size: 50px;
+    border-block-end-color: rgb(255, 255, 255);
+    border-block-start-color: rgb(255, 255, 255);
+    border-inline-end-color: rgb(255, 255, 255);
+    border-inline-start-color: rgb(255, 255, 255);
+    caret-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    column-rule-color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: block;
+    height: 50px;
+    inline-size: 40px;
+    margin-block-end: 6px;
+    margin-block-start: 6px;
+    margin-inline-end: 27.5px;
+    margin-inline-start: 27.5px;
+    perspective-origin: 20px 25px;
+    text-align: center;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-emphasis-color: rgb(255, 255, 255);
+    transform-origin: 20px 25px;
+    width: 40px;
+    border: 0px none rgb(255, 255, 255);
+    font: 16px / 16px Ubuntu;
+    margin: 6px 27.5px;
+    outline: rgb(255, 255, 255) none 0px;
+}/*#IMG_144, #IMG_148*/
+
+#A_147 {
+    block-size: 125px;
+    border-block-end-color: rgb(255, 255, 255);
+    border-block-start-color: rgb(255, 255, 255);
+    border-inline-end-color: rgb(255, 255, 255);
+    border-inline-start-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    caret-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    column-rule-color: rgb(255, 255, 255);
+    display: block;
+    float: left;
+    height: 125px;
+    inline-size: 125px;
+    padding-block-end: 15px;
+    padding-block-start: 15px;
+    padding-inline-end: 15px;
+    padding-inline-start: 15px;
+    perspective-origin: 62.5px 62.5px;
+    text-align: center;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-emphasis-color: rgb(255, 255, 255);
+    transform-origin: 62.5px 62.5px;
+    width: 125px;
+    background: rgb(31, 63, 147) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(255, 255, 255);
+    font: 16px / 16px Ubuntu;
+    outline: rgb(255, 255, 255) none 0px;
+    overflow: hidden;
+    padding: 15px;
+    transition: background-color 0.4s linear 0s;
+}/*#A_147*/
+
+#IMG_152 {
+    block-size: 50px;
+    height: 50px;
+    inline-size: 40px;
+    text-align: center;
+    width: 40px;
+    font: 16px / 16px Ubuntu;
+}/*#IMG_152*/
+
+#DIV_153 {
+    block-size: 378.516px;
+    height: 378.516px;
+    inline-size: 250px;
+    perspective-origin: 125px 189.25px;
+    transform-origin: 125px 189.258px;
+    width: 250px;
+    font: 16px / 16px Ubuntu;
+}/*#DIV_153*/
+
+#DIV_154 {
+    block-size: 353.516px;
+    height: 353.516px;
+    inline-size: 210px;
+    padding-block-start: 25px;
+    padding-inline-end: 20px;
+    padding-inline-start: 20px;
+    perspective-origin: 125px 189.25px;
+    transform-origin: 125px 189.258px;
+    width: 210px;
+    font: 12px / 12px Ubuntu;
+    padding: 25px 20px 0px;
+}/*#DIV_154*/
+
+#H2_155 {
+    block-size: 22px;
+    height: 22px;
+    inline-size: 210px;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+    perspective-origin: 105px 11px;
+    transform-origin: 105px 11px;
+    width: 210px;
+    font: 700 20px / 22px Ubuntu;
+    margin: 0px;
+}/*#H2_155*/
+
+#DIV_156, #DIV_157 {
+    block-size: 317.516px;
+    height: 317.516px;
+    inline-size: 210px;
+    perspective-origin: 105px 158.75px;
+    transform-origin: 105px 158.758px;
+    width: 210px;
+    font: 12px / 12px Ubuntu;
+}/*#DIV_156, #DIV_157*/
+
+#DIV_158 {
+    block-size: 132.562px;
+    height: 132.562px;
+    inline-size: 210px;
+    perspective-origin: 105px 66.2812px;
+    transform-origin: 105px 66.2812px;
+    width: 210px;
+    font: 12px / 12px Ubuntu;
+}/*#DIV_158*/
+
+#DIV_159 {
+    block-size: 16px;
+    height: 16px;
+    inline-size: 210px;
+    margin-block-end: 15px;
+    margin-block-start: 14px;
+    perspective-origin: 105px 8px;
+    transform-origin: 105px 8px;
+    width: 210px;
+    font: 12px / 12px Ubuntu;
+    margin: 14px 0px 15px;
+}/*#DIV_159*/
+
+#SPAN_160, #SPAN_168 {
+    perspective-origin: 0px 0px;
+    transform-origin: 0px 0px;
+    font: 12px / 12px Ubuntu;
+}/*#SPAN_160, #SPAN_168*/
+
+#A_161, #A_169 {
+    border-block-end-color: rgb(1, 25, 110);
+    border-block-start-color: rgb(1, 25, 110);
+    border-inline-end-color: rgb(1, 25, 110);
+    border-inline-start-color: rgb(1, 25, 110);
+    caret-color: rgb(1, 25, 110);
+    color: rgb(1, 25, 110);
+    column-rule-color: rgb(1, 25, 110);
+    perspective-origin: 0px 0px;
+    text-decoration: none solid rgb(1, 25, 110);
+    text-emphasis-color: rgb(1, 25, 110);
+    transform-origin: 0px 0px;
+    border: 0px none rgb(1, 25, 110);
+    font: 700 16px / 16px Ubuntu;
+    outline: rgb(1, 25, 110) none 0px;
+}/*#A_161, #A_169*/
+
+#DIV_162, #DIV_170 {
+    block-size: 12px;
+    border-block-end-color: rgb(127, 127, 127);
+    border-block-start-color: rgb(127, 127, 127);
+    border-inline-end-color: rgb(127, 127, 127);
+    border-inline-start-color: rgb(127, 127, 127);
+    caret-color: rgb(127, 127, 127);
+    color: rgb(127, 127, 127);
+    column-rule-color: rgb(127, 127, 127);
+    height: 12px;
+    inline-size: 210px;
+    perspective-origin: 105px 6px;
+    text-decoration: none solid rgb(127, 127, 127);
+    text-emphasis-color: rgb(127, 127, 127);
+    transform-origin: 105px 6px;
+    width: 210px;
+    border: 0px none rgb(127, 127, 127);
+    font: 12px / 12px Ubuntu;
+    outline: rgb(127, 127, 127) none 0px;
+}/*#DIV_162, #DIV_170*/
+
+#SPAN_163, #SPAN_171 {
+    border-block-end-color: rgb(127, 127, 127);
+    border-block-start-color: rgb(127, 127, 127);
+    border-inline-end-color: rgb(127, 127, 127);
+    border-inline-start-color: rgb(127, 127, 127);
+    caret-color: rgb(127, 127, 127);
+    color: rgb(127, 127, 127);
+    column-rule-color: rgb(127, 127, 127);
+    perspective-origin: 0px 0px;
+    text-decoration: none solid rgb(127, 127, 127);
+    text-emphasis-color: rgb(127, 127, 127);
+    transform-origin: 0px 0px;
+    border: 0px none rgb(127, 127, 127);
+    font: 12px / 12px Ubuntu;
+    outline: rgb(127, 127, 127) none 0px;
+}/*#SPAN_163, #SPAN_171*/
+
+#DIV_164 {
+    block-size: 89.5625px;
+    height: 89.5625px;
+    inline-size: 210px;
+    perspective-origin: 105px 44.7812px;
+    transform-origin: 105px 44.7812px;
+    width: 210px;
+    font: 12px / 12px Ubuntu;
+}/*#DIV_164*/
+
+#DIV_165 {
+    block-size: 89.5625px;
+    height: 89.5625px;
+    inline-size: 210px;
+    perspective-origin: 105px 44.7812px;
+    transform-origin: 105px 44.7812px;
+    width: 210px;
+    font: 16px / 22.4px Ubuntu;
+}/*#DIV_165*/
+
+#DIV_166 {
+    block-size: 170.953px;
+    height: 170.953px;
+    inline-size: 210px;
+    perspective-origin: 105px 85.4688px;
+    transform-origin: 105px 85.4766px;
+    width: 210px;
+    font: 12px / 12px Ubuntu;
+}/*#DIV_166*/
+
+#DIV_167 {
+    block-size: 32px;
+    height: 32px;
+    inline-size: 210px;
+    margin-block-end: 15px;
+    margin-block-start: 14px;
+    perspective-origin: 105px 16px;
+    transform-origin: 105px 16px;
+    width: 210px;
+    font: 12px / 12px Ubuntu;
+    margin: 14px 0px 15px;
+}/*#DIV_167*/
+
+#DIV_172 {
+    block-size: 111.953px;
+    height: 111.953px;
+    inline-size: 210px;
+    perspective-origin: 105px 55.9688px;
+    transform-origin: 105px 55.9766px;
+    width: 210px;
+    font: 12px / 12px Ubuntu;
+}/*#DIV_172*/
+
+#DIV_173 {
+    block-size: 111.953px;
+    height: 111.953px;
+    inline-size: 210px;
+    perspective-origin: 105px 55.9688px;
+    transform-origin: 105px 55.9766px;
+    width: 210px;
+    font: 16px / 22.4px Ubuntu;
+}/*#DIV_173*/
+
+#DIV_174 {
+    block-size: 435px;
+    float: left;
+    height: 435px;
+    inline-size: 650px;
+    perspective-origin: 325px 217.5px;
+    transform-origin: 325px 217.5px;
+    width: 650px;
+    background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
+    font: 16px / 16px Ubuntu;
+}/*#DIV_174*/
+
+#DIV_175, #DIV_176 {
+    block-size: 512px;
+    height: 512px;
+    inline-size: 650px;
+    perspective-origin: 325px 256px;
+    transform-origin: 325px 256px;
+    width: 650px;
+    font: 16px / 16px Ubuntu;
+}/*#DIV_175, #DIV_176*/
+
+#DIV_177 {
+    block-size: 512px;
+    height: 512px;
+    inline-size: 650px;
+    perspective-origin: 325px 256px;
+    transform-origin: 325px 256px;
+    width: 650px;
+    font: 16px / 16px Ubuntu;
+}/*#DIV_177*/
+
+#DIV_178 {
+    block-size: 512px;
+    height: 512px;
+    inline-size: 650px;
+    perspective-origin: 325px 256px;
+    text-align: left;
+    transform-origin: 325px 256px;
+    width: 650px;
+    font: 16px / 16px Ubuntu;
+    overflow: hidden;
+}/*#DIV_178*/
+
+#DIV_179 {
+    block-size: 491px;
+    box-sizing: border-box;
+    float: left;
+    height: 491px;
+    inline-size: 216.656px;
+    perspective-origin: 108.328px 245.5px;
+    text-align: left;
+    transform-origin: 108.328px 245.5px;
+    width: 216.656px;
+    font: 16px / 16px Ubuntu;
+    overflow: hidden;
+}/*#DIV_179*/
+
+#DIV_180, #DIV_181 {
+    block-size: 129px;
+    height: 129px;
+    inline-size: 216.656px;
+    perspective-origin: 108.328px 64.5px;
+    text-align: left;
+    transform-origin: 108.328px 64.5px;
+    width: 216.656px;
+    font: 16px / 16px Ubuntu;
+}/*#DIV_180, #DIV_181*/
+
+#P_182 {
+    block-size: 129px;
+    height: 129px;
+    inline-size: 216.656px;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+    perspective-origin: 108.328px 64.5px;
+    text-align: left;
+    transform-origin: 108.328px 64.5px;
+    width: 216.656px;
+    font: 16px / 16px Ubuntu;
+    margin: 0px;
+}/*#P_182*/
+
+#A_183 {
+    block-size: 129px;
+    border-block-end-color: rgb(255, 255, 255);
+    border-block-start-color: rgb(255, 255, 255);
+    border-inline-end-color: rgb(255, 255, 255);
+    border-inline-start-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    caret-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    column-rule-color: rgb(255, 255, 255);
+    display: block;
+    height: 129px;
+    inline-size: 216.656px;
+    padding-block-start: 25px;
+    padding-inline-start: 30px;
+    perspective-origin: 108.328px 64.5px;
+    text-align: left;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-emphasis-color: rgb(255, 255, 255);
+    transform-origin: 108.328px 64.5px;
+    width: 216.656px;
+    background: rgb(243, 185, 57) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(255, 255, 255);
+    font: 25px / 35px Ubuntu;
+    outline: rgb(255, 255, 255) none 0px;
+    padding: 25px 0px 0px 30px;
+    transition: all 0.6s linear 0s;
+}/*#A_183*/
+
+#BR_184, #BR_209, #BR_231 {
+    border-block-end-color: rgb(255, 255, 255);
+    border-block-start-color: rgb(255, 255, 255);
+    border-inline-end-color: rgb(255, 255, 255);
+    border-inline-start-color: rgb(255, 255, 255);
+    caret-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    column-rule-color: rgb(255, 255, 255);
+    cursor: pointer;
+    perspective-origin: 0px 0px;
+    text-align: left;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-emphasis-color: rgb(255, 255, 255);
+    transform-origin: 0px 0px;
+    border: 0px none rgb(255, 255, 255);
+    font: 25px / 35px Ubuntu;
+    outline: rgb(255, 255, 255) none 0px;
+}/*#BR_184, #BR_209, #BR_231*/
+
+#SPAN_185, #SPAN_210, #SPAN_232 {
+    border-block-end-color: rgb(255, 255, 255);
+    border-block-start-color: rgb(255, 255, 255);
+    border-inline-end-color: rgb(255, 255, 255);
+    border-inline-start-color: rgb(255, 255, 255);
+    caret-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    column-rule-color: rgb(255, 255, 255);
+    cursor: pointer;
+    perspective-origin: 0px 0px;
+    text-align: left;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-emphasis-color: rgb(255, 255, 255);
+    transform-origin: 0px 0px;
+    border: 0px none rgb(255, 255, 255);
+    font: 700 25px / 35px Ubuntu;
+    outline: rgb(255, 255, 255) none 0px;
+}/*#SPAN_185, #SPAN_210, #SPAN_232*/
+
+#DIV_186, #DIV_187 {
+    block-size: 117px;
+    height: 117px;
+    inline-size: 216.656px;
+    perspective-origin: 108.328px 58.5px;
+    text-align: left;
+    transform-origin: 108.328px 58.5px;
+    width: 216.656px;
+    font: 16px / 16px Ubuntu;
+}/*#DIV_186, #DIV_187*/
+
+#IMG_188 {
+    block-size: 115px;
+    height: 115px;
+    inline-size: 217px;
+    perspective-origin: 108.5px 57.5px;
+    text-align: left;
+    transform-origin: 108.5px 57.5px;
+    width: 217px;
+    font: 16px / 16px Ubuntu;
+}/*#IMG_188*/
+
+#DIV_189, #DIV_190 {
+    block-size: 210px;
+    height: 210px;
+    inline-size: 216.656px;
+    perspective-origin: 108.328px 105px;
+    text-align: left;
+    transform-origin: 108.328px 105px;
+    width: 216.656px;
+    font: 16px / 16px Ubuntu;
+}/*#DIV_189, #DIV_190*/
+
+#UL_191 {
+    block-size: 210px;
+    height: 210px;
+    inline-size: 216.656px;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+    padding-inline-start: 0px;
+    perspective-origin: 108.328px 105px;
+    text-align: left;
+    transform-origin: 108.328px 105px;
+    width: 216.656px;
+    font: 16px / 16px Ubuntu;
+    list-style: outside none none;
+    margin: 0px;
+    padding: 0px;
+}/*#UL_191*/
+
+#LI_192 {
+    block-size: 27px;
+    height: 27px;
+    inline-size: 181.656px;
+    padding-block-end: 5px;
+    padding-block-start: 15px;
+    padding-inline-end: 10px;
+    padding-inline-start: 25px;
+    perspective-origin: 108.328px 23.5px;
+    transform-origin: 108.328px 23.5px;
+    width: 181.656px;
+    font: 15px / 21px Ubuntu;
+    list-style: outside none none;
+    padding: 15px 10px 5px 25px;
+}/*#LI_192*/
+
+#LI_193 {
+    block-size: 48px;
+    height: 48px;
+    inline-size: 181.656px;
+    padding-block-end: 5px;
+    padding-inline-end: 10px;
+    padding-inline-start: 25px;
+    perspective-origin: 108.328px 26.5px;
+    transform-origin: 108.328px 26.5px;
+    width: 181.656px;
+    font: 15px / 21px Ubuntu;
+    list-style: outside none none;
+    padding: 0px 10px 5px 25px;
+}/*#LI_193*/
+
+#LI_194 {
+    block-size: 27px;
+    height: 27px;
+    inline-size: 181.656px;
+    padding-block-end: 5px;
+    padding-inline-end: 10px;
+    padding-inline-start: 25px;
+    perspective-origin: 108.328px 16px;
+    transform-origin: 108.328px 16px;
+    width: 181.656px;
+    font: 15px / 21px Ubuntu;
+    list-style: outside none none;
+    padding: 0px 10px 5px 25px;
+}/*#LI_194*/
+
+#LI_195 {
+    block-size: 48px;
+    height: 48px;
+    inline-size: 181.656px;
+    padding-block-end: 30px;
+    padding-inline-end: 10px;
+    padding-inline-start: 25px;
+    perspective-origin: 108.328px 39px;
+    transform-origin: 108.328px 39px;
+    width: 181.656px;
+    font: 15px / 21px Ubuntu;
+    list-style: outside none none;
+    padding: 0px 10px 30px 25px;
+}/*#LI_195*/
+
+#DIV_196, #DIV_197 {
+    block-size: 35px;
+    height: 35px;
+    inline-size: 216.656px;
+    perspective-origin: 108.328px 17.5px;
+    text-align: center;
+    transform-origin: 108.328px 17.5px;
+    width: 216.656px;
+    font: 16px / 16px Ubuntu;
+}/*#DIV_196, #DIV_197*/
+
+#A_198 {
+    block-size: 13px;
+    border-block-end-color: rgb(243, 185, 57);
+    border-block-end-style: solid;
+    border-block-end-width: 1px;
+    border-block-start-color: rgb(243, 185, 57);
+    border-block-start-style: solid;
+    border-block-start-width: 1px;
+    border-end-end-radius: 8px;
+    border-end-start-radius: 8px;
+    border-inline-end-color: rgb(243, 185, 57);
+    border-inline-end-style: solid;
+    border-inline-end-width: 1px;
+    border-inline-start-color: rgb(243, 185, 57);
+    border-inline-start-style: solid;
+    border-inline-start-width: 1px;
+    border-start-end-radius: 8px;
+    border-start-start-radius: 8px;
+    caret-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    column-rule-color: rgb(255, 255, 255);
+    display: inline-block;
+    height: 13px;
+    inline-size: 173.312px;
+    padding-block-end: 10px;
+    padding-block-start: 10px;
+    perspective-origin: 87.6562px 17.5px;
+    text-align: center;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-emphasis-color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    transform-origin: 87.6562px 17.5px;
+    width: 173.312px;
+    background: rgb(243, 185, 57) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 1px solid rgb(243, 185, 57);
+    border-radius: 8px;
+    font: 13px / 13px Ubuntu;
+    outline: rgb(255, 255, 255) none 0px;
+    padding: 10px 0px;
+    transition: all 0.45s linear 0s;
+}/*#A_198*/
+
+#DIV_199, #DIV_224, #DIV_246 {
+    display: none;
+    text-align: left;
+    font: 16px / 16px Ubuntu;
+}/*#DIV_199, #DIV_224, #DIV_246*/
+
+#DIV_200, #DIV_225, #DIV_247 {
+    text-align: left;
+    font: 16px / 16px Ubuntu;
+}/*#DIV_200, #DIV_225, #DIV_247*/
+
+#P_201, #P_202, #P_248, #P_250 {
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+    text-align: left;
+    font: 16px / 16px Ubuntu;
+    margin: 0px;
+}/*#P_201, #P_202, #P_248, #P_250*/
+
+#P_203, #P_249 {
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+    text-align: left;
+    font: 16px / 16px Ubuntu;
+    margin: 0px;
+}/*#P_203, #P_249*/
+
+#DIV_204 {
+    block-size: 512px;
+    border-inline-start-color: rgba(255, 255, 255, 0.35);
+    border-inline-start-style: solid;
+    border-inline-start-width: 1px;
+    box-sizing: border-box;
+    float: left;
+    height: 512px;
+    inline-size: 216.656px;
+    perspective-origin: 108.328px 256px;
+    text-align: left;
+    transform-origin: 108.328px 256px;
+    width: 216.656px;
+    border-left: 1px solid rgba(255, 255, 255, 0.35);
+    font: 16px / 16px Ubuntu;
+    overflow: hidden;
+}/*#DIV_204*/
+
+#DIV_205, #DIV_206, #DIV_227 {
+    block-size: 129px;
+    height: 129px;
+    inline-size: 215.656px;
+    perspective-origin: 107.828px 64.5px;
+    text-align: left;
+    transform-origin: 107.828px 64.5px;
+    width: 215.656px;
+    font: 16px / 16px Ubuntu;
+}/*#DIV_205, #DIV_206, #DIV_227*/
+
+#P_207, #P_229 {
+    block-size: 129px;
+    height: 129px;
+    inline-size: 215.656px;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+    perspective-origin: 107.828px 64.5px;
+    text-align: left;
+    transform-origin: 107.828px 64.5px;
+    width: 215.656px;
+    font: 16px / 16px Ubuntu;
+    margin: 0px;
+}/*#P_207, #P_229*/
+
+#A_208, #A_230 {
+    block-size: 129px;
+    border-block-end-color: rgb(255, 255, 255);
+    border-block-start-color: rgb(255, 255, 255);
+    border-inline-end-color: rgb(255, 255, 255);
+    border-inline-start-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    caret-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    column-rule-color: rgb(255, 255, 255);
+    display: block;
+    height: 129px;
+    inline-size: 215.656px;
+    padding-block-start: 25px;
+    padding-inline-start: 30px;
+    perspective-origin: 107.828px 64.5px;
+    text-align: left;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-emphasis-color: rgb(255, 255, 255);
+    transform-origin: 107.828px 64.5px;
+    width: 215.656px;
+    background: rgb(243, 185, 57) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(255, 255, 255);
+    font: 25px / 35px Ubuntu;
+    outline: rgb(255, 255, 255) none 0px;
+    padding: 25px 0px 0px 30px;
+    transition: all 0.6s linear 0s;
+}/*#A_208, #A_230*/
+
+#DIV_211, #DIV_212, #DIV_233 {
+    block-size: 117px;
+    height: 117px;
+    inline-size: 215.656px;
+    perspective-origin: 107.828px 58.5px;
+    text-align: left;
+    transform-origin: 107.828px 58.5px;
+    width: 215.656px;
+    font: 16px / 16px Ubuntu;
+}/*#DIV_211, #DIV_212, #DIV_233*/
+
+#IMG_213 {
+    block-size: 115px;
+    height: 115px;
+    inline-size: 218px;
+    perspective-origin: 109px 57.5px;
+    text-align: left;
+    transform-origin: 109px 57.5px;
+    width: 218px;
+    font: 16px / 16px Ubuntu;
+}/*#IMG_213*/
+
+#DIV_214, #DIV_215 {
+    block-size: 231px;
+    height: 231px;
+    inline-size: 215.656px;
+    perspective-origin: 107.828px 115.5px;
+    text-align: left;
+    transform-origin: 107.828px 115.5px;
+    width: 215.656px;
+    font: 16px / 16px Ubuntu;
+}/*#DIV_214, #DIV_215*/
+
+#UL_216 {
+    block-size: 231px;
+    height: 231px;
+    inline-size: 215.656px;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+    padding-inline-start: 0px;
+    perspective-origin: 107.828px 115.5px;
+    text-align: left;
+    transform-origin: 107.828px 115.5px;
+    width: 215.656px;
+    font: 16px / 16px Ubuntu;
+    list-style: outside none none;
+    margin: 0px;
+    padding: 0px;
+}/*#UL_216*/
+
+#LI_217 {
+    block-size: 48px;
+    height: 48px;
+    inline-size: 180.656px;
+    padding-block-end: 5px;
+    padding-block-start: 15px;
+    padding-inline-end: 10px;
+    padding-inline-start: 25px;
+    perspective-origin: 107.828px 34px;
+    transform-origin: 107.828px 34px;
+    width: 180.656px;
+    font: 15px / 21px Ubuntu;
+    list-style: outside none none;
+    padding: 15px 10px 5px 25px;
+}/*#LI_217*/
+
+#LI_218 {
+    block-size: 48px;
+    height: 48px;
+    inline-size: 180.656px;
+    padding-block-end: 5px;
+    padding-inline-end: 10px;
+    padding-inline-start: 25px;
+    perspective-origin: 107.828px 26.5px;
+    transform-origin: 107.828px 26.5px;
+    width: 180.656px;
+    font: 15px / 21px Ubuntu;
+    list-style: outside none none;
+    padding: 0px 10px 5px 25px;
+}/*#LI_218*/
+
+#LI_219, #LI_240 {
+    block-size: 27px;
+    height: 27px;
+    inline-size: 180.656px;
+    padding-block-end: 5px;
+    padding-inline-end: 10px;
+    padding-inline-start: 25px;
+    perspective-origin: 107.828px 16px;
+    transform-origin: 107.828px 16px;
+    width: 180.656px;
+    font: 15px / 21px Ubuntu;
+    list-style: outside none none;
+    padding: 0px 10px 5px 25px;
+}/*#LI_219, #LI_240*/
+
+#LI_220 {
+    block-size: 48px;
+    height: 48px;
+    inline-size: 180.656px;
+    padding-block-end: 30px;
+    padding-inline-end: 10px;
+    padding-inline-start: 25px;
+    perspective-origin: 107.828px 39px;
+    transform-origin: 107.828px 39px;
+    width: 180.656px;
+    font: 15px / 21px Ubuntu;
+    list-style: outside none none;
+    padding: 0px 10px 30px 25px;
+}/*#LI_220*/
+
+#DIV_221, #DIV_222, #DIV_243 {
+    block-size: 35px;
+    height: 35px;
+    inline-size: 215.656px;
+    perspective-origin: 107.828px 17.5px;
+    text-align: center;
+    transform-origin: 107.828px 17.5px;
+    width: 215.656px;
+    font: 16px / 16px Ubuntu;
+}/*#DIV_221, #DIV_222, #DIV_243*/
+
+#A_223, #A_245 {
+    block-size: 13px;
+    border-block-end-color: rgb(243, 185, 57);
+    border-block-end-style: solid;
+    border-block-end-width: 1px;
+    border-block-start-color: rgb(243, 185, 57);
+    border-block-start-style: solid;
+    border-block-start-width: 1px;
+    border-end-end-radius: 8px;
+    border-end-start-radius: 8px;
+    border-inline-end-color: rgb(243, 185, 57);
+    border-inline-end-style: solid;
+    border-inline-end-width: 1px;
+    border-inline-start-color: rgb(243, 185, 57);
+    border-inline-start-style: solid;
+    border-inline-start-width: 1px;
+    border-start-end-radius: 8px;
+    border-start-start-radius: 8px;
+    caret-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    column-rule-color: rgb(255, 255, 255);
+    display: inline-block;
+    height: 13px;
+    inline-size: 172.516px;
+    padding-block-end: 10px;
+    padding-block-start: 10px;
+    perspective-origin: 87.25px 17.5px;
+    text-align: center;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-emphasis-color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    transform-origin: 87.2578px 17.5px;
+    width: 172.516px;
+    background: rgb(243, 185, 57) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 1px solid rgb(243, 185, 57);
+    border-radius: 8px;
+    font: 13px / 13px Ubuntu;
+    outline: rgb(255, 255, 255) none 0px;
+    padding: 10px 0px;
+    transition: all 0.45s linear 0s;
+}/*#A_223, #A_245*/
+
+#DIV_226 {
+    block-size: 449px;
+    border-inline-start-color: rgba(255, 255, 255, 0.35);
+    border-inline-start-style: solid;
+    border-inline-start-width: 1px;
+    box-sizing: border-box;
+    float: left;
+    height: 449px;
+    inline-size: 216.656px;
+    perspective-origin: 108.328px 224.5px;
+    text-align: left;
+    transform-origin: 108.328px 224.5px;
+    width: 216.656px;
+    border-left: 1px solid rgba(255, 255, 255, 0.35);
+    font: 16px / 16px Ubuntu;
+    overflow: hidden;
+}/*#DIV_226*/
+
+#DIV_228 {
+    block-size: 129px;
+    height: 129px;
+    inline-size: 215.656px;
+    perspective-origin: 107.828px 64.5px;
+    text-align: left;
+    transform-origin: 107.828px 64.5px;
+    width: 215.656px;
+    font: 16px / 16px Ubuntu;
+}/*#DIV_228*/
+
+#DIV_234 {
+    block-size: 117px;
+    height: 117px;
+    inline-size: 215.656px;
+    perspective-origin: 107.828px 58.5px;
+    text-align: left;
+    transform-origin: 107.828px 58.5px;
+    width: 215.656px;
+    font: 16px / 16px Ubuntu;
+}/*#DIV_234*/
+
+#IMG_235 {
+    block-size: 115px;
+    height: 115px;
+    inline-size: 216px;
+    perspective-origin: 108px 57.5px;
+    text-align: left;
+    transform-origin: 108px 57.5px;
+    width: 216px;
+    font: 16px / 16px Ubuntu;
+}/*#IMG_235*/
+
+
+#DIV_236, #DIV_237 {
+    block-size: 168px;
+    height: 168px;
+    inline-size: 215.656px;
+    perspective-origin: 107.828px 84px;
+    text-align: left;
+    transform-origin: 107.828px 84px;
+    width: 215.656px;
+    font: 16px / 16px Ubuntu;
+}/*#DIV_236, #DIV_237*/
+
+
+#UL_238 {
+    block-size: 168px;
+    height: 168px;
+    inline-size: 215.656px;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+    padding-inline-start: 0px;
+    perspective-origin: 107.828px 84px;
+    text-align: left;
+    transform-origin: 107.828px 84px;
+    width: 215.656px;
+    font: 16px / 16px Ubuntu;
+    list-style: outside none none;
+    margin: 0px;
+    padding: 0px;
+}/*#UL_238*/
+
+
+
+#LI_239 {
+    block-size: 27px;
+    height: 27px;
+    inline-size: 180.656px;
+    padding-block-end: 5px;
+    padding-block-start: 15px;
+    padding-inline-end: 10px;
+    padding-inline-start: 25px;
+    perspective-origin: 107.828px 23.5px;
+    transform-origin: 107.828px 23.5px;
+    width: 180.656px;
+    font: 15px / 21px Ubuntu;
+    list-style: outside none none;
+    padding: 15px 10px 5px 25px;
+}/*#LI_239*/
+
+
+
+#LI_241 {
+    block-size: 27px;
+    height: 27px;
+    inline-size: 180.656px;
+    padding-block-end: 5px;
+    padding-inline-end: 10px;
+    padding-inline-start: 25px;
+    perspective-origin: 107.828px 16px;
+    transform-origin: 107.828px 16px;
+    width: 180.656px;
+    font: 15px / 21px Ubuntu;
+    list-style: outside none none;
+    padding: 0px 10px 5px 25px;
+}/*#LI_241*/
+
+
+
+#LI_242 {
+    block-size: 27px;
+    height: 27px;
+    inline-size: 180.656px;
+    padding-block-end: 30px;
+    padding-inline-end: 10px;
+    padding-inline-start: 25px;
+    perspective-origin: 107.828px 28.5px;
+    transform-origin: 107.828px 28.5px;
+    width: 180.656px;
+    font: 15px / 21px Ubuntu;
+    list-style: outside none none;
+    padding: 0px 10px 30px 25px;
+}/*#LI_242*/
+
+
+
+#DIV_244 {
+    block-size: 35px;
+    height: 35px;
+    inline-size: 215.656px;
+    perspective-origin: 107.828px 17.5px;
+    text-align: center;
+    transform-origin: 107.828px 17.5px;
+    width: 215.656px;
+    font: 16px / 16px Ubuntu;
+}/*#DIV_244*/
+
