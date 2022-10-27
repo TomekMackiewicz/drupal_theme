@@ -184,10 +184,6 @@
 }/*#DIV_3*/
 
 #IMG_7, #IMG_11, #IMG_15, #IMG_19, #IMG_24, #IMG_28, #IMG_32, #IMG_36 {
-    border-block-end-color: rgb(0, 0, 238);
-    border-block-start-color: rgb(0, 0, 238);
-    border-inline-end-color: rgb(0, 0, 238);
-    border-inline-start-color: rgb(0, 0, 238);
     border: 0px none rgb(0, 0, 238);
     outline: rgb(0, 0, 238) none 0px;
     caret-color: rgb(0, 0, 238);
@@ -206,10 +202,6 @@
 }
 
 #SPAN_8, #SPAN_12, #SPAN_16, #SPAN_20, #SPAN_25, #SPAN_29, #SPAN_33, #SPAN_37 {
-    border-block-end-color: rgb(0, 0, 238);
-    border-block-start-color: rgb(0, 0, 238);
-    border-inline-end-color: rgb(0, 0, 238);
-    border-inline-start-color: rgb(0, 0, 238);
     color: rgb(0, 0, 238);
     column-rule-color: rgb(0, 0, 238);
     text-emphasis-color: rgb(0, 0, 238);
@@ -399,14 +391,6 @@
 
 #A_47 {
     block-size: 125px;
-    border-block-end-color: rgba(255, 255, 255, 0.35);
-    border-block-end-style: solid;
-    border-block-end-width: 1px;
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgba(255, 255, 255, 0.35);
-    border-inline-end-style: solid;
-    border-inline-end-width: 1px;
-    border-inline-start-color: rgb(255, 255, 255);
     box-sizing: border-box;
     caret-color: rgb(255, 255, 255);
     color: rgb(255, 255, 255);
@@ -430,7 +414,6 @@
     border-right: 1px solid rgba(255, 255, 255, 0.35);
     border-bottom: 1px solid rgba(255, 255, 255, 0.35);
     border-left: 0px none rgb(255, 255, 255);
-    
     outline: rgb(255, 255, 255) none 0px;
     overflow: hidden;
     padding: 15px;
@@ -439,10 +422,6 @@
 
 #IMG_48, #IMG_52 {
     block-size: 53px;
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
     caret-color: rgb(255, 255, 255);
     color: rgb(255, 255, 255);
     column-rule-color: rgb(255, 255, 255);
@@ -461,16 +440,11 @@
     transform-origin: 29.5px 26.5px;
     width: 59px;
     border: 0px none rgb(255, 255, 255);
-    
     margin: 6px 17.5px;
     outline: rgb(255, 255, 255) none 0px;
 }/*#IMG_48, #IMG_52*/
 
 #SPAN_49, #SPAN_53, #SPAN_62, #SPAN_66, #SPAN_75, #SPAN_79, #SPAN_88, #SPAN_92, #SPAN_106, #SPAN_110, #SPAN_119, #SPAN_123, #SPAN_132, #SPAN_136, #SPAN_145, #SPAN_149 {
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
     caret-color: rgb(255, 255, 255);
     color: rgb(255, 255, 255);
     column-rule-color: rgb(255, 255, 255);
@@ -481,7 +455,6 @@
     text-emphasis-color: rgb(255, 255, 255);
     transform-origin: 0px 0px;
     border: 0px none rgb(255, 255, 255);
-    
     outline: rgb(255, 255, 255) none 0px;
 }/*#SPAN_49, #SPAN_53, #SPAN_62, #SPAN_66, #SPAN_75, #SPAN_79, #SPAN_88, #SPAN_92, #SPAN_106, #SPAN_110, #SPAN_119, #SPAN_123, #SPAN_132, #SPAN_136, #SPAN_145, #SPAN_149*/
 
@@ -504,19 +477,10 @@
     width: 125px;
     z-index: 2;
     background: rgb(65, 211, 192) none repeat scroll 0% 0% / auto padding-box border-box;
-    
 }/*#DIV_50, #DIV_63, #DIV_76, #DIV_89, #DIV_107, #DIV_120, #DIV_133, #DIV_146*/
 
 #A_51 {
     block-size: 125px;
-    border-block-end-color: rgba(255, 255, 255, 0.35);
-    border-block-end-style: solid;
-    border-block-end-width: 1px;
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgba(255, 255, 255, 0.35);
-    border-inline-end-style: solid;
-    border-inline-end-width: 1px;
-    border-inline-start-color: rgb(255, 255, 255);
     box-sizing: border-box;
     caret-color: rgb(255, 255, 255);
     color: rgb(255, 255, 255);
@@ -540,7 +504,6 @@
     border-right: 1px solid rgba(255, 255, 255, 0.35);
     border-bottom: 1px solid rgba(255, 255, 255, 0.35);
     border-left: 0px none rgb(255, 255, 255);
-    
     outline: rgb(255, 255, 255) none 0px;
     overflow: hidden;
     padding: 15px;
@@ -566,7 +529,6 @@
     top: 0px;
     width: 125px;
     z-index: 2;
-    
 }/*#DIV_55, #DIV_68, #DIV_81, #DIV_94, #DIV_112, #DIV_125, #DIV_138, #DIV_151*/
 
 #IMG_56 {
@@ -575,17 +537,10 @@
     inline-size: 59px;
     text-align: center;
     width: 59px;
-    
 }/*#IMG_56*/
 
 #A_60 {
     block-size: 125px;
-    border-block-end-color: rgba(255, 255, 255, 0.35);
-    border-block-end-style: solid;
-    border-block-end-width: 1px;
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
     box-sizing: border-box;
     caret-color: rgb(255, 255, 255);
     color: rgb(255, 255, 255);
@@ -609,7 +564,6 @@
     border-right: 0px none rgb(255, 255, 255);
     border-bottom: 1px solid rgba(255, 255, 255, 0.35);
     border-left: 0px none rgb(255, 255, 255);
-    
     outline: rgb(255, 255, 255) none 0px;
     overflow: hidden;
     padding: 15px;
@@ -618,10 +572,6 @@
 
 #IMG_61, #IMG_65 {
     block-size: 50px;
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
     caret-color: rgb(255, 255, 255);
     color: rgb(255, 255, 255);
     column-rule-color: rgb(255, 255, 255);
@@ -640,19 +590,12 @@
     transform-origin: 19px 25px;
     width: 38px;
     border: 0px none rgb(255, 255, 255);
-    
     margin: 6px 28.5px;
     outline: rgb(255, 255, 255) none 0px;
 }/*#IMG_61, #IMG_65*/
 
 #A_64 {
     block-size: 125px;
-    border-block-end-color: rgba(255, 255, 255, 0.35);
-    border-block-end-style: solid;
-    border-block-end-width: 1px;
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
     box-sizing: border-box;
     caret-color: rgb(255, 255, 255);
     color: rgb(255, 255, 255);
@@ -676,7 +619,6 @@
     border-right: 0px none rgb(255, 255, 255);
     border-bottom: 1px solid rgba(255, 255, 255, 0.35);
     border-left: 0px none rgb(255, 255, 255);
-    
     outline: rgb(255, 255, 255) none 0px;
     overflow: hidden;
     padding: 15px;
@@ -689,17 +631,10 @@
     inline-size: 38px;
     text-align: center;
     width: 38px;
-    
 }/*#IMG_69*/
 
 #A_73 {
     block-size: 125px;
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgba(255, 255, 255, 0.35);
-    border-inline-end-style: solid;
-    border-inline-end-width: 1px;
-    border-inline-start-color: rgb(255, 255, 255);
     box-sizing: border-box;
     caret-color: rgb(255, 255, 255);
     color: rgb(255, 255, 255);
@@ -723,7 +658,6 @@
     border-right: 1px solid rgba(255, 255, 255, 0.35);
     border-bottom: 0px none rgb(255, 255, 255);
     border-left: 0px none rgb(255, 255, 255);
-    
     outline: rgb(255, 255, 255) none 0px;
     overflow: hidden;
     padding: 15px;
@@ -732,10 +666,6 @@
 
 #IMG_74, #IMG_78 {
     block-size: 49px;
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
     caret-color: rgb(255, 255, 255);
     color: rgb(255, 255, 255);
     column-rule-color: rgb(255, 255, 255);
@@ -754,19 +684,12 @@
     transform-origin: 38.5px 24.5px;
     width: 77px;
     border: 0px none rgb(255, 255, 255);
-    
     margin: 6px 8.5px;
     outline: rgb(255, 255, 255) none 0px;
 }/*#IMG_74, #IMG_78*/
 
 #A_77 {
     block-size: 125px;
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgba(255, 255, 255, 0.35);
-    border-inline-end-style: solid;
-    border-inline-end-width: 1px;
-    border-inline-start-color: rgb(255, 255, 255);
     box-sizing: border-box;
     caret-color: rgb(255, 255, 255);
     color: rgb(255, 255, 255);
@@ -790,7 +713,6 @@
     border-right: 1px solid rgba(255, 255, 255, 0.35);
     border-bottom: 0px none rgb(255, 255, 255);
     border-left: 0px none rgb(255, 255, 255);
-    
     outline: rgb(255, 255, 255) none 0px;
     overflow: hidden;
     padding: 15px;
@@ -803,15 +725,10 @@
     inline-size: 77px;
     text-align: center;
     width: 77px;
-    
 }/*#IMG_82*/
 
 #A_86 {
     block-size: 125px;
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
     box-sizing: border-box;
     caret-color: rgb(255, 255, 255);
     color: rgb(255, 255, 255);
@@ -832,7 +749,6 @@
     width: 125px;
     background: rgba(181, 26, 23, 0.8) none repeat scroll 0% 0% / auto padding-box border-box;
     border: 0px none rgb(255, 255, 255);
-    
     outline: rgb(255, 255, 255) none 0px;
     overflow: hidden;
     padding: 15px;
@@ -841,10 +757,6 @@
 
 #IMG_87, #IMG_91 {
     block-size: 60px;
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
     caret-color: rgb(255, 255, 255);
     color: rgb(255, 255, 255);
     column-rule-color: rgb(255, 255, 255);
@@ -863,17 +775,12 @@
     transform-origin: 26.5px 30px;
     width: 53px;
     border: 0px none rgb(255, 255, 255);
-    
     margin: 6px 21px;
     outline: rgb(255, 255, 255) none 0px;
 }/*#IMG_87, #IMG_91*/
 
 #A_90 {
     block-size: 125px;
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
     box-sizing: border-box;
     caret-color: rgb(255, 255, 255);
     color: rgb(255, 255, 255);
@@ -894,7 +801,6 @@
     width: 125px;
     background: rgb(181, 26, 23) none repeat scroll 0% 0% / auto padding-box border-box;
     border: 0px none rgb(255, 255, 255);
-    
     outline: rgb(255, 255, 255) none 0px;
     overflow: hidden;
     padding: 15px;
@@ -907,7 +813,6 @@
     inline-size: 53px;
     text-align: center;
     width: 53px;
-    
 }/*#IMG_95*/
 
 #DIV_96 {
@@ -930,7 +835,6 @@
     transform-origin: 125px 314.258px;
     width: 250px;
     background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
-    
     margin: -121px 0px 30px;
 }/*#DIV_96*/
 
@@ -941,7 +845,6 @@
     perspective-origin: 125px 125px;
     transform-origin: 125px 125px;
     width: 250px;
-    
 }/*#DIV_98*/
 
 #DIV_99 {
@@ -954,19 +857,10 @@
     transform-origin: 125px 125px;
     width: 250px;
     background: rgba(0, 0, 0, 0) url("https://www.bwcs.pl/sites/all/themes/webmedio/images/xtlo-kafelki-B,aW.jpg.pagespeed.ic.CqfycnFule.webp") repeat scroll 80% 98.4% / auto padding-box border-box;
-    
 }/*#DIV_99*/
 
 #A_104 {
     block-size: 125px;
-    border-block-end-color: rgba(255, 255, 255, 0.35);
-    border-block-end-style: solid;
-    border-block-end-width: 1px;
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgba(255, 255, 255, 0.35);
-    border-inline-end-style: solid;
-    border-inline-end-width: 1px;
-    border-inline-start-color: rgb(255, 255, 255);
     box-sizing: border-box;
     caret-color: rgb(255, 255, 255);
     color: rgb(255, 255, 255);
@@ -999,10 +893,6 @@
 
 #IMG_105, #IMG_109 {
     block-size: 41px;
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
     caret-color: rgb(255, 255, 255);
     color: rgb(255, 255, 255);
     column-rule-color: rgb(255, 255, 255);
@@ -1028,14 +918,6 @@
 
 #A_108 {
     block-size: 125px;
-    border-block-end-color: rgba(255, 255, 255, 0.35);
-    border-block-end-style: solid;
-    border-block-end-width: 1px;
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgba(255, 255, 255, 0.35);
-    border-inline-end-style: solid;
-    border-inline-end-width: 1px;
-    border-inline-start-color: rgb(255, 255, 255);
     box-sizing: border-box;
     caret-color: rgb(255, 255, 255);
     color: rgb(255, 255, 255);
@@ -1077,12 +959,6 @@
 
 #A_117 {
     block-size: 125px;
-    border-block-end-color: rgba(255, 255, 255, 0.35);
-    border-block-end-style: solid;
-    border-block-end-width: 1px;
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
     box-sizing: border-box;
     caret-color: rgb(255, 255, 255);
     color: rgb(255, 255, 255);
@@ -1115,10 +991,6 @@
 
 #IMG_118, #IMG_122 {
     block-size: 44px;
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
     caret-color: rgb(255, 255, 255);
     color: rgb(255, 255, 255);
     column-rule-color: rgb(255, 255, 255);
@@ -1144,12 +1016,6 @@
 
 #A_121 {
     block-size: 125px;
-    border-block-end-color: rgba(255, 255, 255, 0.35);
-    border-block-end-style: solid;
-    border-block-end-width: 1px;
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
     box-sizing: border-box;
     caret-color: rgb(255, 255, 255);
     color: rgb(255, 255, 255);
@@ -1191,12 +1057,6 @@
 
 #A_130 {
     block-size: 125px;
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgba(255, 255, 255, 0.35);
-    border-inline-end-style: solid;
-    border-inline-end-width: 1px;
-    border-inline-start-color: rgb(255, 255, 255);
     box-sizing: border-box;
     caret-color: rgb(255, 255, 255);
     color: rgb(255, 255, 255);
@@ -1229,10 +1089,6 @@
 
 #IMG_131, #IMG_135 {
     block-size: 49px;
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
     caret-color: rgb(255, 255, 255);
     color: rgb(255, 255, 255);
     column-rule-color: rgb(255, 255, 255);
@@ -1258,12 +1114,6 @@
 
 #A_134 {
     block-size: 125px;
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgba(255, 255, 255, 0.35);
-    border-inline-end-style: solid;
-    border-inline-end-width: 1px;
-    border-inline-start-color: rgb(255, 255, 255);
     box-sizing: border-box;
     caret-color: rgb(255, 255, 255);
     color: rgb(255, 255, 255);
@@ -1305,10 +1155,6 @@
 
 #A_143 {
     block-size: 125px;
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
     box-sizing: border-box;
     caret-color: rgb(255, 255, 255);
     color: rgb(255, 255, 255);
@@ -1338,10 +1184,6 @@
 
 #IMG_144, #IMG_148 {
     block-size: 50px;
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
     caret-color: rgb(255, 255, 255);
     color: rgb(255, 255, 255);
     column-rule-color: rgb(255, 255, 255);
@@ -1367,10 +1209,6 @@
 
 #A_147 {
     block-size: 125px;
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
     box-sizing: border-box;
     caret-color: rgb(255, 255, 255);
     color: rgb(255, 255, 255);
@@ -1484,10 +1322,6 @@
 }/*#SPAN_160, #SPAN_168*/
 
 #A_161, #A_169 {
-    border-block-end-color: rgb(1, 25, 110);
-    border-block-start-color: rgb(1, 25, 110);
-    border-inline-end-color: rgb(1, 25, 110);
-    border-inline-start-color: rgb(1, 25, 110);
     caret-color: rgb(1, 25, 110);
     color: rgb(1, 25, 110);
     column-rule-color: rgb(1, 25, 110);
@@ -1502,10 +1336,6 @@
 
 #DIV_162, #DIV_170 {
     block-size: 12px;
-    border-block-end-color: rgb(127, 127, 127);
-    border-block-start-color: rgb(127, 127, 127);
-    border-inline-end-color: rgb(127, 127, 127);
-    border-inline-start-color: rgb(127, 127, 127);
     caret-color: rgb(127, 127, 127);
     color: rgb(127, 127, 127);
     column-rule-color: rgb(127, 127, 127);
@@ -1522,10 +1352,6 @@
 }/*#DIV_162, #DIV_170*/
 
 #SPAN_163, #SPAN_171 {
-    border-block-end-color: rgb(127, 127, 127);
-    border-block-start-color: rgb(127, 127, 127);
-    border-inline-end-color: rgb(127, 127, 127);
-    border-inline-start-color: rgb(127, 127, 127);
     caret-color: rgb(127, 127, 127);
     color: rgb(127, 127, 127);
     column-rule-color: rgb(127, 127, 127);
@@ -1686,10 +1512,6 @@
 
 #A_183 {
     block-size: 129px;
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
     box-sizing: border-box;
     caret-color: rgb(255, 255, 255);
     color: rgb(255, 255, 255);
@@ -1714,10 +1536,6 @@
 }/*#A_183*/
 
 #BR_184, #BR_209, #BR_231 {
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
     caret-color: rgb(255, 255, 255);
     color: rgb(255, 255, 255);
     column-rule-color: rgb(255, 255, 255);
@@ -1733,10 +1551,6 @@
 }/*#BR_184, #BR_209, #BR_231*/
 
 #SPAN_185, #SPAN_210, #SPAN_232 {
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
     caret-color: rgb(255, 255, 255);
     color: rgb(255, 255, 255);
     column-rule-color: rgb(255, 255, 255);
@@ -1797,22 +1611,6 @@
 
 #A_198 {
     block-size: 13px;
-    border-block-end-color: rgb(243, 185, 57);
-    border-block-end-style: solid;
-    border-block-end-width: 1px;
-    border-block-start-color: rgb(243, 185, 57);
-    border-block-start-style: solid;
-    border-block-start-width: 1px;
-    border-end-end-radius: 8px;
-    border-end-start-radius: 8px;
-    border-inline-end-color: rgb(243, 185, 57);
-    border-inline-end-style: solid;
-    border-inline-end-width: 1px;
-    border-inline-start-color: rgb(243, 185, 57);
-    border-inline-start-style: solid;
-    border-inline-start-width: 1px;
-    border-start-end-radius: 8px;
-    border-start-start-radius: 8px;
     caret-color: rgb(255, 255, 255);
     color: rgb(255, 255, 255);
     column-rule-color: rgb(255, 255, 255);
@@ -1866,9 +1664,6 @@
 
 #DIV_204 {
     block-size: 512px;
-    border-inline-start-color: rgba(255, 255, 255, 0.35);
-    border-inline-start-style: solid;
-    border-inline-start-width: 1px;
     box-sizing: border-box;
     float: left;
     height: 512px;
@@ -1909,10 +1704,6 @@
 
 #A_208, #A_230 {
     block-size: 129px;
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
     box-sizing: border-box;
     caret-color: rgb(255, 255, 255);
     color: rgb(255, 255, 255);
@@ -1982,22 +1773,6 @@
 
 #A_223, #A_245 {
     block-size: 13px;
-    border-block-end-color: rgb(243, 185, 57);
-    border-block-end-style: solid;
-    border-block-end-width: 1px;
-    border-block-start-color: rgb(243, 185, 57);
-    border-block-start-style: solid;
-    border-block-start-width: 1px;
-    border-end-end-radius: 8px;
-    border-end-start-radius: 8px;
-    border-inline-end-color: rgb(243, 185, 57);
-    border-inline-end-style: solid;
-    border-inline-end-width: 1px;
-    border-inline-start-color: rgb(243, 185, 57);
-    border-inline-start-style: solid;
-    border-inline-start-width: 1px;
-    border-start-end-radius: 8px;
-    border-start-start-radius: 8px;
     caret-color: rgb(255, 255, 255);
     color: rgb(255, 255, 255);
     column-rule-color: rgb(255, 255, 255);
@@ -2024,9 +1799,6 @@
 
 #DIV_226 {
     block-size: 449px;
-    border-inline-start-color: rgba(255, 255, 255, 0.35);
-    border-inline-start-style: solid;
-    border-inline-start-width: 1px;
     box-sizing: border-box;
     float: left;
     height: 449px;
