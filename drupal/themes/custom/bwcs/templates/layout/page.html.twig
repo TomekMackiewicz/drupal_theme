@@ -129,7 +129,7 @@
         </aside>
       </div>
     {% endif %}
-    {% if page.featured_top %}
+    {# {% if page.featured_top %}
       {% block featured %}
         <div class="featured-top">
           <aside class="featured-top__inner section {{ container }} clearfix" role="complementary">
@@ -137,13 +137,14 @@
           </aside>
         </div>
       {% endblock %}
-    {% endif %}
+    {% endif %} #}
     <div id="main-wrapper" class="layout-main-wrapper clearfix">
       {% block content %}
         <div id="main" class="{{ container }}">
           {{ page.breadcrumb }}
           {% if is_front %}
             {{ include('@bwcs/layout/test.html.twig') }}
+            
           {% endif %}
           <div class="row row-offcanvas row-offcanvas-left clearfix">
               <main{{ content_attributes }}>
