@@ -122,13 +122,13 @@
         </nav>
       {% endblock %}
     </header>
-    {% if page.highlighted %}
+    {# {% if page.highlighted %}
       <div class="highlighted">
         <aside class="{{ container }} section clearfix" role="complementary">
           {{ page.highlighted }}
         </aside>
       </div>
-    {% endif %}
+    {% endif %} #}
     {# {% if page.featured_top %}
       {% block featured %}
         <div class="featured-top">
@@ -144,7 +144,13 @@
           {{ page.breadcrumb }}
           {% if is_front %}
             {{ include('@bwcs/layout/test.html.twig') }}
-            
+            {% if page.highlighted %}
+              <div class="highlighted">
+                <aside class="{{ container }} section clearfix" role="complementary">
+                  {{ page.highlighted }}
+                </aside>
+              </div>
+            {% endif %}
           {% endif %}
           <div class="row row-offcanvas row-offcanvas-left clearfix">
               <main{{ content_attributes }}>

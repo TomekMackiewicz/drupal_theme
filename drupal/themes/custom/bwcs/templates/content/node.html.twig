@@ -83,10 +83,11 @@
     {{ title_suffix }}
     {% if display_submitted %}
       <div class="node__meta">
-        {{ author_picture }}
+        {# {{ author_picture }} #}
         {% block submitted %}
           <em{{ author_attributes }}>
-            {% trans %}Submitted by {{ author_name }} on {{ date }}{% endtrans %}
+            {# {% trans %}Submitted by {{ author_name }} on {{ date }}{% endtrans %} #}
+            {{ date }}
           </em>
         {% endblock %}
         {{ metadata }}
