@@ -122,66 +122,56 @@
         </nav>
       {% endblock %}
     </header>
-    {# {% if page.highlighted %}
-      <div class="highlighted">
-        <aside class="{{ container }} section clearfix" role="complementary">
-          {{ page.highlighted }}
-        </aside>
-      </div>
-    {% endif %} #}
-    {# {% if page.featured_top %}
-      {% block featured %}
-        <div class="featured-top">
-          <aside class="featured-top__inner section {{ container }} clearfix" role="complementary">
-            {{ page.featured_top }}
-          </aside>
-        </div>
-      {% endblock %}
-    {% endif %} #}
+
     <div id="main-wrapper" class="layout-main-wrapper clearfix">
       {% block content %}
-        <div id="main" class="{{ container }}">
+        <div id="main" class="{{ container }} p-0">
           {{ page.breadcrumb }}
+
           {% if is_front %}
             {{ include('@bwcs/layout/test.html.twig') }}
             {% if page.highlighted %}
               {# Shadow wrapper #}
-              <div class="container-fluid">
-                <div class="shadow-wraper">
-                  <div class="shadow-center-wraper">
-                    <div class="main-shadow"></div>
-                  </div>
-                </div>              
+              <div class="shadow-wraper">
+                <div class="shadow-center-wraper">
+                  <div class="main-shadow"></div>
+                </div>
               </div>
-              <div class="container">
-                <aside class="highlighted-pages-top-box clearfix" role="complementary">
-                  {{ page.highlighted }}
-                </aside>
+              <div class="row g-0">
+                <div class="col-lg-8 offset-lg-2 col-md-12">
+                  <aside class="highlighted-pages-top-box clearfix" role="complementary">
+                    {{ page.highlighted }}
+                  </aside>
+                </div>
               </div>
             {% endif %}
           {% endif %}
-          <div class="row row-offcanvas row-offcanvas-left clearfix">
-              <main{{ content_attributes }}>
-                <section class="section">
-                  <a id="main-content" tabindex="-1"></a>
-                  {{ page.content }}
-                </section>
-              </main>
-            {% if page.sidebar_first %}
-              <div{{ sidebar_first_attributes }}>
-                <aside class="section" role="complementary">
-                  {{ page.sidebar_first }}
-                </aside>
-              </div>
-            {% endif %}
-            {% if page.sidebar_second %}
-              <div{{ sidebar_second_attributes }}>
-                <aside class="section" role="complementary">
-                  {{ page.sidebar_second }}
-                </aside>
-              </div>
-            {% endif %}
-          </div>
+
+          {% if not is_front %}
+            <div class="row g-0 row-offcanvas row-offcanvas-left clearfix">
+                <main{{ content_attributes }}>
+                  <section class="section">
+                    <a id="main-content" tabindex="-1"></a>
+                    {{ page.content }}
+                  </section>
+                </main>
+              {% if page.sidebar_first %}
+                <div{{ sidebar_first_attributes }}>
+                  <aside class="section" role="complementary">
+                    {{ page.sidebar_first }}
+                  </aside>
+                </div>
+              {% endif %}
+              {% if page.sidebar_second %}
+                <div{{ sidebar_second_attributes }}>
+                  <aside class="section" role="complementary">
+                    {{ page.sidebar_second }}
+                  </aside>
+                </div>
+              {% endif %}
+            </div>
+          {% endif %}
+
         </div>
       {% endblock %}
     </div>

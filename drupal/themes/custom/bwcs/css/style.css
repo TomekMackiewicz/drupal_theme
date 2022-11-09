@@ -305,7 +305,7 @@
 }
 
 
-/*** Shadow wraper ***/
+/********** SHADOW WRAPER **********/
 
 .shadow-wraper {
     width: 100%;
@@ -358,4 +358,38 @@
     -o-transform: rotate(-1deg);
     -ms-transform: rotate(-1deg);
     transform: rotate(-1deg);    
+}
+
+
+/********** PAGE **********/
+
+.no-slider {
+    height: 400px;
+    background-color: #1f1f1f;
+    background-attachment: fixed;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-size: cover!important;
+    background-image: url('/sites/default/files/2022-11/banner-warszawa.jpg')!important;
+}
+
+.wraper-page-width {
+    position: relative;
+    height: 100%;
+    width: 1150px;
+    margin: auto;    
+}
+
+.slider-mini-title {
+    position: absolute;
+    display: inline-block;
+    bottom: 30px;
+    font-size: 23px;
+    padding: 10px 20px;
+    background-color: #f3b939;
+    color: #fff;
+    letter-spacing: 1px;
+    max-width: 550px;
+    line-height: 140%;    
 }
