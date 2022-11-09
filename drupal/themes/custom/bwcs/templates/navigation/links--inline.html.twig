@@ -45,7 +45,7 @@
         <h2{{ heading.attributes }}>{{ heading.text }}</h2>
       {%- endif -%}
     {%- endif -%}
-    <nav{{ attributes.addClass(['nav', 'links-inline']) }}>
+    <nav{{ attributes.addClass(['nav', 'links-inline', 'justify-content-end']) }}>
       {%- for key, item in links -%}
         <span{{ item.attributes.addClass(key|clean_class, 'nav-link') }}>
           {%- if item.link -%}

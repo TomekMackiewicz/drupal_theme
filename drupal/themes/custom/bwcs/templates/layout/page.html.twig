@@ -145,8 +145,16 @@
           {% if is_front %}
             {{ include('@bwcs/layout/test.html.twig') }}
             {% if page.highlighted %}
-              <div class="highlighted">
-                <aside class="{{ container }} section clearfix" role="complementary">
+              {# Shadow wrapper #}
+              <div class="container-fluid">
+                <div class="shadow-wraper">
+                  <div class="shadow-center-wraper">
+                    <div class="main-shadow"></div>
+                  </div>
+                </div>              
+              </div>
+              <div class="container">
+                <aside class="highlighted-pages-top-box clearfix" role="complementary">
                   {{ page.highlighted }}
                 </aside>
               </div>
