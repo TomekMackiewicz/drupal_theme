@@ -148,10 +148,40 @@
 
 .slider {
     display: block;
-    height: 634px;
-    background-color: green;
+    max-height: 634px;
+    margin-bottom: 0!important;
 }
 
+.camera_pag {
+    margin: -60px auto 0 auto;
+}
+
+.camera_pag_ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+.camera_pag .camera_pag_ul li {
+    border-color: #fff;
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 50%;
+    background-color: transparent;
+}
+
+.camera_pag .camera_pag_ul li.cameracurrent {
+    border-color: #f3b939;
+}
+
+.camera_pag .camera_pag_ul li span {
+    display: none;
+}
+
+.camera_commands, .camera_play, .camera_stop, .camera_prev, .camera_next {
+    display: none !important;
+}
 
 /********** BOXES **********/
 
@@ -161,6 +191,10 @@
 
 .blue {
     background-color: #1f3f93;
+}
+
+.red-column, .blue-column {
+    z-index: 100;
 }
 
 .yellow-link {

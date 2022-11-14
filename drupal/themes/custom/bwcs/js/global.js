@@ -14,14 +14,10 @@
   };
 
   $(document).ready(function() {
-    // var linksCarousel = document.querySelector('#linksCarousel')
-    // var carousel = new bootstrap.Carousel(linksCarousel, {
-    //   interval: false,
-    //   wrap: false
-    // });
     prepareMenu();
     //searchForm();
     initCarousel();
+    initCamera();
   });
 
 })(jQuery, Drupal);
@@ -133,4 +129,8 @@ function initCarousel() {
           next = next.nextElementSibling
       }
   })
+}
+
+function initCamera() {
+  jQuery('.slider').camera();
 }
