@@ -9,22 +9,21 @@
 <div{{ attributes.addClass(classes) }}>
     <div class="whyus-inner">
         <div class="whyus-view-content">
-
-<div class="whyus-title">
-            {{ title_prefix }}
-            {% if label %}
-                <h2{{ title_attributes }}>{{ label }}</h2>
-            {% endif %}
-            {{ title_suffix }}
-</div>
-<div class="whyus-body">
-            {% block content %}
-                <div{{ content_attributes.addClass('content') }}>
-                {{ content }}
-                </div>
-            {% endblock %}
-</div>
-<div class="whyus-bg"></div>
+            <div class="whyus-title">
+                {{ title_prefix }}
+                {% if label %}
+                    <h2{{ title_attributes }}>{{ label }}</h2>
+                {% endif %}
+                {{ title_suffix }}
+            </div>
+            <div class="whyus-body">
+                {% block content %}
+                    <div{{ content_attributes.addClass('content') }}>
+                    {{ content }}
+                    </div>
+                {% endblock %}
+            </div>
+            <div class="whyus-bg"></div>
         </div>
     </div>
 </div>

@@ -406,7 +406,7 @@
 }
 
 
-/********** WHY US *********≥768px*/
+/********** WHY US **********/
 
 @media (min-width: 992px) {
     .whyus, .whyus-inner {
@@ -484,4 +484,61 @@
     background-size: cover;
     background-attachment: fixed;
     background-image: url('/sites/default/files/2022-11/banner_big.jpg');
+}
+
+/********** CAROUSEL **********/
+
+@media (max-width: 767px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+.carousel-inner {
+    min-height: 150px;
+}
+
+/* medium and up screens */
+@media (min-width: 768px) {
+    
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next {
+      transform: translateX(25%);
+    }
+    
+    .carousel-inner .carousel-item-start.active, 
+    .carousel-inner .carousel-item-prev {
+      transform: translateX(-25%);
+    }
+}
+
+.carousel-col {
+    margin: 40px 0 40px;
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start { 
+  transform: translateX(0);
+}
+
+.carousel-img > img {
+    max-width: 50%;
+    height: auto;
+}
+
+.carousel-control-prev {
+    margin-left: -50px;
+}
+  
+.carousel-control-next {
+    margin-right: -50px;
 }

@@ -1,0 +1,14 @@
+{%
+  set classes = [
+    'region',
+    'region-' ~ region|clean_class,
+    'mx-auto',
+    'my-auto',
+    'justify-content-center'
+  ]
+%}
+{% if content %}
+  <section{{ attributes.addClass(classes) }}>
+    {{ content }}
+  </section>
+{% endif %}

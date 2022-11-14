@@ -14,8 +14,14 @@
   };
 
   $(document).ready(function() {
+    // var linksCarousel = document.querySelector('#linksCarousel')
+    // var carousel = new bootstrap.Carousel(linksCarousel, {
+    //   interval: false,
+    //   wrap: false
+    // });
     prepareMenu();
-    searchForm();  
+    //searchForm();
+    initCarousel();
   });
 
 })(jQuery, Drupal);
@@ -74,33 +80,57 @@ function prepareMenu() {
   });
 };
 
-function searchForm() {
-  var menu    = document.getElementById('navigation');
-  var $menu   = jQuery(menu);
+// function searchForm() {
+//   var menu    = document.getElementById('navigation');
+//   var $menu   = jQuery(menu);
   
-  var formularz    = document.getElementById('search-block-form');
-  var $formularz   = jQuery(formularz);
-  var clonedForm   = $formularz.clone(true);
-  clonedForm.css('display', 'block');
+//   var formularz    = document.getElementById('search-block-form');
+//   var $formularz   = jQuery(formularz);
+//   var clonedForm   = $formularz.clone(true);
+//   clonedForm.css('display', 'block');
   
-  var ulElement    = document.createElement('ul');
-      ulElement.id = 'dynamic-search-form-wraper';
-  var liElement    = document.createElement('li');
-  var $liElement   = jQuery(liElement);
+//   var ulElement    = document.createElement('ul');
+//       ulElement.id = 'dynamic-search-form-wraper';
+//   var liElement    = document.createElement('li');
+//   var $liElement   = jQuery(liElement);
   
-  $liElement.append(clonedForm);
+//   $liElement.append(clonedForm);
   
-  ulElement.appendChild($liElement[0]);
+//   ulElement.appendChild($liElement[0]);
   
-  var szukaj  = document.getElementById('edit-submit'); //$menu.find('a[title="szukaj"]');
-  var $szukaj = jQuery(szukaj);
-  var parentSzukaj = szukaj.parent();
+//   var szukaj  = document.getElementById('edit-submit'); //$menu.find('a[title="szukaj"]');
+//   var $szukaj = jQuery(szukaj);
+//   var parentSzukaj = szukaj.parent();
 
-  parentSzukaj.append(ulElement);
+//   parentSzukaj.append(ulElement);
   
-  $szukaj.click(function(e) {
-      e.preventDefault();
-      ulElement.classList.toggle('show-form');
-  });
+//   $szukaj.click(function(e) {
+//       e.preventDefault();
+//       ulElement.classList.toggle('show-form');
+//   });
 
+// }
+
+function initCarousel() {
+  // var linksCarousel = document.querySelector('#linksCarousel')
+  // var carousel = new bootstrap.Carousel(linksCarousel, {
+  //   interval: 1000000,
+  //   wrap: false
+  // });
+
+  let items = document.querySelectorAll('.carousel .carousel-item')
+
+  items.forEach((el) => {
+      const minPerSlide = 4
+      let next = el.nextElementSibling
+      for (var i=1; i<minPerSlide; i++) {
+          if (!next) {
+              // wrap carousel by using first child
+            next = items[0]
+          }
+          let cloneChild = next.cloneNode(true)
+          el.appendChild(cloneChild.children[0])
+          next = next.nextElementSibling
+      }
+  })
 }
