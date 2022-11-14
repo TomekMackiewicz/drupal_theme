@@ -271,7 +271,7 @@
     margin-top: 50px;
 }
 
-.highlighted-pages-top-title {
+.highlighted-pages-top-title, .highlighted-pages-secondary-top-title {
     text-decoration: none;
 }
 
@@ -279,14 +279,25 @@
     color: #e60028;
 }
 
-.highlighted-pages-top-title > span::after {
+.highlighted-pages-secondary-top-title > span {
+    color: #01196e;
+}
+
+.highlighted-pages-top-title > span::after, .highlighted-pages-secondary-top-title > span::after {
     content: "";
     display: block;
     position: absolute;
     width: 40px;
     height: 3px;
     margin-top: 10px;
+}
+
+.highlighted-pages-top-title > span::after {
     background-color: #e60028;
+}
+
+.highlighted-pages-secondary-top-title > span::after {
+    background-color: #01196e;
 }
 
 .highlighted-pages-top-content {
