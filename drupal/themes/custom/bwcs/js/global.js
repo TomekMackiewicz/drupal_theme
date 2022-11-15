@@ -108,14 +108,7 @@ function prepareMenu() {
 // }
 
 function initCarousel() {
-  // var linksCarousel = document.querySelector('#linksCarousel')
-  // var carousel = new bootstrap.Carousel(linksCarousel, {
-  //   interval: 1000000,
-  //   wrap: false
-  // });
-
   let items = document.querySelectorAll('.carousel .carousel-item')
-
   items.forEach((el) => {
       const minPerSlide = 4
       let next = el.nextElementSibling
@@ -132,5 +125,7 @@ function initCarousel() {
 }
 
 function initCamera() {
-  jQuery('.slider').camera();
+  if (jQuery('.slider').length) {
+    jQuery('.slider').camera();
+  }
 }

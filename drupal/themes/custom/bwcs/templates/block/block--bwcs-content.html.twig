@@ -34,20 +34,22 @@
     'block',
     'block-' ~ configuration.provider|clean_class,
     'block-' ~ plugin_id|clean_class,
-    'col-xl-8 offset-xl-2 col-lg-12'
+    'col-xl-6 col-lg-12 order-2'
   ]
 %}
 
-<div class="no-slider" id="wraper_slider">
-    <div class="wraper-page-width">
-        <a class="slider-mini-title">{{ label }}</a>
+<div class="col-12 order-1">
+    <div class="no-slider" id="wraper_slider">
+        <div class="wraper-page-width">
+            <a class="slider-mini-title">{{ label }}</a>
+        </div>
     </div>
 </div>
 
 <div{{ attributes.addClass(classes) }}>
   {{ title_prefix }}
   {% if label %}
-    <h2{{ title_attributes }}>{{ label }}</h2>
+    <h1{{ title_attributes.addClass("main-page-title") }}>{{ label }}</h1>
   {% endif %}
   {{ title_suffix }}
   {% block content %}

@@ -43,7 +43,6 @@
 .navbar-light .nav-link {
     font-size: 18px;
     font-weight: bold;
-    /* padding: 46.5px 17px; */
     color: #999;
     transition: background 250ms linear;
 }
@@ -56,7 +55,6 @@
     color: #999 !important;
     padding: 9px 10px 9px 30px;
     text-decoration: none;
-    /* background-color: #01196e; */
 }
 
 @media (max-width: 1199px) {
@@ -108,11 +106,7 @@
     }
 
     .navbar-light .nav-link {
-        /* font-size: 18px;
-        font-weight: bold; */
         padding: 46.5px 17px;
-        /* color: #999;
-        transition: background 250ms linear; */
     }
 
     .navbar-light .nav-link:hover {
@@ -408,8 +402,13 @@
 
 /********** PAGE **********/
 
+.slider, .no-slider {
+    background-position: bottom !important;
+}
+
 .no-slider {
-    height: 400px;
+    height: 430px;
+    margin-bottom: 55px;
     background-color: #1f1f1f;
     background-attachment: fixed;
     position: relative;
@@ -436,7 +435,28 @@
     color: #fff;
     letter-spacing: 1px;
     max-width: 550px;
-    line-height: 140%;    
+    line-height: 140%;
+    text-decoration: none;
+}
+
+.slider-mini-title:hover {
+    color: #fff;
+}
+
+.main-page-title {
+    font-size: 30px;
+    color: #01196e;
+}
+
+.main-page-title::after {
+    content: "";
+    display: block;
+    background-color: #01196e;
+    width: 40px;
+    height: 3px;
+    margin-top: 10px;
+    bottom: 0;
+    left: 0;
 }
 
 
