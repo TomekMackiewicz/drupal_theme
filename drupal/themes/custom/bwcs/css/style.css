@@ -188,22 +188,47 @@
 
 /********** LANG SWITCHER **********/
 
-.block-lang-dropdown {
-    display: flex!important;
+.lang-list {
+    margin-left: 40px;
 }
 
-@media (max-width: 1199px) {
-    .block-lang-dropdown {
-        justify-content: flex-end !important;
-    }
+.lang-en, .lang-pl {
+    padding: 0 !important;
+    border: none !important;
+    margin-left: 20px;
 }
 
-@media (min-width: 1200px) {
-    .block-lang-dropdown {
-        justify-content: flex-start !important;
-    }
+.lang-en > a, .lang-pl > a {
+    font-size: 0px;
 }
 
+.lang-en > a {
+    visibility: hidden;
+}
+
+.lang-en > a::after {
+    visibility: visible;
+    background-image: url('/sites/default/files/2022-11/en.png');
+    background-size: 48px 40px;
+    display: inline-block;
+    width: 48px;
+    height: 40px;
+    content:"";
+}
+
+.lang-pl > a {
+    visibility: hidden;
+}
+
+.lang-pl > a::after {
+    visibility: visible;
+    background-image: url('/sites/default/files/2022-11/pl.png');
+    background-size: 48px 40px;
+    display: inline-block;
+    width: 48px;
+    height: 40px;
+    content:"";
+}
 
 /********** SLIDER **********/
 

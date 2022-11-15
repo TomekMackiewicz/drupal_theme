@@ -37,7 +37,22 @@
 {{ attach_library('bootstrap_barrio/links') }}
 
 {% if links %}
-  <nav{{ attributes.addClass(['nav', 'links-inline']) }}>
+
+  <ul class="list-group list-group-horizontal lang-list">
+    {%- for key, item in links -%}   
+      <li class="list-group-item lang-{{ item.attributes.hreflang }} d-flex align-items-center">
+        {%- if item.link -%}
+          {{ item.link }}
+        {%- elseif item.text_attributes -%}
+          <span{{ item.text_attributes }}>{{ item.text }}</span>
+        {%- else -%}
+          {{ item.text }}
+        {%- endif -%}
+      </li>
+    {%- endfor -%}
+  </ul>
+
+  {# <nav{{ attributes.addClass(['nav', 'links-inline']) }}>
     {%- for key, item in links -%}
       <span{{ item.attributes.addClass(key|clean_class, 'nav-link') }}>
         {%- if item.link -%}
@@ -49,5 +64,6 @@
         {%- endif -%}
       </span>
     {%- endfor -%}
-  </nav>
+  </nav> #}
+
 {% endif %}
