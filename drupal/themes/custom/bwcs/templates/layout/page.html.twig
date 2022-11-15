@@ -67,6 +67,14 @@
  * @see html.html.twig
  */
 #}
+
+{%
+  set nav_classes = [
+    'p-0',
+    'fixed-top'
+  ]
+%}
+
 <div id="page-wrapper">
   <div id="page">
     <header id="header" class="header" role="banner" aria-label="{{ 'Site header'|t}}">
@@ -88,42 +96,38 @@
           {% endif %}
           </nav>
         {% endif %}
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col-lg-8 offset-lg-2 col-md-12">
-                <nav{{ navbar_attributes }}>
-                  {% if container_navbar %}
-                    {% endif %}
-                      {{ page.header }}
-                      {% if page.primary_menu or page.header_form %}
-                        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="{{ navbar_collapse_btn_data }}" data-bs-target="#CollapsingNavbar" aria-controls="CollapsingNavbar" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                        <div class="{{ navbar_collapse_class }}" id="CollapsingNavbar">
-                          {% if navbar_offcanvas %}
-                            <div class="offcanvas-header">
-                              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                            </div>
-                            <div class="offcanvas-body">
-                          {% endif %}
-                          {{ page.primary_menu }}
-                          {% if page.header_form %}
-                            <div class="form-inline navbar-form justify-content-end">
-                              {{ page.header_form }}
-                            </div>
-                          {% endif %}
-                          {% if navbar_offcanvas %}
-                            </div>
-                          {% endif %}
+          <nav{{ navbar_attributes.addClass(nav_classes) }}>
+            <div class="container">
+              {% if container_navbar %}
+                {# {% endif %} #}
+                  {{ page.header }}
+                  {% if page.primary_menu or page.header_form %}
+                    <button class="navbar-toggler collapsed" type="button" data-bs-toggle="{{ navbar_collapse_btn_data }}" data-bs-target="#CollapsingNavbar" aria-controls="CollapsingNavbar" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="{{ navbar_collapse_class }}" id="CollapsingNavbar">
+                      {% if navbar_offcanvas %}
+                        <div class="offcanvas-header">
+                          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                      {% endif %}
+                      {{ page.primary_menu }}
+                      {% if page.header_form %}
+                        <div class="form-inline navbar-form justify-content-end">
+                          {{ page.header_form }}
                         </div>
                       {% endif %}
-                      {% if sidebar_collapse %}
-                        <button class="navbar-toggler navbar-toggler-left collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#CollapsingLeft" aria-controls="CollapsingLeft" aria-expanded="false" aria-label="Toggle navigation"></button>
+                      {% if navbar_offcanvas %}
+                        </div>
                       {% endif %}
-                    {% if container_navbar %}
+                    </div>
                   {% endif %}
-                </nav>
-              </div>
+                  {% if sidebar_collapse %}
+                    <button class="navbar-toggler navbar-toggler-left collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#CollapsingLeft" aria-controls="CollapsingLeft" aria-expanded="false" aria-label="Toggle navigation"></button>
+                  {% endif %}
+                {# {% if container_navbar %} #}
+              {% endif %}
             </div>
-          </div>
+          </nav>
       {% endblock %}
     </header>
 
