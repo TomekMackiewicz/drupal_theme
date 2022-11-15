@@ -6,6 +6,7 @@ global-styling:
     js/global.js: {}
   css:
     component:
+      css/preloader.css: {}
       css/camera.css: {}
       css/animate.css: {}
       css/style.css: {}

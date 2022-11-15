@@ -14,6 +14,7 @@
   };
 
   $(document).ready(function() {
+    $('body').addClass('loaded');
     prepareMenu();
     //searchForm();
     initCarousel();
