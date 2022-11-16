@@ -3,18 +3,22 @@
  * Subtheme specific CSS.
  */
 
- .bg-light {
+.bg-light {
     background-color:  #fff !important;
- }
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:focus {
+    background-color: #01196e !important;
+}
 
 /********** BRAND **********/
 
- .site-slogan {
+.site-slogan {
     font-size: 11.3px;
     margin-top: 10px;
- }
+}
 
- .navbar-brand .site-logo {
+.navbar-brand .site-logo {
     margin-right: 0rem;
 }
 
@@ -733,4 +737,15 @@
 
 .footer-middle, .footer-bottom {
     font-size: 13px;
+}
+
+
+/********** COTACT PAGE **********/
+
+.address-row {
+    margin-bottom: 55px;
+}
+
+.contact-title {
+    margin-bottom: 35px;
 }

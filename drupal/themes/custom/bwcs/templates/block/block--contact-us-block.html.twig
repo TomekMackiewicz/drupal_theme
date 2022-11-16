@@ -1,0 +1,71 @@
+{%
+  set classes = [
+    'block',
+    'block-' ~ configuration.provider|clean_class,
+    'block-' ~ plugin_id|clean_class,
+    'col-12 col-lg-3 ms-4'
+  ]
+%}
+
+<div class="row g-0">
+    <div class="col-12">
+        <div class="no-slider" id="wraper_slider">
+            <div class="wraper-page-width">
+                <a class="slider-mini-title">{{ label }}</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row g-0">
+    <div class="col-12 col-lg-10 offset-lg-2">
+        <h1{{ title_attributes.addClass("main-page-title contact-title") }}>{{ label }}</h1>
+    </div>
+</div>
+
+<div class="row g-0 address-row">
+    <div class="col-12 col-lg-3 offset-lg-2">
+        <strong>Nord–Com Sp. z o.o.</strong><br>
+        ul. Starowiejska 37/3<br>
+        81-363 <strong>Gdynia</strong><br>
+        Tel: <a href="tel:+48586229202">+48 58 622 92 02</a><br>
+        Fax: + 48 58 622 92 00<br>
+        E-mail: <a href="mailto:nordcom@nord-com.pl">nordcom@nord-com.pl</a>
+    </div>
+    <div class="col-12 col-lg-3">
+        <strong>Biuro we Wrocławiu</strong><br>
+        ul. Legnicka 55d/4<br>
+        54-203 <strong>Wrocław</strong><br>
+        Tel: <a href="tel:+48713492990">+48 71 349 29 90</a><br>
+        Fax: +48 71 349 29 84<br>
+        E-mail: <a href="mailto:wroclaw@bwcs.pl">wroclaw@bwcs.pl</a>    
+    </div>
+    <div class="col-12 col-lg-3">
+        <strong>BW Corporate Services sp. z o.o.</strong><br>
+        ul. Sienna 83 lok. 218<br>
+        00-815 <strong>Warszawa</strong><br>
+        Tel: <a href="tel:+48222928930">+48 22 292 89 30</a><br>
+        Fax: +48 22 292 89 32<br>
+        E-mail: <a href="mailto:info@bwcs.pl">info@bwcs.pl</a>    
+    </div>
+</div>
+
+<div class="row g-0">
+    <div class="col-12 col-lg-5 offset-lg-2">
+        <h2{{ title_attributes }}>Zobacz jak dojechać</h2>
+        <iframe style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2443.7320819686493!2d20.993196799999993!3d52.230085200000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecc901c6d2c55%3A0x3f21bbf53fab057c!2sSienna+83%2C+00-121+Warszawa!5e0!3m2!1spl!2spl!4v1415798388409" frameborder="0" width="100%" height="390"></iframe>
+    </div>
+
+    <div{{ attributes.addClass(classes) }}>
+    {{ title_prefix }}
+    {% if label %}
+        <h2{{ title_attributes }}>Formularz kontaktowy</h2>
+    {% endif %}
+    {{ title_suffix }}
+    {% block content %}
+        <div{{ content_attributes.addClass('content') }}>
+        {{ content }}
+        </div>
+    {% endblock %}
+    </div>
+</div>
