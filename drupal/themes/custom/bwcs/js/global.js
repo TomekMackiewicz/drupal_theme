@@ -16,6 +16,7 @@
   $(document).ready(function() {
     $('body').addClass('loaded');
     prepareMenu();
+    $(".dropdown-menu").css("display", "none");
     //searchForm();
     initCarousel();
     initCamera();
@@ -46,7 +47,7 @@ function prepareMenu() {
         childrenMenu.show(0);
         var left_off = childrenMenu.offset().left;
         // jesli menu bedzie wystawac (chowac sie) poza lewa krawedz to wyswietla je po lewej stronie
-        if(left_off + childrenMenu.width() >= jQuery(window).width()) {
+        if (left_off + childrenMenu.width() >= jQuery(window).width()) {
             childrenMenu.css({
                 'left' : '-100%',
                 'top' : '0px',
