@@ -234,6 +234,7 @@
     content:"";
 }
 
+
 /********** SLIDER **********/
 
 .slider {
@@ -272,6 +273,7 @@
 .camera_commands, .camera_play, .camera_stop, .camera_prev, .camera_next {
     display: none !important;
 }
+
 
 /********** BOXES **********/
 
@@ -323,6 +325,8 @@
     height: 125px;
     border-right: 1px solid rgba(255,255,255,.35);
     border-bottom: 1px solid rgba(255,255,255,.35);
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .yellow-box {
@@ -332,6 +336,29 @@
 .yellow-box > img {
     width: 100%;
     height: auto;
+}
+
+.yellow-box-list {
+    list-style: none;
+}
+
+.yellow-box-list > li {
+    padding: 15px 10px 0px 0px;
+    font-size: 15px;
+    line-height: 140%;
+}
+
+.yellow-box-list > li:before {
+    content: "";
+    display: block;
+    width: 6px;
+    height: 6px;
+    background-color: #f3b939;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-left: -25px;
+    position: relative;
+    bottom: -10px;
 }
 
 .front-page-link, .front-page-link:hover {
