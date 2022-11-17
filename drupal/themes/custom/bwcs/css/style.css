@@ -45,7 +45,8 @@
 /********** MENU **********/ 
 
 .dropdown-menu {
-    display: none;
+    /* display: none; */
+    min-width: 250px;
 }
 
 .navbar-light .nav-link {
@@ -266,12 +267,14 @@
     text-align: right;
 }
 
-.camera_pag .camera_pag_ul li {
+.camera_wrap .camera_pag .camera_pag_ul li {
     border-color: #fff;
     border-width: 4px;
     border-style: solid;
     border-radius: 50%;
     background-color: transparent;
+    width: 24px;
+    height: 24px;
 }
 
 .camera_pag .camera_pag_ul li.cameracurrent {
@@ -282,7 +285,7 @@
     display: none;
 }
 
-.camera_commands, .camera_play, .camera_stop, .camera_prev, .camera_next {
+.camera_commands, .camera_play, .camera_stop, .camera_prev, .camera_next, .camera_pie {
     display: none !important;
 }
 
