@@ -34,14 +34,16 @@
     'block',
     'block-' ~ configuration.provider|clean_class,
     'block-' ~ plugin_id|clean_class,
-    'col-12 col-lg-6 order-2 ms-4'
+    'col-10 col-lg-6 order-2 ms-lg-4 offset-1'
   ]
 %}
 
 <div class="col-12 order-1">
     <div class="no-slider" id="wraper_slider">
-        <div class="wraper-page-width">
-            <a class="slider-mini-title">{{ label }}</a>
+        <div class="row">
+            <div class="col-8 offset-2">
+              <a class="slider-mini-title">{{ label }}</a>
+            </div>
         </div>
     </div>
 </div>

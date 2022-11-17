@@ -555,13 +555,6 @@
     background-image: url('/sites/default/files/2022-11/banner-warszawa.jpg')!important;
 }
 
-.wraper-page-width {
-    position: relative;
-    height: 100%;
-    width: 1150px;
-    margin: auto;    
-}
-
 .slider-mini-title {
     position: absolute;
     display: inline-block;
@@ -767,6 +760,7 @@
 
 .footer-services {
     list-style: none;
+    padding-left: 0;
 }
 
 .footer-services > li > a {
