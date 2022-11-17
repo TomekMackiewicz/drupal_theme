@@ -1,3 +1,29 @@
+{% if language.getId() == 'en' %}
+	{% set audit = '/audit' %}
+	{% set accountancy = '/accountancy' %}
+	{% set hr = '/human-resources-and-payroll' %}
+	{% set management = '/management-consulting' %}
+	{% set financial = '/financial-consultancy-services' %}
+	{% set tax = '/tax-consultancy-services' %}
+	{% set expat = '/service-for-expatriates' %}
+	{% set law = '/legal-consultancy-services' %}
+	{% set mission = '/mission-and-goals' %}
+	{% set we = '/who-we-are' %}
+	{% set operate = '/how-we-operate' %}
+{% elseif language.getId() == 'pl' %}
+	{% set audit = '/pl/audyt' %}
+	{% set accountancy = '/pl/ksiegowosc' %}
+	{% set hr = '/pl/kadry-i-place' %}
+	{% set management = '/pl/konsulting-zarzadczy' %}
+	{% set financial = '/pl/doradztwo-finansowe' %}
+	{% set tax = '/pl/doradztwo-podatkowe' %}
+	{% set expat = '/pl/obsluga-expatow' %}
+	{% set law = '/pl/doradztwo-prawne' %}
+	{% set mission = '/pl/misja-i-cele' %}
+	{% set we = '/pl/kim-jestesmy' %}
+	{% set operate = '/pl/jak-dzialamy' %}
+{% endif %}
+
 <div class="row g-0">
 	<div class="col-12">
 		<div class="slider">
@@ -25,25 +51,25 @@
 			<div class="col-12 col-lg-6 col-xl-3 red-column">
 				<div class="row g-0">
 					<div class="col-xs-6 col-sm-3 col-lg-6 d-flex flex-column align-items-center justify-content-center front-page-box red">
-						<a href="https://www.bwcs.pl/audyt" class="front-page-link">
+						<a href="{{ audit }}" class="front-page-link">
 							<img src="/themes/custom/bwcs/images/audit.webp" class="mx-auto d-block" width="59" height="53" alt="Audyt">
 							<span>{{ 'Audit'|t }}</span>
 						</a>
 					</div>
 					<div class="col-xs-6 col-sm-3 col-lg-6 d-flex flex-column align-items-center justify-content-center front-page-box red">
-						<a href="https://www.bwcs.pl/ksiegowosc" class="front-page-link">
+						<a href="{{ accountancy }}" class="front-page-link">
 							<img src="/themes/custom/bwcs/images/accountancy.webp" class="mx-auto d-block" width="38" height="50" alt="Księgowość">
 							<span>{{ 'Accountancy'|t }}</span>
 						</a>
 					</div>
 					<div class="col-xs-6 col-sm-3 col-lg-6 d-flex flex-column align-items-center justify-content-center front-page-box red">
-						<a href="https://www.bwcs.pl/kadry-i-place" class="front-page-link">
+						<a href="{{ hr }}" class="front-page-link">
 							<img src="/themes/custom/bwcs/images/hr-and-payroll.webp" class="mx-auto d-block" width="77" height="49" alt="Kadry i płace">
 							<span>{{ 'Human resources and payroll'|t }}</span>
 						</a>
 					</div>
 					<div class="col-xs-6 col-sm-3 col-lg-6 d-flex flex-column align-items-center justify-content-center front-page-box red">
-						<a href="https://www.bwcs.pl//konsulting-zarzadczy" class="front-page-link">
+						<a href="{{ management }}" class="front-page-link">
 							<img src="/themes/custom/bwcs/images/corporate-consultancy.webp" class="mx-auto d-block" width="53" height="60" alt="Konsulting korporacyjny">
 							<span>{{ 'Corporate consultancy'|t }}</span>
 						</a>
@@ -53,25 +79,25 @@
 			<div class="col-12 col-lg-6 col-xl-3 blue-column">
 				<div class="row g-0">
 					<div class="col-xs-6 col-sm-3 col-lg-6 d-flex flex-column align-items-center justify-content-center front-page-box blue">
-						<a href="https://www.bwcs.pl/doradztwo-finansowe" class="front-page-link">
+						<a href="{{ financial }}" class="front-page-link">
 							<img src="/themes/custom/bwcs/images/financial-consultancy.webp" class="mx-auto d-block" width="50" height="41" alt="Doradztwo finansowe">
 							<span>{{ 'Financial consultancy'|t }}</span>
 						</a>
 					</div>
 					<div class="col-xs-6 col-sm-3 col-lg-6 d-flex flex-column align-items-center justify-content-center front-page-box blue">
-						<a href="https://www.bwcs.pl/doradztwo-podatkowe" class="front-page-link">
+						<a href="{{ tax }}" class="front-page-link">
 							<img src="/themes/custom/bwcs/images/tax-consultancy-services.webp" class="mx-auto d-block" width="40" height="44" alt="Doradztwo podatkowe">
 							<span>{{ 'Tax consultancy services'|t }}</span>
 						</a>
 					</div>
 					<div class="col-xs-6 col-sm-3 col-lg-6 d-flex flex-column align-items-center justify-content-center front-page-box blue">
-						<a href="https://www.bwcs.pl/obsluga-expatow" class="front-page-link">
+						<a href="{{ expat }}" class="front-page-link">
 							<img src="/themes/custom/bwcs/images/services-for-expates.webp" class="mx-auto d-block" width="40" height="49" alt="Usługi dla expató">
 							<span>{{ 'Services for expatriates'|t }}</span>
 						</a>
 					</div>
 					<div class="col-xs-6 col-sm-3 col-lg-6 d-flex flex-column align-items-center justify-content-center front-page-box blue">
-						<a href="https://www.bwcs.pl/doradztwo-prawne" class="front-page-link">
+						<a href="{{ law }}" class="front-page-link">
 							<img src="/themes/custom/bwcs/images/legal-consultancy.webp" class="mx-auto d-block" width="40" height="50" alt="Doradztwo prawne">
 							<span>{{ 'Legal consultancy'|t }}</span>
 						</a>
@@ -88,7 +114,7 @@
 			<div class="col-12 col-xl-6">
 				<div class="row g-0">
 					<div class="col-sm-12 col-md-4 d-flex flex-column align-items-stretch yellow-box">
-						<a href="https://www.bwcs.pl/misja-i-cele" class="yellow-link"><strong>{{ 'Mission and goals'|t }}</strong></a>
+						<a href="{{ mission }}" class="yellow-link"><strong>{{ 'Mission and goals'|t }}</strong></a>
 						<img src="/themes/custom/bwcs/images/mission-and-goals.webp" width="217" height="115" alt=" Misja i cele">
 						<ul class="yellow-box-list">
 							<li>{{ 'Long-term cooperation'|t }}</li>
@@ -96,10 +122,10 @@
 							<li>{{ 'Shared success'|t }}</li>
 							<li>{{ 'Development through technology'|t }}</li>
 						</ul>
-						<a href="https://www.bwcs.pl/misja-i-cele" class="front-page-yellow-link">{{ 'See more'|t }}</a>
+						<a href="{{ mission }}" class="front-page-yellow-link">{{ 'See more'|t }}</a>
 					</div>
 					<div class="col-sm-12 col-md-4 d-flex flex-column align-items-stretch yellow-box">
-						<a href="https://www.bwcs.pl/kim-jestesmy" class="yellow-link"><strong>{{ 'Who we are'|t }}</strong></a>
+						<a href="{{ we }}" class="yellow-link"><strong>{{ 'Who we are'|t }}</strong></a>
 						<img src="/themes/custom/bwcs/images/who-we-are.webp" width="218" height="115" alt="Kim jesteśmy">
 						<ul class="yellow-box-list">
 							<li>{{ 'Financial and tax audit'|t }}</li>
@@ -107,10 +133,10 @@
 							<li>{{ 'Comprehensiveness of services'|t }}</li>
 							<li>{{ 'International experience'|t }}</li>						
 						</ul>
-						<a href="https://www.bwcs.pl/kim-jestesmy" class="front-page-yellow-link">{{ 'See more'|t }}</a>
+						<a href="{{ we }}" class="front-page-yellow-link">{{ 'See more'|t }}</a>
 					</div>
 					<div class="col-sm-12 col-md-4 d-flex flex-column align-items-stretch yellow-box">
-						<a href="https://www.bwcs.pl/jak-dzialamy" class="yellow-link"><strong>{{ 'How we operate'|t }}</strong></a>
+						<a href="{{ operate }}" class="yellow-link"><strong>{{ 'How we operate'|t }}</strong></a>
 						<img src="/themes/custom/bwcs/images/how-we-operate.webp" width="216" height="115" alt="Jak działamy">
 						<ul class="yellow-box-list">
 							<li>{{ 'Business understanding'|t }}</li>
@@ -118,7 +144,7 @@
 							<li>{{ 'Liquidity management'|t }}</li>
 							<li>{{ 'Risk control'|t }}</li>
 						</ul>
-						<a href="https://www.bwcs.pl/jak-dzialamy" class="front-page-yellow-link">{{ 'See more'|t }}</a>
+						<a href="{{ operate }}" class="front-page-yellow-link">{{ 'See more'|t }}</a>
 					</div>
 				</div>
 			</div>
