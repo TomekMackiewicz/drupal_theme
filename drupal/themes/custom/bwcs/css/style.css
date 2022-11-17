@@ -11,6 +11,20 @@
     background-color: #01196e !important;
 }
 
+.form-control {
+    border-radius: 0;
+}
+
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #01196e;
+    outline: 0;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
 /********** BRAND **********/
 
 .site-slogan {

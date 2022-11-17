@@ -19,7 +19,7 @@
         "drupal/bootstrap": "^3.25",
         "drupal/bootstrap5": "^2.0",
         "drupal/bootstrap_barrio": "^5.5",
-        "drupal/contact_us": "^2.2",
+        "drupal/contact_block": "^2.0",
         "drupal/contextual_menu_block": "^1.2",
         "drupal/core-composer-scaffold": "^9.4",
         "drupal/core-project-message": "^9.4",

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "79338581950ef7c63d8d05fbbd7be113",
+    "content-hash": "8fc38656dffbde1107f3b984549e517e",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1976,18 +1976,18 @@
             }
         },
         {
-            "name": "drupal/contact_us",
-            "version": "2.2.0",
+            "name": "drupal/contact_block",
+            "version": "2.0.1",
             "source": {
                 "type": "git",
-                "url": "https://git.drupalcode.org/project/contact_us.git",
-                "reference": "8.x-2.2"
+                "url": "https://git.drupalcode.org/project/contact_block.git",
+                "reference": "2.0.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/contact_us-8.x-2.2.zip",
-                "reference": "8.x-2.2",
-                "shasum": "fcab1e896c79196578cc7188bf49b55eea89574f"
+                "url": "https://ftp.drupal.org/files/projects/contact_block-2.0.1.zip",
+                "reference": "2.0.1",
+                "shasum": "6e826c093e061125afdff5aff88faf3f5f4b856e"
             },
             "require": {
                 "drupal/core": "^8 || ^9 || ^10"
@@ -1995,11 +1995,11 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-2.2",
-                    "datestamp": "1665740562",
+                    "version": "2.0.1",
+                    "datestamp": "1665911519",
                     "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Project has not opted into security advisory coverage!"
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
                     }
                 }
             },
@@ -2009,14 +2009,23 @@
             ],
             "authors": [
                 {
-                    "name": "Gaurav.Kumar",
-                    "homepage": "https://www.drupal.org/user/928828"
+                    "name": "Sutharsan",
+                    "homepage": "https://www.drupal.org/user/73854"
+                },
+                {
+                    "name": "vuil",
+                    "homepage": "https://www.drupal.org/user/3568458"
                 }
             ],
-            "description": "A simple contact us form for a personal or a corporate website",
-            "homepage": "https://www.drupal.org/project/contact_us",
+            "description": "The Contact Block module provides contact forms in a block.",
+            "homepage": "https://www.drupal.org/project/contact_block",
+            "keywords": [
+                "Drupal",
+                "contact_block"
+            ],
             "support": {
-                "source": "https://git.drupalcode.org/project/contact_us"
+                "source": "https://git.drupalcode.org/project/contact_block",
+                "issues": "https://www.drupal.org/project/issues/contact_block"
             }
         },
         {
