@@ -1,17 +1,38 @@
+{% if language == 'en' %}
+	{% set audit = '/audit' %}
+	{% set accountancy = '/accountancy' %}
+	{% set hr = '/human-resources-and-payroll' %}
+	{% set management = '/management-consulting' %}
+	{% set financial = '/financial-consultancy-services' %}
+	{% set tax = '/tax-consultancy-services' %}
+	{% set expat = '/service-for-expatriates' %}
+	{% set law = '/legal-consultancy-services' %}
+    {% set archiving = '/storage-of-documents' %}
+{% elseif language == 'pl' %}
+	{% set audit = '/pl/audyt' %}
+	{% set accountancy = '/pl/ksiegowosc' %}
+	{% set hr = '/pl/kadry-i-place' %}
+	{% set management = '/pl/konsulting-zarzadczy' %}
+	{% set financial = '/pl/doradztwo-finansowe' %}
+	{% set tax = '/pl/doradztwo-podatkowe' %}
+	{% set expat = '/pl/obsluga-expatow' %}
+	{% set law = '/pl/doradztwo-prawne' %}
+    {% set archiving = '/pl/magazynowanie-dokumentow' %}
+{% endif %}
+
 <div class="row">
     <div class="col-xs-12 col-sm-4">
         <h2 class="footer-first-title">{{ 'Services'|t }}</h2>
         <ul class="footer-services">
-            <li><a href="">{{ 'Audit'|t }}</a></li>
-            <li><a href="">{{ 'Accountancy'|t }}</a></li>
-            <li><a href="">{{ 'Human resources and payroll'|t }}</a></li>
-            <li><a href="">{{ 'Service for expatriates'|t }}</a></li>
-            <li><a href="">{{ 'Tax consultancy services'|t }}</a></li>
-            <li><a href="">{{ 'Financial consultancy'|t }}</a></li>
-            <li><a href="">{{ 'Management consulting'|t }}</a></li>
-            <li><a href="">{{ 'Legal consultancy'|t }}</a></li>
-            <li><a href="">Domiciliation services</a></li>
-            <li><a href="">{{ 'Archiving of documents'|t }}</a></li>
+            <li><a href="{{ audit }}">{{ 'Audit'|t }}</a></li>
+            <li><a href="{{ accountancy }}">{{ 'Accountancy'|t }}</a></li>
+            <li><a href="{{ hr }}">{{ 'Human resources and payroll'|t }}</a></li>
+            <li><a href="{{ expat }}">{{ 'Service for expatriates'|t }}</a></li>
+            <li><a href="{{ tax }}">{{ 'Tax consultancy services'|t }}</a></li>
+            <li><a href="{{ financial }}">{{ 'Financial consultancy'|t }}</a></li>
+            <li><a href="{{ management }}">{{ 'Management consulting'|t }}</a></li>
+            <li><a href="{{ law }}">{{ 'Legal consultancy'|t }}</a></li>
+            <li><a href="{{ archiving }}">{{ 'Archiving of documents'|t }}</a></li>
         </ul>
     </div>
     <div class="col-xs-12 col-sm-4">

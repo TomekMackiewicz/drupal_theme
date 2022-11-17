@@ -41,3 +41,8 @@ function example_theme_suggestions_page_alter(array &$suggestions, array $variab
 	$suggestions[] = 'page__' . $node->bundle();
   }
 }
+
+function bwcs_preprocess_region(&$variables) {
+  $language = \Drupal::languageManager()->getCurrentLanguage()->getId();
+  $variables['language'] = $language;
+}
