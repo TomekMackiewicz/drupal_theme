@@ -447,6 +447,23 @@
 }
 
 
+/********** NEWS PAGE **********/
+
+.news-title {
+    font-size: 24px;
+}
+
+.news-title > span > a {
+    text-decoration: none;
+    color: #01196e;
+
+}
+
+.news-item {
+    margin-bottom: 20px!important;
+}
+
+
 /********** HIGHLIGHTED PAGES **********/
 
 .highlighted-pages-top-box, .block-views-blockhighlighted-pages-secondary-block-1 {
