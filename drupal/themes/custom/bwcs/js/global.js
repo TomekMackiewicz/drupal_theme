@@ -17,7 +17,15 @@
     $('body').addClass('loaded');
     prepareMenu();
     $(".dropdown-menu").css("display", "none");
-    //searchForm();
+    $('.contextual-menu-item').each(function() {
+      if ($(this).find('a.is-active').length === 0) {
+        console.log('not active');
+        $(this).find('ul').css('display','none');
+      } else {
+        console.log('active');
+        $(this).find('ul').css('display','block');
+      }
+    });
     initCarousel();
     initCamera();
   });
