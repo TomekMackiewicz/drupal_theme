@@ -31,6 +31,7 @@
         "drupal/languageicons": "^1.0@beta",
         "drupal/menu_block": "^1.10",
         "drupal/metatag": "^1.22",
+        "drupal/recaptcha_v3": "^1.7",
         "drupal/simple_sitemap": "^4.1",
         "drush/drush": "^11.3",
         "kint-php/kint": "^4.2"
