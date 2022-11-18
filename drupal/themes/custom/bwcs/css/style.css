@@ -314,8 +314,12 @@
     background-color: #1f3f93;
 }
 
-.red-column, .blue-column {
+.red-column, .blue-column, .white-column {
     z-index: 100;
+}
+
+.white-column {
+    background-color: #fff;
 }
 
 .yellow-link {
@@ -345,7 +349,7 @@
         margin-top: -248px;
     }
 
-    .blue-column {
+    .blue-column, .white-column {
         margin-top: -124px;
     }
 }
