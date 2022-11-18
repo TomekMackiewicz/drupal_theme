@@ -612,7 +612,12 @@
     color: #01196e;
 }
 
-.main-page-title::after {
+.teaser-title {
+    font-size: 20px;
+    color: #01196e;
+}
+
+.main-page-title::after, .teaser-title::after {
     content: "";
     display: block;
     background-color: #01196e;
