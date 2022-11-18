@@ -3,6 +3,10 @@
  * Subtheme specific CSS.
  */
 
+a {
+    text-decoration: none;
+}
+
 .bg-light {
     background-color:  #fff !important;
 }
@@ -516,6 +520,20 @@
 .highlighted-pages-top-content img {
     max-width: 100%;
     height: auto;
+}
+
+.view-highlighted-pages a, .view-highlighted-pages i,
+.view-highlighted-pages a:active, .view-highlighted-pages a:hover {
+    color: #e60028;
+}
+
+.view-highlighted-pages-secondary a, .view-highlighted-pages-secondary i,
+.view-highlighted-pages-secondary a:active, .view-highlighted-pages-secondary a:hover {
+    color: #01196e;
+}
+
+.node-readmore {
+    font-weight: bold;
 }
 
 

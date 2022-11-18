@@ -26,6 +26,7 @@
         "drupal/core-recommended": "^9.4",
         "drupal/core-vendor-hardening": "^9.4",
         "drupal/devel": "^5.0",
+        "drupal/fontawesome": "^2.24",
         "drupal/lang_dropdown": "^2.0",
         "drupal/languageicons": "^1.0@beta",
         "drupal/menu_block": "^1.10",
