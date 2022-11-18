@@ -536,6 +536,10 @@ a {
     font-weight: bold;
 }
 
+.highlighted-more-icon {
+    margin-left: 5px;
+}
+
 
 /********** SHADOW WRAPER **********/
 
@@ -648,6 +652,17 @@ a {
     margin-top: 10px;
     bottom: 0;
     left: 0;
+}
+
+.node__content ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.node__content li::before {
+    content: "\f35a";
+    font-family: "Font Awesome 5 Free";
+    margin-right: 10px;
 }
 
 
