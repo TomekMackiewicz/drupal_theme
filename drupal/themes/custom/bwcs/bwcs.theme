@@ -46,3 +46,28 @@ function bwcs_preprocess_region(&$variables) {
   $language = \Drupal::languageManager()->getCurrentLanguage()->getId();
   $variables['language'] = $language;
 }
+
+function bwcs_preprocess_block(&$variables) {
+  $node = \Drupal::routeMatch()->getParameter('node');
+  if ($node instanceof \Drupal\node\NodeInterface) {
+    $nodeValues = $node->toArray();
+    $fieldBackgroundImage = isset($nodeValues['field_background_image'][0]['value']) ? $nodeValues['field_background_image'][0]['value'] : '';
+
+    if (!empty($fieldBackgroundImage)) {
+      // Bg image defined in basic page formn
+      $variables['bg_image_name'] = $fieldBackgroundImage;
+    } else {
+      // Default value
+      $definitions = $node->getFieldDefinitions();
+      $defFieldBgImage = $definitions['field_background_image'];
+
+      if (null === $defFieldBgImage) {
+        $variables['bg_image_name'] = null;
+        return;
+      }
+
+      $defaultBgImageName = $defFieldBgImage->getDefaultValueLiteral();
+      $variables['bg_image_name'] = $defaultBgImageName[0]['value'];
+    }
+  }
+}
