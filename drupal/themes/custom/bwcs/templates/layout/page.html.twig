@@ -96,13 +96,13 @@
           </nav>
         {% endif %}
           <nav{{ navbar_attributes.addClass(nav_classes) }}>
-            <div class="container">
+            <div class="container d-flex">
               {% if container_navbar %}
                 {# {% endif %} #}
                   {{ page.header }}
                   {% if page.primary_menu or page.header_form %}
-                    <button class="navbar-toggler collapsed" type="button" data-bs-toggle="{{ navbar_collapse_btn_data }}" data-bs-target="#CollapsingNavbar" aria-controls="CollapsingNavbar" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                    <div class="{{ navbar_collapse_class }}" id="CollapsingNavbar">
+                    <button class="navbar-toggler collapsed order-2" type="button" data-bs-toggle="{{ navbar_collapse_btn_data }}" data-bs-target="#CollapsingNavbar" aria-controls="CollapsingNavbar" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="{{ navbar_collapse_class }} order-3 order-xl-2" id="CollapsingNavbar">
                       {% if navbar_offcanvas %}
                         <div class="offcanvas-header">
                           <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>

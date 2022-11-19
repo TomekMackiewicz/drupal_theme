@@ -15,75 +15,109 @@
 
   $(document).ready(function() {
     $('body').addClass('loaded');
-    prepareMenu();
-    $(".dropdown-menu").css("display", "none");
+    initMenu();
+    if ($(window).width() > 1182) {
+      $(".dropdown-menu").css("display", "none");
+      // $('.dropdown-item > a').on('click', function() {
+      //   self.location = $(this).attr('href');
+      // });
+    }
     $('.contextual-menu-item').each(function() {
       if ($(this).find('a.is-active').length === 0) {
-        console.log('not active');
         $(this).find('ul').css('display','none');
       } else {
-        console.log('active');
         $(this).find('ul').css('display','block');
       }
     });
-    initCarousel();
     initCamera();
   });
 
 })(jQuery, Drupal);
 
+// jQuery(window).on('resize', function() {
+//   //console.log('resize '+jQuery(window).width());
+//   if (jQuery(window).width() > 1182) {
+//     jQuery(".dropdown-menu").css("display", "none");
+//     jQuery('.navbar .dropdown > a').click(function() {
+//       location.href = this.href;
+//     });
+//   } else {
+//     console.log('else');
+//     jQuery(".dropdown-menu").css("display", "");
+//     jQuery('.navbar .dropdown').off('mouseover').off('mouseout');
+//     jQuery('.navbar .dropdown > a').click(function(e) {
+//       e.preventDefault();
+//     });    
+//   }
+// });
 
-function prepareMenu() {
-  var menu = document.getElementById('block-mainnavigation');
-  var $menu = jQuery(menu);
-  var li = $menu.find('li');
+function initMenu() {
+    var menu = document.getElementById('block-mainnavigation');
+    var $menu = jQuery(menu);
+    var li = $menu.find('li');
+  
+    li.mouseenter(function() {
+      if (jQuery(window).width() > 1182) {
 
-  li.mouseenter(function() {
-    var childrenMenu = jQuery(this).children('ul:not(#dynamic-search-form-wraper):not(.contextual-links)');
-    var flag = false;
-    jQuery(this).addClass('hovered');
-    var parent = this.parentElement.parentElement.tagName;
-    
-    if (parent == 'LI' || parent == 'li') {
-        flag = true;
-    }
-    
-    if (childrenMenu.length > 0 && !flag) {
-      childrenMenu.show();
-    } else if (childrenMenu.length > 0 && flag) {
-        
-        childrenMenu.show(0);
-        var left_off = childrenMenu.offset().left;
-        // jesli menu bedzie wystawac (chowac sie) poza lewa krawedz to wyswietla je po lewej stronie
-        if (left_off + childrenMenu.width() >= jQuery(window).width()) {
-            childrenMenu.css({
-                'left' : '-100%',
-                'top' : '0px',
-                'border-left-color' : '#ffffff',
-                'border-left-width' : '1px',
-                'border-left-style' : 'solid'
-            });
-        } else {
-            childrenMenu.css({
-                'left' : '100%',
-                'top' : '0px',
-                'border-left-color' : '#ffffff',
-                'border-left-width' : '1px',
-                'border-left-style' : 'solid'
-            });                    
+        jQuery('.navbar .dropdown > a').removeAttr('data-bs-toggle');
+        //jQuery('.navbar .dropdown > a').attr('data-bs-hover', 'dropdown');
+
+        var childrenMenu = jQuery(this).children('ul:not(#dynamic-search-form-wraper):not(.contextual-links)');
+        var flag = false;
+        jQuery(this).addClass('hovered');
+        var parent = this.parentElement.parentElement.tagName;
+
+        if (parent == 'LI' || parent == 'li') {
+            flag = true;
         }
-    }
-  });
 
-  li.mouseleave(function() {
-    var childrenMenu = jQuery(this).find('ul:not(#dynamic-search-form-wraper):not(.contextual-links)');
-    
-    jQuery(this).removeClass('hovered');
-    
-    if (childrenMenu.length > 0) {
-      childrenMenu.hide();
-    }
-  });
+        if (childrenMenu.length > 0 && !flag) {
+          childrenMenu.show();
+        } else if (childrenMenu.length > 0 && flag) {
+            childrenMenu.show(0);
+            var left_off = childrenMenu.offset().left;
+            if (left_off + childrenMenu.width() >= jQuery(window).width()) {
+                childrenMenu.css({
+                    'left' : '-100%',
+                    'top' : '0px',
+                    'border-left-color' : '#ffffff',
+                    'border-left-width' : '1px',
+                    'border-left-style' : 'solid'
+                });
+            } else {
+                childrenMenu.css({
+                    'left' : '100%',
+                    'top' : '0px',
+                    'border-left-color' : '#ffffff',
+                    'border-left-width' : '1px',
+                    'border-left-style' : 'solid'
+                });                    
+            }
+        }
+      } else {
+        // jQuery('.navbar .dropdown > a').click(function(e) {
+        //   console.log('click');
+        //   e.preventDefault();
+        // }); 
+        jQuery('.navbar .dropdown > a').removeAttr('data-bs-hover');
+        jQuery('.navbar .dropdown > a').attr('data-bs-toggle', 'dropdown');
+        jQuery(".dropdown-menu").css("display", "");
+        jQuery('.navbar .dropdown').off('mouseover').off('mouseout');
+      }
+    });
+  
+    li.mouseleave(function() {
+      if (jQuery(window).width() > 1182) {
+        var childrenMenu = jQuery(this).find('ul:not(#dynamic-search-form-wraper):not(.contextual-links)');
+        jQuery(this).removeClass('hovered');
+        if (childrenMenu.length > 0) {
+          childrenMenu.hide();
+        }
+      } else {
+        jQuery('.navbar .dropdown').off('mouseover').off('mouseout'); 
+      }
+    });
+
 };
 
 // function searchForm() {
@@ -117,22 +151,6 @@ function prepareMenu() {
 
 // }
 
-function initCarousel() {
-  let items = document.querySelectorAll('.carousel .carousel-item')
-  items.forEach((el) => {
-      const minPerSlide = 4
-      let next = el.nextElementSibling
-      for (var i=1; i<minPerSlide; i++) {
-          if (!next) {
-              // wrap carousel by using first child
-            next = items[0]
-          }
-          let cloneChild = next.cloneNode(true)
-          el.appendChild(cloneChild.children[0])
-          next = next.nextElementSibling
-      }
-  })
-}
 
 function initCamera() {
   if (jQuery('.slider').length) {

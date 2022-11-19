@@ -60,10 +60,15 @@ a {
     }
 }
 
+.navbar-toggler {
+    border-radius: 0;
+    color: #01196e;
+    border: 1px solid #01196e;
+}
+
 /********** MENU **********/ 
 
 .dropdown-menu {
-    /* display: none; */
     min-width: 250px;
 }
 
@@ -223,14 +228,25 @@ a {
 
 /********** LANG SWITCHER **********/
 
-.lang-list {
-    margin-left: 40px;
+@media (min-width: 1200px) {
+    .lang-list {
+        margin-left: 40px;
+    }
+    .lang-en, .lang-pl {
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .lang-en, .lang-pl {
+        margin-right: 20px;
+    }
 }
 
 .lang-en, .lang-pl {
     padding: 0 !important;
     border: none !important;
-    margin-left: 20px;
+    
 }
 
 .lang-en > a, .lang-pl > a {
