@@ -328,13 +328,26 @@ a {
 
 .yellow-link {
     color: #fff;
-    font-size: 25px;
-    line-height: 35px;
-    height: 129px;
-    padding-top: 25px;
-    padding-left: 30px;
+    font-size: 16px;
+    min-height: 78px;
+    padding-top: 15px;
+    padding-left: 10px;
     background-color: #f3b939;
     text-decoration: none;
+    padding-bottom: 15px;
+}
+
+@media (min-width: 768px) {
+    .yellow-link {
+        color: #fff;
+        font-size: 25px;
+        line-height: 35px;
+        height: 129px;
+        padding-top: 25px;
+        padding-left: 30px;
+        background-color: #f3b939;
+        text-decoration: none;
+    }
 }
 
 .yellow-link:hover {
@@ -380,9 +393,17 @@ a {
 }
 
 .yellow-box-list > li {
-    padding: 15px 10px 0px 0px;
-    font-size: 15px;
-    line-height: 140%;
+    padding: 10px 10px 0px 5px;
+    font-size: 12px;
+    line-height: 120%;
+}
+
+@media (min-width: 768px) {
+    .yellow-box-list > li {
+        padding: 15px 10px 0px 0px;
+        font-size: 15px;
+        line-height: 140%;
+    }
 }
 
 .yellow-box-list > li:before {
@@ -404,6 +425,10 @@ a {
     text-align: center;
     font-size: 0.9rem;
     line-height: 1em;
+}
+
+.front-page-link > img {
+    margin-bottom: 3px;
 }
 
 .front-page-yellow-link {
