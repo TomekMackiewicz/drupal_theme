@@ -29,6 +29,7 @@ a {
 	box-shadow: none;
 }
 
+
 /********** BRAND **********/
 
 .site-slogan {
@@ -45,6 +46,7 @@ a {
        display:none;
     }
 }
+
 
 /********** NAVIGATION **********/
 
@@ -65,6 +67,34 @@ a {
     color: #01196e;
     border: 1px solid #01196e;
 }
+
+
+/********** MOBILE MENU **********/ 
+
+.region-secondary-menu {
+    width: 100%;
+    margin-left: 20px;
+}
+
+.mobile-menu {
+    list-style: none;
+    /* padding-left: 0; */
+}
+
+.mobile-menu-top-item {
+    padding: 10px 0 10px 0;
+    border-bottom:1px solid #eaeaea;
+}
+
+.mobile-menu-reset {
+    font-size: 30px;
+    color: #01196e;
+}
+
+.mobile-link {
+    color: #01196e !important;
+}
+
 
 /********** MENU **********/ 
 
@@ -225,6 +255,7 @@ a {
 .contextual-menu-item > ul > li > a {
     background-color: #e7e7e7;
 }
+
 
 /********** LANG SWITCHER **********/
 
@@ -785,6 +816,7 @@ a {
     background-attachment: fixed;
     background-image: url('/sites/default/files/2022-11/banner_big.jpg');
 }
+
 
 /********** CAROUSEL **********/
 
