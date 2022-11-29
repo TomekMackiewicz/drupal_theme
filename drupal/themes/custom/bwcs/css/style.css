@@ -354,6 +354,65 @@ a {
     display: none !important;
 }
 
+.camera_caption {
+    display: table;
+    margin: 10% auto 13% auto;
+    text-align: right;
+}
+
+.camera_caption > div {
+    padding: 0px;
+    background: transparent;
+}
+
+.slider-text {
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 10px 20px 10px 20px;
+    /* margin-bottom: 20px; */
+    font-weight: bold;
+}
+
+.slider-text-top {
+    font-size: 28px;
+    background-color: #fff;
+    color: #000;
+}
+
+/* .slider-text-middle {
+    display: table;
+    margin: 10% auto 16% auto;
+    text-align: right;    
+} */
+
+.slider-text-middle {
+    font-size: 32px;
+    background-color: #f3b939;
+    color: #fff;
+}
+
+/* .show-more-banner {
+    display: table;
+    margin: 10% auto 12% auto;
+    text-align: right;    
+} */
+
+.show-more-banner {
+    font-size: 14px;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 10px;
+    background: #e60028;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 3px 50px;
+}
+
+.show-more-banner > a, .show-more-banner > a:hover {
+    color: #fff;
+    background: #e60028;
+}
+
 
 /********** BOXES **********/
 
