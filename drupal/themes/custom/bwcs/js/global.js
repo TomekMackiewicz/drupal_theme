@@ -30,7 +30,7 @@
       }
     });
     initCamera();
-    $('.camera_caption > div').addClass('d-flex align-items-end flex-column col-8 offset-2');
+    $('.camera_caption > div').addClass('d-flex align-items-end flex-column col-12 col-xl-8 offset-xl-2');
 
     $('.mobile-menu').addClass('hide');
     $('.mobile-menu').hide();
