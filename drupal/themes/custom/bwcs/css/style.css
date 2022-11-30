@@ -7,11 +7,8 @@ a {
     text-decoration: none;
 }
 
-article {
-    text-align: justify;
-}
-
 article p {
+    text-align: justify;
     color: #000;
 }
 
