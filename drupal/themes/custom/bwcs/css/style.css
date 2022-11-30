@@ -7,6 +7,14 @@ a {
     text-decoration: none;
 }
 
+article {
+    text-align: justify;
+}
+
+article p {
+    color: #000;
+}
+
 .bg-light {
     background-color:  #fff !important;
 }
