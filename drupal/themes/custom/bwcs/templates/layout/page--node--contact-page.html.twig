@@ -76,11 +76,10 @@
 
 <div id="page-wrapper">
   <div id="page">
-    <header id="header" class="header sticky-top" role="banner" aria-label="{{ 'Site header'|t}}">
+    <header id="header" class="header sticky-top" aria-label="{{ 'Site header'|t}}">
       {% block head %}
-
         {% if page.secondary_menu or page.top_header or page.top_header_form %}
-        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasMobileMenu">
           <div class="offcanvas-header d-flex justify-content-end">
             <button type="button" class="btn-close text-reset mobile-menu-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
@@ -103,14 +102,13 @@
           </div>
         </div>
         {% endif %}
-
           <nav{{ navbar_attributes.addClass(nav_classes) }}>
             <div class="container">
               {% if container_navbar %}
                 {# {% endif %} #}
                   {{ page.header }}
                   {% if page.primary_menu or page.header_form %}
-                    <button class="navbar-toggler collapsed order-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <button class="navbar-toggler collapsed order-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMobileMenu" aria-controls="offcanvasMobileMenu" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                     <div class="{{ navbar_collapse_class }}" id="CollapsingNavbar">
                       {% if navbar_offcanvas %}
                         <div class="offcanvas-header">
@@ -144,7 +142,7 @@
         <div id="main" class="{{ container }} p-0">
           {{ page.breadcrumb }}
           {% if not is_front %}
-            <main{{ content_attributes }}>
+            <main{{ content_attributes.removeAttribute('role') }}>
               <section class="section">
                 <a id="main-content" tabindex="-1"></a>
                 {{ page.content }}

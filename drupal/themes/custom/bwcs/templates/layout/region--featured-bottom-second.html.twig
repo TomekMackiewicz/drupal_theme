@@ -3,12 +3,11 @@
     'region',
     'region-' ~ region|clean_class,
     'mx-auto',
-    'my-auto',
     'justify-content-center'
   ]
 %}
 {% if content %}
-  <section{{ attributes.addClass(classes) }}>
+  <div{{ attributes.addClass(classes) }}>
     {{ content }}
-  </section>
+  </div>
 {% endif %}

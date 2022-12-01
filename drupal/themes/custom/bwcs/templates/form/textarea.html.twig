@@ -22,5 +22,5 @@
   ]
 %}
 <div{{ wrapper_attributes.addClass('form-textarea-wrapper') }}>
-  <textarea{{ attributes.addClass(classes) }}>{{ value }}</textarea>
+  <textarea{{ attributes.addClass(classes).removeAttribute('aria-required') }}>{{ value }}</textarea>
 </div>
