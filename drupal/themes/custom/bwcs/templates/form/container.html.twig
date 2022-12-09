@@ -24,4 +24,4 @@
     has_parent ? 'mb-3',
   ]
 %}
-<div{{ attributes.addClass(classes) }}>{{ children }}</div>
+<div{{ attributes.addClass(classes).removeClass('container-inline') }}>{{ children }}</div>

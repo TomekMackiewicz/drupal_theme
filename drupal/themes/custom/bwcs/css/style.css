@@ -967,7 +967,7 @@ iframe {
 }
 
 
-/********** COTACT PAGE **********/
+/********** CONTACT PAGE **********/
 
 .address-row {
     margin-bottom: 55px;
@@ -975,4 +975,43 @@ iframe {
 
 .contact-title {
     margin-bottom: 35px;
+}
+
+
+/********** SEARCH FORM **********/
+
+#searchNav {
+    margin-left: 40px;
+}
+
+#searchItem {
+    background: #01196e;   
+}
+
+#searchItem > a {
+    color: #fff;    
+}
+
+#searchDropdown {
+    min-width: 350px;
+}
+
+#searchDropdownItem, #searchDropdownItem:hover, #searchDropdownItem:active {
+    color: #fff;
+    background-color: #01196e;
+}
+
+header #search-block-form {
+    flex-flow: row nowrap;
+}
+
+
+/********** SEARCH PAGE **********/
+
+.search-column > h2 {
+    margin: 35px 0;
+}
+
+.search-title, .search-title:hover {
+    color: #01196e;
 }

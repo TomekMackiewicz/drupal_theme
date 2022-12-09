@@ -16,9 +16,22 @@
  * @ingroup themeable
  */
 #}
+
 {% block content %}
-  <div{{ content_attributes.addClass('content', 'container-inline') }}>
-    {# {{ parent() }} #}
-    {{ content }}
-  </div>
+
+<ul class="clearfix nav navbar-nav" id="searchNav">
+  <li class="nav-item dropdown" id="searchItem">
+    <a href="#" class="nav-link dropdown-toggle" id="searchTrigger" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+      <i class="fa-solid fa-magnifying-glass"></i>
+    </a>
+    <ul class="dropdown-menu" id="searchDropdown" aria-labelledby="searchTrigger">
+      <li class="dropdown-item dropdown" id="searchDropdownItem">
+        <div{{ content_attributes.addClass('content') }}>
+          {{ content }}
+        </div>
+      </li>
+    </ul>
+  </li>
+</uL>
+
 {% endblock %}

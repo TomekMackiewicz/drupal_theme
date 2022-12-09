@@ -17,8 +17,8 @@
     $('body').addClass('loaded');
     initMenu();
     if ($(window).width() > 1182) {
-      $(".dropdown-menu").css("display", "none");
-      $('.dropdown-item > a').on('click', function() {
+      $(".dropdown-menu:not(#searchDropdown)").css("display", "none");
+      $('.dropdown-item > a:not(#searchTrigger)').on('click', function() {
         self.location = $(this).attr('href');
       });
     }
@@ -53,7 +53,7 @@ function initMenu() {
   var $menu = jQuery(menu);
   var li = $menu.find('li');
 
-  li.mouseenter(function() {
+  jQuery('.dropdown:not(#searchItem):not(#searchDropdownItem)').mouseenter(function() {
     if (jQuery(window).width() > 1182) {
       jQuery('.navbar .dropdown > a').removeAttr('data-bs-toggle');
       var childrenMenu = jQuery(this).children('ul:not(#dynamic-search-form-wraper):not(.contextual-links)');
@@ -91,7 +91,7 @@ function initMenu() {
     }
   });
 
-  li.mouseleave(function() {
+  jQuery('.dropdown:not(#searchItem):not(#searchDropdownItem)').mouseleave(function() {
     if (jQuery(window).width() > 1182) {
       var childrenMenu = jQuery(this).find('ul:not(#dynamic-search-form-wraper):not(.contextual-links)');
       jQuery(this).removeClass('hovered');
@@ -101,38 +101,6 @@ function initMenu() {
     }
   });
 };
-
-// function searchForm() {
-//   var menu    = document.getElementById('navigation');
-//   var $menu   = jQuery(menu);
-  
-//   var formularz    = document.getElementById('search-block-form');
-//   var $formularz   = jQuery(formularz);
-//   var clonedForm   = $formularz.clone(true);
-//   clonedForm.css('display', 'block');
-  
-//   var ulElement    = document.createElement('ul');
-//       ulElement.id = 'dynamic-search-form-wraper';
-//   var liElement    = document.createElement('li');
-//   var $liElement   = jQuery(liElement);
-  
-//   $liElement.append(clonedForm);
-  
-//   ulElement.appendChild($liElement[0]);
-  
-//   var szukaj  = document.getElementById('edit-submit'); //$menu.find('a[title="szukaj"]');
-//   var $szukaj = jQuery(szukaj);
-//   var parentSzukaj = szukaj.parent();
-
-//   parentSzukaj.append(ulElement);
-  
-//   $szukaj.click(function(e) {
-//       e.preventDefault();
-//       ulElement.classList.toggle('show-form');
-//   });
-
-// }
-
 
 function initCamera() {
   if (jQuery('.slider').length) {
